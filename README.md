@@ -11,6 +11,14 @@
    - - (ex: git push origin master)
 
 
+## Flat UI
+1. Intall Flat UI by running the following commands:
+    - bower install flat-ui
+    - npm install
+    - bower install
+2. After installing Flat UI, examples can be found at "/bower_components/flat-ui/docs/examples"
+
+
 ## Useful Git GUI tools:
 1. SourceTree https://www.sourcetreeapp.com/
 2. TortoiseGit https://tortoisegit.org/ (Windows only)
