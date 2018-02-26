@@ -1,4 +1,4 @@
-## Git using command lines
+## Using git with command lines
 1. Copy the project from the remote repository to your local machine
     - cd (the directory of your folder)
     - git clone https://github.com/NaturalDisasterEducation/earthquake.git
@@ -9,6 +9,10 @@
 3. Send your commits to the remote repository
    - git push <remote> <branch>
    - - (ex: git push origin master)
+
+
+## Using git with SoureTree:
+1. See documentation on https://github.com/NaturalDisasterEducation/earthquake/wiki/Practice-git-with-SourceTree
 
 
 ## Flat UI
@@ -23,4 +27,4 @@
 1. SourceTree https://www.sourcetreeapp.com/
 2. TortoiseGit https://tortoisegit.org/ (Windows only)
 
-## SoureTree Tutorial:
+
