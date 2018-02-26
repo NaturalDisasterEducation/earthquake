@@ -1,3 +1,12 @@
+## Project Information
+1. Technical specification
+    - Bootstrap 4
+    - Flat UI
+
+2. git url:
+    - For development: https://github.com/NaturalDisasterEducation/earthquake.git
+    - For practice: https://github.com/NaturalDisasterEducation/practice.git
+
 ## Using git with command lines
 1. Copy the project from the remote repository to your local machine
     - cd (the directory of your folder)
@@ -12,7 +21,7 @@
 
 
 ## Using git with SoureTree:
-1. See documentation on https://github.com/NaturalDisasterEducation/earthquake/wiki/Practice-git-with-SourceTree
+1. Tutorial: https://www.youtube.com/watch?v=srXdUml4_HM
 
 
 ## Flat UI
