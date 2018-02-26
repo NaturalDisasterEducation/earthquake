@@ -45,33 +45,21 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-4">
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Email" name="email">
-                <div class="input-group-btn">
-                  <button class="btn btn-default" type="submit">Subscribe</button>
-                </div>
-              </div>
-        </div>
-        <div class="col-xs-2">
-          <div class="btn-group dropup">
-            <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">English
-              <span class="caret"></span>
-            </button>
-            <ul role="menu" class="dropdown-menu">
-              <li>
-                <a href="#">Persian</a>
-              </li>
-              <li>
-                <a href="#">Spanish</a>
-              </li>
-              <li>
-                <a href="#">Simplified Chinese</a>
-              </li>
-              <li>
-                <a href="#">Traditional Chinese</a>
-              </li>
-            </ul>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Email" name="email">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">Subscribe</button>
+            </div>
           </div>
+        </div>
+        <div class="col-xs-3">
+            <select data-toggle="select" class="form-control select select-default mrs mbm">
+                <option value="English">English</option>
+                <option value="Persian">Persian</option>
+                <option value="Spanish">Spanish</option>
+                <option value="SimplfiedChinese">Simplified Chinese</option>
+                <option value="TraditionalChinese">Traditional Chinese</option>
+              </select>
         </div>
         <div class="col-xs-1">
           <span class="fui-twitter"></span>
