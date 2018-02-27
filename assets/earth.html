@@ -29,41 +29,61 @@
 
 <body>
   <div class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-        </button>
-        <a class="navbar-brand" href="#">Natural Disaster Education</a>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <a class="navbar-brand" href="#">Natural Disaster Education</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-8">
+        <div class="earthImageSection">
+          <img src="images/image.png">
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="introSection">
+          An earthquake is the shaking of the surface of the Earth, resulting from the sudden release of energy in the Earth's lithosphere
+          that creates seismic waves.
+        </div>
+        <div class="rssSection">
+          <h6>Latest earthquakes in the world</h6>
+          <p>
+            <a>7.5 89km SSW of Porgera, Papua New Guinea 2018-02-25 17:44:44 UTC 35.0 km</a>
+          </p>
+          <p>
+            <a>5.9 32km NE of Santa Catarina Mechoacan, Mexico 2018-02-19 06:57:01 UTC 40.2 km</a>
+          </p>
+          <p>
+            <a>4.2 3km NE of Clydach, United Kingdom 2018-02-17 14:31:04 UTC 11.0 km</a>
+          </p>
+        </div>
       </div>
     </div>
   </div>
 
-
-
   <footer class="indexFooter">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-4">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Email" name="email">
-            <div class="input-group-btn">
-              <button class="btn btn-default" type="submit">Subscribe</button>
-            </div>
-          </div>
+    <div class="col-xs-4 col-xs-offset-5">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Email" name="email">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">Subscribe</button>
         </div>
-        <div class="col-xs-3">
-            <select data-toggle="select" class="form-control select select-default mrs mbm">
-                <option value="English">English</option>
-                <option value="Persian">Persian</option>
-                <option value="Spanish">Spanish</option>
-                <option value="SimplfiedChinese">Simplified Chinese</option>
-                <option value="TraditionalChinese">Traditional Chinese</option>
-              </select>
-        </div>
-        <div class="col-xs-1">
-          <span class="fui-twitter"></span>
-        </div>
+      </div>
+    </div>
+    <div class="col-xs-3">
+      <select data-toggle="select" class="form-control select select-default mrs mbm">
+        <option value="English">English</option>
+        <option value="Persian">Persian</option>
+        <option value="Spanish">Spanish</option>
+        <option value="SimplfiedChinese">Simplified Chinese</option>
+        <option value="TraditionalChinese">Traditional Chinese</option>
+      </select>
+      <div class="twitter">
+        <span class="fui-twitter"></span>
       </div>
     </div>
   </footer>
