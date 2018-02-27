@@ -7,6 +7,7 @@
     - For development: https://github.com/NaturalDisasterEducation/earthquake.git
     - For practice: https://github.com/NaturalDisasterEducation/practice.git
 
+
 ## Using git with command lines
 1. Copy the project from the remote repository to your local machine
     - cd (the directory of your folder)
@@ -21,7 +22,9 @@
 
 
 ## Using git with SoureTree:
-1. Tutorial: https://www.youtube.com/watch?v=srXdUml4_HM
+1. Official Documentation: https://confluence.atlassian.com/bitbucket/create-a-git-or-mercurial-repository-760120240.html
+
+2. Tutorial: https://www.youtube.com/watch?v=srXdUml4_HM
 
 
 ## Flat UI
@@ -29,6 +32,7 @@
     - bower install flat-ui
     - npm install
     - bower install
+    
 2. After installing Flat UI, examples can be found at "/bower_components/flat-ui/docs/examples"
 
 
