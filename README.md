@@ -25,7 +25,7 @@
 1. Official Documentation: https://confluence.atlassian.com/bitbucket/create-a-git-or-mercurial-repository-760120240.html
 
 2. Tutorial: https://www.youtube.com/watch?v=srXdUml4_HM
-
+3. Practice: https://github.com/NaturalDisasterEducation/earthquake/wiki/Practice-git-using-SourceTree
 
 ## Flat UI
 1. Intall Flat UI by running the following commands:
