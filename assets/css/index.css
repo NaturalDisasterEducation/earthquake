@@ -1,0 +1,38 @@
+
+/* ================ nav buttons ================ */
+.indexNavButtons{
+    margin-top: 3rem; 
+}
+
+.indexNavButtons button{
+    width: 100%;
+    padding: 3rem 0;
+    margin: 0.8rem;
+}
+
+
+/* ================ house ================ */
+.indexHouse{
+    width: 100%;
+    text-align: center;
+}
+
+.indexHouse img{
+    width: 90%;
+}
+
+
+/* ================ twitter ================ */
+.twitterSection{
+    margin-top: 3rem;
+    max-height: 250px;
+    overflow: auto;
+}
+.twitterSection .newsFeedList{
+    padding: 0.5em 1.5em;
+    background: #f1f1f1;
+}
+.twitterSection .newsFeedList .newsFeed .content{
+    font-size: 14px;
+    margin-left: 5px;
+}
