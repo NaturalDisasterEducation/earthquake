@@ -4,11 +4,15 @@ a{
 
 .twitter{
     display: inline; 
-    margin-left: 10px
+    margin-left: 20px;
+}
+
+.earthImageSection{
+    width: 80%;
 }
 
 .earthImageSection img{
-    width: 480px;
+    width: 100%;
 }
 
 .indexFooter{
@@ -24,7 +28,6 @@ a{
 }
 
 .introSection{
-    margin-top: 20px;
 }
 
 .rssSection{
