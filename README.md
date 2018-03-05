@@ -24,6 +24,11 @@
 ## Practice git using SoureTree:
 see: https://github.com/NaturalDisasterEducation/earthquake/wiki/Practice-git-using-SourceTree
 
+## Useful Git GUI tools:
+1. SourceTree https://www.sourcetreeapp.com/
+2. TortoiseGit https://tortoisegit.org/ (Windows only)
+
+
 ## Flat UI
 1. Intall Flat UI by running the following commands:
     - bower install flat-ui
@@ -33,8 +38,5 @@ see: https://github.com/NaturalDisasterEducation/earthquake/wiki/Practice-git-us
 2. After installing Flat UI, examples can be found at "/bower_components/flat-ui/docs/examples"
 
 
-## Useful Git GUI tools:
-1. SourceTree https://www.sourcetreeapp.com/
-2. TortoiseGit https://tortoisegit.org/ (Windows only)
-
-
+##  Fullpage.js
+https://alvarotrigo.com/fullPage/#
