@@ -1,7 +1,33 @@
-.beforeStepOneImg{
+
+/* ============= Fixing Hazard ============= */
+.fixingHazardImg{
     width: 200px;
 }
 
-.beforeStepOneImg img{
+.fixingHazardImg img{
     width: 100%;
+}
+
+/* ============= Hazard Level ============= */
+.hazardLevelSecion{
+    text-align: center;
+}
+
+.hazardLevelSecion .hazardLevelForm{
+    margin-top: 5rem;
+}
+
+.hazardLevelSecion .hazardLevelForm .double-input .form-control {
+    width: 50%;
+    border-right-width: 0px;
+}
+.hazardLevelSecion .hazardLevelForm .double-input .form-control:focus {
+    border-right-width: 1px;
+}
+.hazardLevelSecion .hazardLevelForm .double-input .input-group-btn .btn {
+    background-color: #1abc9c;
+    border: 2px solid #1abc9c;
+    color: #ffffff;
+    line-height: 18px;
+    height: 42px;
 }
