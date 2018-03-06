@@ -88,8 +88,12 @@ section {
 
 
 /* ============== Custom by Denise ============== */
+#fp-nav{
+	top: 42%;
+}
+
 #fp-nav ul li{
-	height: 20px;
+	margin-bottom: 16px;
 }
 
 #fp-nav ul li .fp-tooltip{
