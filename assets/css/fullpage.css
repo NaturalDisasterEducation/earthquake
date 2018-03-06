@@ -87,6 +87,23 @@ section {
 }
 
 
+/* ============== Custom by Denise ============== */
+#fp-nav ul li{
+	height: 20px;
+}
+
+#fp-nav ul li .fp-tooltip{
+	color: #999;
+	width: auto;
+	opacity: 1;
+}
+
+#fp-nav ul li a.active + .fp-tooltip{
+	color: #222;
+		
+}
+
+
 /* MQ STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
