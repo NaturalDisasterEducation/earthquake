@@ -20,7 +20,7 @@ $('#fullpage').fullpage({
   slideSelector: '.horizontal-scrolling',
   navigation: true,
   navigationTooltips: [
-    'Earthquake', 'Before', 'During', 'After'
+    `<span class="fui-home"></span>`, 'Before', 'During', 'After'
   ],
   showActiveTooltip: true,
   slidesNavigation: true,

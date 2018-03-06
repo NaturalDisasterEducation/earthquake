@@ -1,0 +1,15 @@
+.infoPage_cross{
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.infoPage_globe{
+    position: fixed;
+    right: 1.5rem;
+    top: 50%;
+    font-size: 25px;
+    cursor: pointer;
+}

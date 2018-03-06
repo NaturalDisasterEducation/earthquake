@@ -16,3 +16,18 @@
     float:left;
     margin:100px 0 0 80px;
 }
+
+
+
+
+
+
+.backpackImg{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.backpackImg img{
+    width: 20%;
+}
