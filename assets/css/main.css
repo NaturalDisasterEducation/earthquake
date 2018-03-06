@@ -1,0 +1,31 @@
+
+/* ================ house ================ */
+.indexHouse{
+    width: 100%;
+    text-align: center;
+}
+
+.indexHouse img{
+    width: 80%;
+}
+
+/* ============= Hazard Level ============= */
+.hazardLevelForm{
+    margin-top: 5rem;
+    text-align: left;
+}
+
+.hazardLevelForm .double-input .form-control {
+    width: 50%;
+    border-right-width: 0px;
+}
+.hazardLevelForm .double-input .form-control:focus {
+    border-right-width: 1px;
+}
+.hazardLevelForm .double-input .input-group-btn .btn {
+    background-color: #1abc9c;
+    border: 2px solid #1abc9c;
+    color: #ffffff;
+    line-height: 18px;
+    height: 42px;
+}
