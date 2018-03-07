@@ -4,6 +4,7 @@
     top: 1rem;
     font-size: 35px;
     cursor: pointer;
+    z-index: 999;
 }
 
 .infoPage_globe{
@@ -12,4 +13,5 @@
     top: 50%;
     font-size: 25px;
     cursor: pointer;
+    z-index: 999;
 }
