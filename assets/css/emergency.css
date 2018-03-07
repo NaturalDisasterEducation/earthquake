@@ -21,3 +21,11 @@
 .emergency_table .plus-btn{
     cursor: pointer;
 }
+
+.backpack_list{
+    margin-top: 50px;
+    border-left: 2px solid #f1f1f1;
+}
+.backpack_list ul{
+    list-style: none;
+}
