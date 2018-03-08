@@ -44,4 +44,4 @@ see: https://github.com/NaturalDisasterEducation/earthquake/wiki/Practice-git-us
 
 ## Ref websites
 1. http://keepearthquakesweird.com/
-2. 
+2. https://strategies.ca/resolutions/?local=en#Maya
