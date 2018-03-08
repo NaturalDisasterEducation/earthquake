@@ -3,16 +3,6 @@
     text-align: center;
 }
 
-.image1{
-    width: 480px;
-}
-
-.image1 img{
-    width:100%;
-    float:left;
-    margin:80px 0 0 100px;
-}
-
 .image2{
     margin:0 auto;
     text-align: center;
@@ -20,30 +10,6 @@
 }
 .image2 img{
     width:100%;
-}
-
-.image3{
-    width:480px;
-}
-
-.image3 img{
-    width:100%;
-    float:left;
-    margin:100px 0 0 100px;
-}
-
-.content1{
-    width:480px;
-    height:550px;
-    float:left;
-    margin:70px 0 0 80px;
-}
-
-.content3{
-    width:480px;
-    height:550px;
-    float:left;
-    margin:30px 0 0 80px;
 }
 
 .card1{

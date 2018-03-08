@@ -2,14 +2,14 @@
 $("#fp-nav").prepend(`
 <div class="clearfix">
 <h5 class="l-right" id="GoNDEHome">
-    <a href="earth.html">
+    <a href="naturalDisaster.html">
         <span class="glyphicon glyphicon-globe"></span>
     </a>
 </h5>
 </div>`);
 
 $("#GoNDEHome").on("click", function () {
-    window.location.href = "earth.html";
+    window.location.href = "naturalDisaster.html";
 })
 
 // natural disaster homepage footer collapse
