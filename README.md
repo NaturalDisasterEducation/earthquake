@@ -41,3 +41,7 @@ see: https://github.com/NaturalDisasterEducation/earthquake/wiki/Practice-git-us
 ##  Fullpage.js
 1. official doc: https://alvarotrigo.com/fullPage/#
 2. expample: https://codepen.io/deniseho/pen/LQKVrM
+
+## Ref websites
+1. http://keepearthquakesweird.com/
+2. 
