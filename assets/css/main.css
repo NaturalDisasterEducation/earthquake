@@ -1,12 +1,8 @@
-
-/* ================ house ================ */
-.indexHouse{
-    width: 100%;
-    text-align: center;
-}
-
-.indexHouse img{
-    width: 80%;
+.Natural_Disaster_Home_link{
+    position: fixed;   
+    top: 1rem;
+    left: 1rem;
+    z-index: 999;
 }
 
 /* ============= Hazard Level ============= */
@@ -27,14 +23,4 @@
     color: #ffffff;
     line-height: 18px;
     height: 42px;
-}
-
-
-/* during */
-.duringImgSection{
-    width:100%;
-    text-align: center;
-}
-.duringImgSection img{
-    width:100%;
 }
