@@ -7,21 +7,11 @@ a{
     margin-left: 20px;
 }
 
-.earthImageSection{
-    width: 100%;
-}
-
-.earthImageSection img{
-    width: 80%;
-}
-
-
-
 .rssSection{
     padding: 0.5em 1.5em;
     background: #f1f1f1;
     margin-top: 20px;
-    max-height: 250px;
+    max-height: 60%;
     overflow: auto;
 }
 .rssSection p{
@@ -29,9 +19,11 @@ a{
 }
 
 
-
 /* natural disaster homepage footer */
 .indexFooter {
+    position: fixed;
+    bottom:0;
+    width: 100%;
     padding-top: 15px;
     padding-bottom: 5px;
 }
