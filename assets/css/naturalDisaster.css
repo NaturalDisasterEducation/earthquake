@@ -32,42 +32,13 @@ a{
 
 
 
-
 /* natural disaster homepage footer */
-#EarthFooter {
-    position: fixed;
-    bottom: 0;
-    width: 100%;    
-    margin-bottom: 0;
+.indexFooter {
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 
-#EarthFooter .panel-heading {
-    background: #f1f1f1;
-    margin: 0 auto;
-    padding: 0;
-}
-
-#EarthFooter .panel-group .panel {
-    border-radius: 0;
-}
-
-#EarthFooter .panel-title a {
-    text-align: center;
-    color: #555;
-    padding: 5px 0;
-    width: 100%;
-    display: block;
-    font-size: 20px;
-    font-family: Helvetica,Arial,sans-serif;
-    outline: none;
-}
-
-#EarthFooter .panel-title a:hover, .panel-title a:focus, .panel-title a:active {
-    text-decoration: none;
-    outline: none;
-}
-
-#FooterContent .fui-twitter{
+.indexFooter .fui-twitter{
     font-size: 1.4em;
     margin-left: 10px;
 }
