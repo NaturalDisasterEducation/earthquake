@@ -16,7 +16,6 @@
 }
 
 .hazardLevelForm .double-input .form-control {
-    width: 50%;
     border-right-width: 0px;
 }
 .hazardLevelForm .double-input .form-control:focus {
