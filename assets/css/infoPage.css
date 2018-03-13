@@ -1,5 +1,5 @@
 .header{
-    margin:10px 0 0 0;
+    margin: 1rem 0 3rem 0;
     text-align: center;
 }
 
@@ -19,4 +19,26 @@
     font-size: 25px;
     cursor: pointer;
     z-index: 999;
+}
+
+
+/* ====== before3: emergency backpack ====== */
+.emergency_table{
+    text-align: center;
+}
+.emergency_table td{
+    width: 20%;
+    height: 4rem;
+}
+
+.emergency_table .plus-btn{
+    cursor: pointer;
+}
+
+.backpack_list{
+    margin-top: 50px;
+    border-left: 2px solid #f1f1f1;
+}
+.backpack_list ul{
+    list-style: none;
 }
