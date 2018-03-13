@@ -24,3 +24,8 @@
     line-height: 18px;
     height: 42px;
 }
+
+/* ============= After Section ============= */
+.afterSection{
+    background-color: red;
+}

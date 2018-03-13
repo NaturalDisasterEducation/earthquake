@@ -13,9 +13,9 @@ $header_top
 
 // fullpage customization
 $('#fullpage').fullpage({
-  sectionsColor: [
-    '#ffffff', '#f1f1f1', '#ffffff', '#f1f1f1', '#ffffff'
-  ],
+  // sectionsColor: [
+  //   '#ffffff', '#f1f1f1', '#ffffff', '#f1f1f1', '#ffffff'
+  // ],
   sectionSelector: '.vertical-scrolling',
   slideSelector: '.horizontal-scrolling',
   navigation: true,
