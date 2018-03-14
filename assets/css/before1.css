@@ -1,3 +1,21 @@
 body{
+    background-color: #1F87B4;
+    color:white;
+}
 
+.image{
+    width:100%;
+    text-align: center;
+}
+
+.image img{
+    width:80%;
+}
+.list-group{
+    margin-top:120px;
+}
+
+.list-group-item{
+    border:none;
+    background-color:#1F87B4;
 }
