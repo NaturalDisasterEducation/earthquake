@@ -1,0 +1,75 @@
+body{
+	background-color:rgb(208,187,234);
+}
+#bubble1{
+    height: 20em;
+    width: 22em;
+	transform:rotate(-7deg);
+    -ms-transform:rotate(-7deg); 	
+    -moz-transform:rotate(-7deg); 	
+    -webkit-transform:rotate(-7deg); 
+    -o-transform:rotate(-7deg);
+}
+#bubble2{
+    height: 20em;
+     width: 22em;
+	transform:rotate(7deg);
+    -ms-transform:rotate(7deg); 	
+    -moz-transform:rotate(7deg); 	
+    -webkit-transform:rotate(7deg); 
+    -o-transform:rotate(7deg);
+}
+
+#bubble3{
+    height: 20em;
+     width: 25em;
+	transform:rotate(15deg);
+    -ms-transform:rotate(15deg); 	
+    -moz-transform:rotate(15deg); 	
+    -webkit-transform:rotate(15deg); 
+    -o-transform:rotate(15deg);
+}
+
+.img-fluidcccc{
+	width: 50%;
+	height: 40%;
+    -moz-size:width:50%,height:40%;
+    -ms-size:width:50%,height:40%;     
+    -webkit-size:width:50%,height:40%; 
+    -o-size:width:50%,height:40%;
+    position: relative;
+    -moz-position: relative;
+    -ms-position: relative;    
+    -webkit-position: relative;
+    -o-position: relative;
+	
+}
+.row{
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 1rem;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    
+}
+
+

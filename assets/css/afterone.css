@@ -1,0 +1,26 @@
+*{
+margin: none;
+padding: none;	
+}
+body{
+	background-color:rgb(134,191,136);
+	color: white;
+}
+.img-fluid{
+	width: 70%;
+}
+.list-group-item{
+	border: none;
+	padding: none;
+	background-color:rgb(134,191,136);
+    font-size: 1.2em;
+}
+.row {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 1rem;
+}
