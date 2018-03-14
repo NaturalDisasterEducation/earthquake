@@ -18,7 +18,7 @@
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700' rel='stylesheet' type='text/css'>
     <link href="../node_modules/fullpage.js/dist/jquery.fullpage.min.css" rel="stylesheet">
     <link href="css/fullpage.css" rel="stylesheet">
-
+    <!-- <link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15309/examples.css" rel="stylesheet"> -->
 
     <!-- Custom css -->
     <link href="css/main.css" rel="stylesheet">
@@ -29,12 +29,29 @@
 </head>
 
 <body>
-    <div class="Natural_Disaster_Home_link">
-        <a href="naturalDisaster.html">Home</a>
+    <div class="naturalDisasterHomeLink">
+        <a href="naturalDisaster.html">
+            <span class="fui-home"></span>
+        </a>
     </div>
+    <ul id="menu">
+        <li data-menuanchor="EarthquakeHomepage">
+            <a href="#EarthquakeHomepage">Index</a>
+        </li>
+        <li data-menuanchor="Before">
+            <a href="#Before">Before</a>
+        </li>
+        <li data-menuanchor="During">
+            <a href="#During">During</a>
+        </li>
+        <li data-menuanchor="After">
+            <a href="#After">After</a>
+        </li>
+    </ul>
+
     <div id="fullpage">
-        <!-- Earthquack Homepage -->
-        <section class="vertical-scrolling">
+        <!-- Earthquake Homepage -->
+        <section class="section" id="EarthquakeHomepage">
             <h3>Earthquake</h3>
             <div class="container">
                 <div class="row">
@@ -61,7 +78,7 @@
         </section>
 
         <!-- Before -->
-        <section class="vertical-scrolling">
+        <section class="section" id="Before">
             <h2>Before</h2>
             <div class="col">
                 <button class="btn btn-primary" onclick="window.location.href='before1_identify_hazards.html'">+</button>
@@ -74,7 +91,7 @@
         </section>
 
         <!-- During -->
-        <section class="vertical-scrolling">
+        <section class="section" id="During">
             <h2>During</h2>
             <div class="offset-2 col-8">
                 <img class="img-fluid" src="images/image.png">
@@ -85,7 +102,7 @@
         </section>
 
         <!-- After -->
-        <section class="vertical-scrolling afterSection">
+        <section class="section" id="After">
             <h2>After</h2>
             <div class="col">
                 <button class="btn btn-primary" onclick="window.location.href='after1_stay_calm.html'">+</button>
