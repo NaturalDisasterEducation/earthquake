@@ -1,5 +1,5 @@
 $('#fullpage').fullpage({
-  anchors: [ 'EarthquakeHomepage', 'Before', 'During', 'After'],
+  anchors: [ 'firstSection', 'secondSection', 'thirdSection', 'fourthSection'],
   menu: '#menu',
   slidesNavigation: true
 });
