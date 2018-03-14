@@ -105,6 +105,15 @@ body#NaturalDisasterHomepage .container-fluid.content {
     color: white;
 }
 
+.earthquake-button .btn{
+    box-shadow: -2px 3px 5px  rgba(17, 22, 31, 0.8); 
+}
+
+.earthquake-button .btn:hover{
+    box-shadow: 0 1px 2px #11161fcc; 
+    transform: translate(-2px, 1px);
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
