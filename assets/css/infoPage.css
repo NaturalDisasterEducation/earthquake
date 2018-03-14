@@ -15,11 +15,11 @@
 .infoPage_home{
     position: absolute;
     right: 1.5rem;
+    top: 1.1rem;
+    left: 2rem;
     font-size: 25px;
     cursor: pointer;
     z-index: 999;
-    top: 1.1rem;
-    left: 2rem;
 }
 
 /* ====== before3: emergency backpack ====== */
