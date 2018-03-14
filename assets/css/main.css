@@ -1,7 +1,7 @@
-.Natural_Disaster_Home_link{
+.naturalDisasterHomeLink{
     position: fixed;   
-    top: 1rem;
-    left: 1rem;
+    top: 1.1rem;
+    left: 2rem;
     z-index: 999;
 }
 
@@ -27,6 +27,27 @@
 
 /* ============= After Section ============= */
 .afterSection{
+<<<<<<< HEAD
     background-color: rgb(253,230,133);
     
+=======
+    background-color: #fddc85;
+>>>>>>> 1374c2cd755f05041be71abda21258b132f8560f
+}
+.afterSection .visual{
+    height: 75%;
+    background-image: url("../images/after_main.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: -1;
+}
+.afterSection .visual .btnList{
+    position: absolute;
+    top: 20%;
+    left: 42%;
+}
+.afterSection .text{
+    height: 25%;
+    background-color: #c19871;
 }

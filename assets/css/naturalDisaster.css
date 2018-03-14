@@ -1,21 +1,52 @@
 a{
     cursor: pointer;
+    font-size: 14px;
 }
 
-.twitter{
-    display: inline; 
-    margin-left: 20px;
+.navbar-brand a{
+    color: white;
+}
+
+/* Earth + button*/
+#earth-button-group{
+    position: relative;
+}
+
+#earth-button-group img{
+    margin: auto;
+
+}
+
+#earth-button-group .earthquake-button {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    /*transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;*/
+}
+
+
+/*Content + rss*/
+.introSection{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .rssSection{
+    width: 80%;
+    height: 40%;
     padding: 0.5em 1.5em;
     background: #f1f1f1;
     margin-top: 20px;
     max-height: 60%;
     overflow: auto;
+    border-radius: 4px;
 }
+
 .rssSection p{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 
@@ -32,3 +63,17 @@ a{
     font-size: 1.4em;
     margin-left: 10px;
 }
+
+.twitter {
+    display: inline;
+    margin-left: 20px;
+    color: white;
+}
+
+/*Background color*/
+body, .navbar, .indexFooter {
+    background-color: #2A3549;
+}
+
+
+

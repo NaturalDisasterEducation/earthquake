@@ -19,7 +19,6 @@
     <link href="../node_modules/fullpage.js/dist/jquery.fullpage.min.css" rel="stylesheet">
     <link href="css/fullpage.css" rel="stylesheet">
 
-
     <!-- Custom css -->
     <link href="css/main.css" rel="stylesheet">
 
@@ -29,12 +28,29 @@
 </head>
 
 <body>
-    <div class="Natural_Disaster_Home_link">
-        <a href="naturalDisaster.html">Home</a>
+    <div class="naturalDisasterHomeLink">
+        <a href="naturalDisaster.html">
+            <span class="fui-home"></span>
+        </a>
     </div>
+    <ul id="menu">
+        <li data-menuanchor="firstSection">
+            <a href="#firstSection">Index</a>
+        </li>
+        <li data-menuanchor="secondSection">
+            <a href="#secondSection">Before</a>
+        </li>
+        <li data-menuanchor="thirdSection">
+            <a href="#thirdSection">During</a>
+        </li>
+        <li data-menuanchor="fourthSection">
+            <a href="#fourthSection">After</a>
+        </li>
+    </ul>
+
     <div id="fullpage">
-        <!-- Earthquack Homepage -->
-        <section class="vertical-scrolling">
+        <!-- Earthquake Homepage -->
+        <section class="section">
             <h3>Earthquake</h3>
             <div class="container">
                 <div class="row">
@@ -61,7 +77,7 @@
         </section>
 
         <!-- Before -->
-        <section class="vertical-scrolling">
+        <section class="section">
             <h2>Before</h2>
             <div class="col">
                 <button class="btn btn-primary" onclick="window.location.href='before1_identify_hazards.html'">+</button>
@@ -74,7 +90,7 @@
         </section>
 
         <!-- During -->
-        <section class="vertical-scrolling">
+        <section class="section">
             <h2>During</h2>
             <div class="offset-2 col-8">
                 <img class="img-fluid" src="images/image.png">
@@ -85,12 +101,16 @@
         </section>
 
         <!-- After -->
-        <section class="vertical-scrolling afterSection">
-            <h2>After</h2>
-            <div class="col">
+        <section class="section afterSection">
+            <div class="visual">
+            <div class="btnList">
                 <button class="btn btn-primary" onclick="window.location.href='after1_stay_calm.html'">+</button>
                 <button class="btn btn-primary" onclick="window.location.href='after2_safe_spot.html'">+</button>
                 <button class="btn btn-primary" onclick="window.location.href='after3_assess.html'">+</button>
+            </div>
+        </div>
+            <div class="text">
+                CONTENT
             </div>
             <div class="scroll-icon">
                 <a href="#firstSection">back to the the top</a>
