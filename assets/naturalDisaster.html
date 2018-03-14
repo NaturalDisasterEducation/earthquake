@@ -7,7 +7,7 @@
   <meta name="description" content="Flat UI Kit Free is a Twitter Bootstrap Framework design and Theme, this responsive framework includes a PSD and HTML version."
   />
 
-  <meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Loading Bootstrap -->
   <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,6 @@
 </head>
 
 <body id="NaturalDisasterHomepage">
-
   <div class="navbar navbar-default navbar-static-top" role="navigation">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -37,20 +36,20 @@
       <a class="navbar-brand" href="#">In case of Emergency</a>
     </div>
   </div>
-
-  <div class="container">
+  <div class="container-fluid content">
     <div class="row">
-      <div class="col-sm-8" id="earth-button-group">
+      <div class="col-sm-7" id="earth-button-group">
         <img class="img-fluid" id="earth" src="images/all-home.png">
         <div class="earthquake-button">
           <a href="main.html" class="btn btn-hg btn-primary">Earthquake</a>
-      </div>
+        </div>
 
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-5">
         <div class="introSection">
-            <h3>In case of Emegency</h3>
-            Know how to react in case of a natural disaster. <mark>Keep calm</mark> and get ready before hand with this educational website.
+          <h3>In case of Emegency</h3>
+          Know how to react in case of a natural disaster.
+          <mark>Keep calm</mark> and get ready before hand with this educational website.
         </div>
         <div class="rssSection">
           <h6>Latest earthquakes</h6>
@@ -63,17 +62,17 @@
           <p>
             <a>4.2 3km NE of Clydach, United Kingdom 2018-02-17 14:31:04 UTC 11.0 km</a>
           </p>
-            <a href="#">More</a>
+          <a href="#">More</a>
         </div>
       </div>
     </div>
-
+    
   </div>
 
   <footer class="indexFooter">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 offset-sm-6">
+        <div class="col-sm-8 offset-md-2 col-lg-3 offset-lg-6" style="padding-top: 6px">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Email" name="email">
             <div class="input-group-btn">
@@ -81,13 +80,11 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-2">
-          <select data-toggle="select" class="form-control select select-primary select-block mbl">
+        <div class="col-lg-3" style="text-align:center; padding-top: 6px">
+          <select data-toggle="select" class="form-control select select-primary select-block mbl" style="text-align:left">
             <option value="English">English</option>
             <option value="Persian">Persian</option>
           </select>
-        </div>
-        <div class="col-sm-1">
           <div class="twitter">
             <span class="fui-twitter"></span>
           </div>

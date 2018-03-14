@@ -35,7 +35,6 @@ a{
 }
 
 .rssSection{
-    width: 80%;
     height: 40%;
     padding: 0.5em 1.5em;
     background: #f1f1f1;
@@ -76,11 +75,16 @@ a{
 body#NaturalDisasterHomepage {
     background-color: #2A3549;
 }
+
+body#NaturalDisasterHomepage .container-fluid.content {
+    padding: 0 150px;
+}
+
+
+/* In case of emergency title */
 .navbar{
     background: transparent;
 }
-
-/* In case of emergency title */
 .navbar-default .navbar-brand{
     color: white;
 }
@@ -99,4 +103,35 @@ body#NaturalDisasterHomepage {
 .input-group.focus .input-group-btn .btn{
     background: #1ABC9C;
     color: white;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body#NaturalDisasterHomepage .container-fluid.content {
+        padding: 0 30px;
+        margin-bottom: 100px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
