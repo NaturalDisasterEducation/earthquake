@@ -28,25 +28,31 @@
 </head>
 
 <body>
-    <div class="naturalDisasterHomeLink">
-        <a href="naturalDisaster.html">
-            <span class="fui-home"></span>
-        </a>
-    </div>
-    <ul id="menu">
-        <li data-menuanchor="firstSection">
-            <a href="#firstSection">Index</a>
-        </li>
-        <li data-menuanchor="secondSection">
-            <a href="#secondSection">Before</a>
-        </li>
-        <li data-menuanchor="thirdSection">
-            <a href="#thirdSection">During</a>
-        </li>
-        <li data-menuanchor="fourthSection">
-            <a href="#fourthSection">After</a>
-        </li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarMenu" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul id="menu" class="navbar-nav">
+                <li class="nav-item">
+                    <a href="naturalDisaster.html"><span class="fui-home"></span></a>
+                </li>
+                <li class="nav-item" data-menuanchor="firstSection">
+                    <a href="#firstSection">Index</a>
+                </li>
+                <li class="nav-item" data-menuanchor="secondSection">
+                    <a href="#secondSection">Before</a>
+                </li>
+                <li class="nav-item" data-menuanchor="thirdSection">
+                    <a href="#thirdSection">During</a>
+                </li>
+                <li class="nav-item" data-menuanchor="fourthSection">
+                    <a href="#fourthSection">After</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div id="fullpage">
         <!-- Earthquake Homepage -->
@@ -103,12 +109,12 @@
         <!-- After -->
         <section class="section afterSection">
             <div class="visual">
-            <div class="btnList">
-                <button class="btn btn-primary" onclick="window.location.href='after1_stay_calm.html'">+</button>
-                <button class="btn btn-primary" onclick="window.location.href='after2_safe_spot.html'">+</button>
-                <button class="btn btn-primary" onclick="window.location.href='after3_assess.html'">+</button>
+                <div class="btnList">
+                    <button class="btn btn-primary" onclick="window.location.href='after1_stay_calm.html'">+</button>
+                    <button class="btn btn-primary" onclick="window.location.href='after2_safe_spot.html'">+</button>
+                    <button class="btn btn-primary" onclick="window.location.href='after3_assess.html'">+</button>
+                </div>
             </div>
-        </div>
             <div class="text">
                 CONTENT
             </div>
