@@ -28,29 +28,33 @@
 </head>
 
 <body>
+
   <div class="navbar navbar-default navbar-static-top" role="navigation">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
       </button>
-      <a class="navbar-brand" href="#">Natural Disaster Education</a>
+      <a class="navbar-brand" href="#">In case of Emergency</a>
     </div>
   </div>
 
   <div class="container">
+
     <div class="row">
-      <div class="col-7">
-        <a href="main.html">
-          <img class="img-fluid" src="images/image.png">
-        </a>
+      <div class="col-sm-8" id="earth-button-group">
+        <img class="img-fluid" id="earth" src="images/all-home.png">
+        <div class="earthquake-button">
+          <a href="main.html" class="btn btn-hg btn-primary">Earthquake</a>
+        </div>
+
       </div>
-      <div class="col-5">
+      <div class="col-sm-4">
         <div class="introSection">
-          An earthquake is the shaking of the surface of the Earth, resulting from the sudden release of energy in the Earth's lithosphere
-          that creates seismic waves.
+            <h3>In case of Emegency</h3>
+            Know how to react in case of a natural disaster. <mark>Keep calm</mark> and get ready before hand with this educational website.
         </div>
         <div class="rssSection">
-          <h6>Latest earthquakes in the world</h6>
+          <h6>Latest earthquakes</h6>
           <p>
             <a>7.5 89km SSW of Porgera, Papua New Guinea 2018-02-25 17:44:44 UTC 35.0 km</a>
           </p>
@@ -60,9 +64,11 @@
           <p>
             <a>4.2 3km NE of Clydach, United Kingdom 2018-02-17 14:31:04 UTC 11.0 km</a>
           </p>
+            <a href="#">More</a>
         </div>
       </div>
     </div>
+
   </div>
 
   <footer class="indexFooter">
@@ -77,12 +83,9 @@
           </div>
         </div>
         <div class="col-2">
-          <select data-toggle="select" class="form-control select select-default mrs mbm">
+          <select data-toggle="select" class="form-control select select-primary select-block mbl">
             <option value="English">English</option>
             <option value="Persian">Persian</option>
-            <option value="Spanish">Spanish</option>
-            <option value="SimplfiedChinese">Simplified Chinese</option>
-            <option value="TraditionalChinese">Traditional Chinese</option>
           </select>
         </div>
         <div class="col-1">
@@ -93,6 +96,10 @@
       </div>
     </div>
   </footer>
+
+  <!-- Background Stars -->
+
+  <div class="stars"></div>
 
   <!-- <div class="panel-group" id="EarthFooter">
     <div class="panel panel-default">
