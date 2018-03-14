@@ -66,7 +66,7 @@ a{
 
 .twitter {
     display: inline;
-    margin-left: 20px;
+    margin-left: 10px;
     color: white;
 }
 
@@ -116,15 +116,19 @@ body#NaturalDisasterHomepage .container-fluid.content {
     transform: translate(-2px, 1px);
 }
 
+.indexFooter .row > div{
+    padding-top: 6px;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body#NaturalDisasterHomepage .container-fluid.content {
-        padding: 0 30px;
+        padding: 0 35px;
         margin-bottom: 80px;
     }
     .indexFooter {
-        padding: 0 30px;
+        padding: 0 14px;
     }    
 } 
 
