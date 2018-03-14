@@ -13,13 +13,12 @@ a{
 }
 
 #earth-button-group img{
-    margin: auto;
-
+    margin-top: 30px;
 }
 
 #earth-button-group .earthquake-button {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 50%;
     /*transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -35,7 +34,7 @@ a{
 }
 
 .rssSection{
-    height: 40%;
+    height: 50%;
     padding: 0.5em 1.5em;
     background: #f1f1f1;
     margin-top: 20px;
@@ -77,6 +76,7 @@ body#NaturalDisasterHomepage {
 }
 
 body#NaturalDisasterHomepage .container-fluid.content {
+    margin-top: 35px;
     padding: 0 150px;
 }
 
@@ -92,23 +92,25 @@ body#NaturalDisasterHomepage .container-fluid.content {
     color: rgba(255,255,255,0.9);
 }
 
-.form-control{
+/* email input */
+.form-control[name=email]{
     border: 2px solid #1ABC9C;
 }
-.input-group-btn > .btn-primary{
+.form-control[name=email] + .input-group-btn > .btn-primary{
     border: 2px solid #1ABC9C;
     background: #1ABC9C;
     color: white;
 }
-.input-group.focus .input-group-btn .btn{
+.form-control[name=email] + .input-group.focus .input-group-btn .btn{
     background: #1ABC9C;
     color: white;
 }
 
+/* earthquake button */
 .earthquake-button .btn{
+    background: #C15257;
     box-shadow: -2px 3px 5px  rgba(17, 22, 31, 0.8); 
 }
-
 .earthquake-button .btn:hover{
     box-shadow: 0 1px 2px #11161fcc; 
     transform: translate(-2px, 1px);
