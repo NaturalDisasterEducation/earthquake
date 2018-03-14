@@ -27,5 +27,22 @@
 
 /* ============= After Section ============= */
 .afterSection{
-    background-color: red;
+    background-color: #fddc85;
+}
+.afterSection .visual{
+    height: 75%;
+    background-image: url("../images/after_main.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: -1;
+}
+.afterSection .visual .btnList{
+    position: absolute;
+    top: 20%;
+    left: 42%;
+}
+.afterSection .text{
+    height: 25%;
+    background-color: #c19871;
 }
