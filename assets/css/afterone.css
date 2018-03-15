@@ -24,3 +24,8 @@ body{
     float: left;
     padding: 1rem;
 }
+
+.earthquake-home{
+    width: 35px;
+    color: white;
+}
