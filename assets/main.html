@@ -28,34 +28,42 @@
 </head>
 
 <body>
-    <div class="naturalDisasterHomeLink">
-        <a href="naturalDisaster.html">
-            <span class="fui-home"></span>
-        </a>
-    </div>
-    <ul id="menu">
-        <li data-menuanchor="firstSection">
-            <a href="#firstSection">Index</a>
-        </li>
-        <li data-menuanchor="secondSection">
-            <a href="#secondSection">Before</a>
-        </li>
-        <li data-menuanchor="thirdSection">
-            <a href="#thirdSection">During</a>
-        </li>
-        <li data-menuanchor="fourthSection">
-            <a href="#fourthSection">After</a>
-        </li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul id="menu" class="navbar-nav">
+                <li class="nav-item">
+                    <a href="naturalDisaster.html">
+                        <span class="fui-home"></span>
+                    </a>
+                </li>
+                <li class="nav-item" data-menuanchor="firstSection">
+                    <a href="#firstSection">Index</a>
+                </li>
+                <li class="nav-item" data-menuanchor="secondSection">
+                    <a href="#secondSection">Before</a>
+                </li>
+                <li class="nav-item" data-menuanchor="thirdSection">
+                    <a href="#thirdSection">During</a>
+                </li>
+                <li class="nav-item" data-menuanchor="fourthSection">
+                    <a href="#fourthSection">After</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div id="fullpage">
         <!-- Earthquake Homepage -->
-        <section class="section">
-            <h3>Earthquake</h3>
+        <section class="section indexSection">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-6 col-sm-12">
                         <div class="hazardLevelForm">
+                            <h3>Earthquake</h3>
                             <p>Find the hazard level of your city.</p>
                             <div class="input-group double-input">
                                 <input type="text" placeholder="Country" class="form-control" />
@@ -66,8 +74,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <img class="img-fluid" src="images/image.png">
+                    <div class="col-md-6 col-sm-4">
+                        <div id="building">
+                            <img class="img-fluid" src="images/building.png">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,10 +100,32 @@
         </section>
 
         <!-- During -->
-        <section class="section">
+        <section class="section during-section">
             <h2>During</h2>
-            <div class="offset-2 col-8">
-                <img class="img-fluid" src="images/image.png">
+            <div class="row">
+                <div class="col-4 illustrations-pos">
+                    <img class="img-fluid" src="images/during-column-1-01.png">
+                </div>
+                <div class="col-4 illustrations-pos">
+                    <img class="img-fluid character" src="images/character.png">
+                </div>
+                <div class="col-4 illustrations-pos">
+                    <img class="img-fluid" src="images/during-column-2-02.png">
+                </div>
+            </div>
+            <div class="during-content row">
+                <div class="col-4">
+                    <p><strong>Don&#39;t panic.</strong> That is the number 1 cause of injuries during an earthquake. </p>
+                    <p><strong>Drop</strong> on knees and hands to avoid falling. </p>
+                </div>
+                <div class="col-4">
+                    <p><strong>Cover.</strong> Find your safe spot and crawl to it. Cover your head and neck. </p>
+                    <p><strong>Hold on.</strong> </p>
+                </div>
+                <div class="col-4">
+                    <p><strong>Don&#39;t</strong> stand in a doorway, run outside, or &#34;triangle of life&#34;. These are considered dangerous and are not recommended.</p>
+                </div>
+
             </div>
             <div class="scroll-icon">
                 <a href="#fourthSection">Scroll down</a>
@@ -103,12 +135,12 @@
         <!-- After -->
         <section class="section afterSection">
             <div class="visual">
-            <div class="btnList">
-                <button class="btn btn-primary" onclick="window.location.href='after1_stay_calm.html'">+</button>
-                <button class="btn btn-primary" onclick="window.location.href='after2_safe_spot.html'">+</button>
-                <button class="btn btn-primary" onclick="window.location.href='after3_assess.html'">+</button>
+                <div class="btnList">
+                    <button class="btn btn-primary" onclick="window.location.href='after1_stay_calm.html'">+</button>
+                    <button class="btn btn-primary" onclick="window.location.href='after2_safe_spot.html'">+</button>
+                    <button class="btn btn-primary" onclick="window.location.href='after3_assess.html'">+</button>
+                </div>
             </div>
-        </div>
             <div class="text">
                 CONTENT
             </div>

@@ -8,7 +8,9 @@ body{
 	border: none;
 	background-color:rgb(234,210,187);
     font-size: 1.2em;
-}
+   }
+
+
 
 /*============ Media Quire =========*/
 @media only screen 
@@ -18,3 +20,12 @@ and (orientation : portrait) {
 
 
 }
+
+/*.row{
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 1rem;
+}*/
+
