@@ -49,38 +49,6 @@ section.indexSection{
     height: 42px;
 }
 
-/* ============= During Section ============= */
-
-.during-section{
-    background-color: #9BD3CB;
-}
-
-
-.during-section .during-content{
-    height: 25%;
-    background-color: #263E48;
-}
-
-
-.character{
-    width: 20%;
-}
-
-.during-content{
-    color: white;
-    font-size: 18px;
-    text-align: left;
-    font-weight: 100;
-    padding: 10px;
-}
-/*
-.illustrations-pos img{
-    position: absolute;
-    bottom: 0px;
-
-}
-*/
-
 /* ============= After Section ============= */
 .afterSection{
     background-color: #fddc85;
@@ -103,6 +71,8 @@ section.indexSection{
     background-color: #c19871;
 }
 
+
+
 @media (max-width: 992px) {
     /* fix offsreen menu toggle lag */
     #menu{
@@ -122,7 +92,6 @@ section.indexSection{
         color: white;
     }
 }
-<<<<<<< HEAD
 
 
 
@@ -186,5 +155,3 @@ section.indexSection{
         transform: translate(-33%, -50%);
     }
 } 
-=======
->>>>>>> 5cb140e27eae2ed459fc376730996fde43711c62
