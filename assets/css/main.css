@@ -81,14 +81,10 @@ section.indexSection{
 }
 */
 
+
 /* ============= After Section ============= */
 .afterSection{
-<<<<<<< HEAD
-    background-color: rgb(253,230,133);
-    
-=======
     background-color: #fddc85;
->>>>>>> 1374c2cd755f05041be71abda21258b132f8560f
 }
 .afterSection .visual{
     height: 75%;
@@ -107,6 +103,8 @@ section.indexSection{
     height: 25%;
     background-color: #c19871;
 }
+
+
 
 @media (max-width: 992px) {
     /* fix offsreen menu toggle lag */
@@ -127,3 +125,66 @@ section.indexSection{
         color: white;
     }
 }
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+} 
+
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+
+@media only screen and (max-width: 768px) {
+    .indexSection .container,
+    .indexSection .container .row{
+        height: 100%;
+    }
+    .hazardLevelForm{
+        margin-top: 3rem;
+    }
+    #building{
+        position: absolute;
+        bottom: 0;
+        width: 18rem;
+        right: 8rem;
+    }
+} 
+
+@media only screen and (max-width: 575px) {
+    .indexSection .container,
+    .indexSection .container .row{
+        height: 100%;
+    }
+    .hazardLevelForm{
+        width: fit-content;
+    }
+    #building{
+        position: absolute;
+        top: -13%;
+        right: 50%;
+        transform: translate(-33%, -50%);
+    }
+} 

@@ -8,13 +8,18 @@ body{
 	color: white;
 }
 
+.image{
+    width:100%;
+    text-align: center;
+}
+
 .img-fluid{
 	width: 70%;
 	padding-left: 4em;
 }
 .list-group-item{
 	border: none;
-	padding: none;
+	padding: 0;
 	background-color:rgb(134,191,136);
     font-size: 1.2em;
 }

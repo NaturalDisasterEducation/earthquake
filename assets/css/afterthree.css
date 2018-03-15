@@ -4,10 +4,13 @@ body{
 .img-fluid{
 	width: 120%;
 }
-.list-group-item{
+.list-group-item {
 	border: none;
 	background-color:rgb(234,210,187);
     font-size: 1.2em;
+}
+.earthquake-home{
+	width: 35px;
    }
 
 
