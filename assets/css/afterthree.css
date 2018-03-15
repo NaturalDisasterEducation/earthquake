@@ -6,10 +6,6 @@ body{
 }
 .list-group-item {
 	border: none;
-<<<<<<< HEAD
-	background-color: rgb(234, 210, 187);
-	font-size: 1.2em;
-=======
 	background-color:rgb(234,210,187);
     font-size: 1.2em;
 }
@@ -26,7 +22,6 @@ and (max-device-width : 667px)
 and (orientation : portrait) { 
 
 
->>>>>>> 6b19864975bf2b4c4ee0c50ff44019ee196cce7c
 }
 
 /*.row{
