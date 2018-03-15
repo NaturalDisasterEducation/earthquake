@@ -32,23 +32,8 @@ body{
 
 .img-fluidcccc{
 	width: 50%;
-	height: 40%;
-    -moz-size:width:50% height:40%;
-    -ms-size:width:50% height:40%;     
-    -webkit-size:width:50% height:40%; 
-    -o-size:width:50% height:40%;
-
-	
+	height: 40%;	
 }
 
-<<<<<<< HEAD
-=======
-/*============ Media Quire =========*/
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : portrait) { 
->>>>>>> 6b19864975bf2b4c4ee0c50ff44019ee196cce7c
 
 
-}

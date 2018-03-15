@@ -42,31 +42,7 @@
 .backpack_list ul{
     list-style: none;
 }
-<<<<<<< HEAD
 
 .earthquake-home{
     width: 35px;
-=======
-/*==========responsive===========*/
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : portrait) { 
-.infoPage_cross{
-    position: absolute;
-    right: 6rem;
-    top: 1rem;
-    font-size: 30px;
-    cursor: pointer;
-    z-index: 999;
-}
-.infoPage_home{
-    position: absolute;
-    left: 3rem;
-    top: 1rem;
-    font-size: 30px;
-    cursor: pointer;
-    z-index: 999;
-}
->>>>>>> 6b19864975bf2b4c4ee0c50ff44019ee196cce7c
 }
