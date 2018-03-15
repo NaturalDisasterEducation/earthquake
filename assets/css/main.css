@@ -22,6 +22,13 @@ section.indexSection{
     background-position: bottom;
 }
 
+#building{
+    position: absolute; 
+    bottom: -18.1rem; 
+    right: -5rem;
+}
+
+
 /* ============= Hazard Level ============= */
 .hazardLevelForm{
     margin-top: -8rem;
