@@ -8,9 +8,23 @@ body{
 	border: none;
 	background-color:rgb(234,210,187);
     font-size: 1.2em;
+<<<<<<< HEAD
 }
 .earthquake-home{
 	width: 35px;
+=======
+   }
+
+
+
+/*============ Media Quire =========*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+
+
+>>>>>>> ca14cedf0e628fd0abc59ca22177ad686d4a7c82
 }
 
 /*.row{

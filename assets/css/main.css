@@ -51,7 +51,12 @@ section.indexSection{
 
 /* ============= After Section ============= */
 .afterSection{
+<<<<<<< HEAD
+    background-color: rgb(253,230,133);
+    
+=======
     background-color: #fddc85;
+>>>>>>> 1374c2cd755f05041be71abda21258b132f8560f
 }
 .afterSection .visual{
     height: 75%;
