@@ -1,6 +1,5 @@
 /* navbar */
 .navbar.navbar-expand-lg{
-    position:fixed; 
     z-index: 998;
 }
 .navbar.navbar-expand-lg > button.navbar-toggler{
@@ -15,9 +14,17 @@
     font-size: 22px;
 }
 
+section.indexSection{
+    background-color: #c3ecff; 
+    background-image: url("../images/cities.png");
+    background-size: auto 30%;
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
 /* ============= Hazard Level ============= */
 .hazardLevelForm{
-    margin-top: 5rem;
+    margin-top: -8rem;
     text-align: left;
 }
 
