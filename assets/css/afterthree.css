@@ -9,10 +9,12 @@ body{
 	background-color:rgb(234,210,187);
     font-size: 1.2em;
 }
-/*.row{
-    display: block;
+
+/*============ Media Quire =========*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+
+
 }
-[class*="col-"] {
-    float: left;
-    padding: 1rem;
-}*/

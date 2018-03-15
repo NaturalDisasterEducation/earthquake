@@ -1,13 +1,16 @@
-*{
-margin: none;
-padding: none;	
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
 }
 body{
 	background-color:rgb(134,191,136);
 	color: white;
 }
+
 .img-fluid{
 	width: 70%;
+	padding-left: 4em;
 }
 .list-group-item{
 	border: none;
@@ -15,12 +18,35 @@ body{
 	background-color:rgb(134,191,136);
     font-size: 1.2em;
 }
-.row {
-    content: "";
-    clear: both;
-    display: block;
+
+
+/*============ Media Quire =========*/
+/*@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 }
 [class*="col-"] {
     float: left;
-    padding: 1rem;
+    padding: 30px;
 }
+}
+
+
+
+
+
+
+
