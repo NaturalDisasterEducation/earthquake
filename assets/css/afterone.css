@@ -18,6 +18,9 @@ body{
 	background-color:rgb(134,191,136);
     font-size: 1.2em;
 }
+.earthquake-home{
+	width: 30px;
+}
 
 
 /*============ Media Quire =========*/

@@ -40,6 +40,9 @@ body{
 
 	
 }
+.earthquake-home{
+    width: 30px;
+}
 
 /*============ Media Quire =========*/
 @media only screen 
