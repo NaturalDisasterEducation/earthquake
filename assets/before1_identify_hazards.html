@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <title>Identify potential hazards</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Loading Bootstrap -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="../bower_components/flat-ui/dist/css/flat-ui.css" rel="stylesheet">
+    <link href="../bower_components/flat-ui/docs/assets/css/demo.css" rel="stylesheet">
+    <link rel="shortcut icon" href="">
+
+    <!-- Custom css -->
     <link href="css/infoPage.css" rel="stylesheet">
     <link href="css/before1.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/bootstrap-modal-carousel.min.css"> -->
@@ -57,20 +67,19 @@
     </script>
 </body> -->
 
-<body id="Before1">
-    <div class="modal fade modal-fullscreen" id="before_one_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+<body>
+    <!-- info page modal start -->
+    <div class="modal fade modal-fullscreen" id="myModalFullscreen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button class="infoPage_cross" class="close" data-dismiss="modal" aria-hidden="true">
-                        <span class="fui-cross-circle" style="color: #fff"></span>
+                    <button class="infoPage_cross close" data-dismiss="modal" aria-hidden="true">
+                        <span class="fui-cross-circle"></span>
                     </button>
-                    <div>
-                        <button class="infoPage_home" onclick="window.location.href='main.html'">
-                            <img src="images/earthquake-2.svg" class="earthquake-home">
-                        </button>
-                    </div>
+                    <button class="infoPage_home" onclick="window.location.href='main.html'">
+                        <img src="images/earthquake-2.svg" class="earthquake-home">
+                    </button>
                 </div>
                 <div class="modal-body">
                     <div class="container">
@@ -96,11 +105,8 @@
                     </div>
                 </div>
             </div>
-            <!-- /.modal-content -->
         </div>
-        <!-- /.modal-dialog -->
     </div>
-    <!-- modal end -->
 </body>
 
 </html>
