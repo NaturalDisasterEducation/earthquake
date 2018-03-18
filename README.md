@@ -45,3 +45,11 @@ see: https://github.com/NaturalDisasterEducation/earthquake/wiki/Practice-git-us
 ## Ref websites
 1. http://keepearthquakesweird.com/
 2. https://strategies.ca/resolutions/?local=en#Maya
+
+## live-server
+1. To install live-server, run: 
+    - npm install live-server -g
+2. To run the webpage, run:
+    - live-server
+
+
