@@ -5,18 +5,10 @@
     <meta charset="utf-8">
     <title>Identify potential hazards</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Loading Bootstrap -->
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Loading Flat UI -->
-    <link href="../bower_components/flat-ui/dist/css/flat-ui.css" rel="stylesheet">
-    <link href="../bower_components/flat-ui/docs/assets/css/demo.css" rel="stylesheet">
-    <link rel="shortcut icon" href="">
-
-    <!-- Custom css -->
     <link href="css/infoPage.css" rel="stylesheet">
     <link href="css/before1.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/bootstrap-modal-carousel.min.css"> -->
+
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
@@ -25,7 +17,7 @@
     <![endif]-->
 </head>
 
-<body>
+<!-- <body>
     <a class="infoPage_cross" onclick="window.location.href='main.html#secondSection'">
         <span class="fui-cross-circle"></span>
     </a>
@@ -63,6 +55,52 @@
     <script>
         videojs.options.flash.swf = "../bower_components/flat-ui/dist/js/vendors/video-js.swf"
     </script>
+</body> -->
+
+<body id="Before1">
+    <div class="modal fade modal-fullscreen" id="before_one_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="infoPage_cross" class="close" data-dismiss="modal" aria-hidden="true">
+                        <span class="fui-cross-circle" style="color: #fff"></span>
+                    </button>
+                    <div>
+                        <button class="infoPage_home" onclick="window.location.href='main.html'">
+                            <img src="images/earthquake-2.svg" class="earthquake-home">
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="header">
+                            <h3>Identify potential hazards in your house</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="image">
+                                    <img class="img-fluid" src="images/wenshelf.png">
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Move away/reorganize furniture (like book shelves) that might be near a resting area
+                                        (bed, sofas, desk, etc)
+                                    </li>
+                                    <li class="list-group-item">Move heavy objects to lower shelfs</li>
+                                    <li class="list-group-item">Move heavy or unstable objects away from doors and escape routes</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- modal end -->
 </body>
 
 </html>

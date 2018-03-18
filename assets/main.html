@@ -21,7 +21,8 @@
 
     <!-- Custom css -->
     <link href="css/main.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/bootstrap-modal-carousel.css">
+    
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <![endif]-->
@@ -90,7 +91,9 @@
         <section class="section">
             <h2>Before</h2>
             <div class="col">
-                <button class="btn btn-primary" onclick="window.location.href='before1_identify_hazards.html'">+</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#before_one_modal">
+                     <span class="fui-plus-circle"></span>
+                </button>
                 <button class="btn btn-primary" onclick="window.location.href='before2_plan_ahead.html'">+</button>
                 <button class="btn btn-primary" onclick="window.location.href='before3_emergency_backpack.html'">+</button>
             </div>
@@ -150,6 +153,10 @@
         </section>
     </div>
 
+    <div id="include_html"></div>
+
+
+
     <!-- js files -->
     <script src="../bower_components/flat-ui/dist/js/vendor/jquery.min.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -159,6 +166,11 @@
     <script src="../node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
     <script src="js/fullpage.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        $(function(){
+        $("#include_html").load("before1_identify_hazards.html");
+        });
+    </script>
 
 </body>
 
