@@ -28,6 +28,17 @@ section.indexSection{
     right: 2rem;
 }
 
+#building img{
+    height: 30rem;
+}
+
+
+#character-index{
+    position:  absolute;
+    max-width: 4%;
+    right: 12rem;
+    bottom: 30rem;
+}
 
 /* ============= Hazard Level ============= */
 .hazardLevelForm{
@@ -125,8 +136,6 @@ section.indexSection{
         color: white;
     }
 }
-
-
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
