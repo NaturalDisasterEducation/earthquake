@@ -25,19 +25,18 @@ section.indexSection{
 #building{
     position: absolute; 
     bottom: 0; 
-    right: 2rem;
+    right: 7rem;
 }
 
 #building img{
-    height: 30rem;
+    height: 26rem;
 }
-
 
 #character-index{
     position:  absolute;
     max-width: 4%;
-    right: 12rem;
-    bottom: 30rem;
+    right: 15.5rem;
+    bottom: 26rem;
 }
 
 /* ============= Hazard Level ============= */
