@@ -24,8 +24,8 @@ section.indexSection{
 
 #building{
     position: absolute; 
-    bottom: -18.1rem; 
-    right: -5rem;
+    bottom: 0; 
+    right: 2rem;
 }
 
 
@@ -166,10 +166,7 @@ section.indexSection{
         margin-top: 3rem;
     }
     #building{
-        position: absolute;
-        bottom: 0;
-        width: 18rem;
-        right: 8rem;
+
     }
 } 
 
@@ -182,9 +179,6 @@ section.indexSection{
         width: fit-content;
     }
     #building{
-        position: absolute;
-        top: -13%;
-        right: 50%;
-        transform: translate(-33%, -50%);
+
     }
 } 
