@@ -68,6 +68,18 @@ section.indexSection{
 }
 
 
+/* ============= Before Section ============= */
+.before-section{
+    background-color: #ed9673;
+}
+
+.before-section .before-content{
+    height: 25%;
+    background-color: #e35a5b;
+}
+
+
+
 /* ============= During Section ============= */
 
 .during-section{
