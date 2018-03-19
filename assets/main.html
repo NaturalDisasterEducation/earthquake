@@ -103,6 +103,12 @@
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Before1Modal">
                     <span class="fui-plus-circle"></span>
                 </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Before2Modal">
+                    <span class="fui-plus-circle"></span>
+                </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Before3Modal">
+                    <span class="fui-plus-circle"></span>
+                </button>
             </div>
             <div class="scroll-icon">
                 <a href="#thirdSection">Scroll down</a>
@@ -167,9 +173,9 @@
         </section>
     </div>
 
-    <div id="include_html"></div>
-
-
+    <div id="before1_modal"></div>
+    <div id="before2_modal"></div>
+    <div id="before3_modal"></div>
 
     <!-- js files -->
     <script src="../bower_components/flat-ui/dist/js/vendor/jquery.min.js"></script>
@@ -182,7 +188,9 @@
     <script src="js/custom.js"></script>
     <script>
         $(function () {
-            $("#include_html").load("before1_modal.html");
+            $("#before1_modal").load("before1_modal.html");
+            $("#before2_modal").load("before2_modal.html");
+            $("#before3_modal").load("before3_modal.html");
         });
     </script>
 

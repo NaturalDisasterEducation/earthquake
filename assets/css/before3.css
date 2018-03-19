@@ -1,4 +1,5 @@
-body{
+#Before3Modal,
+#Before3Modal .modal-content {
     background-color: #9BD3CB;
     color:white;
 }
