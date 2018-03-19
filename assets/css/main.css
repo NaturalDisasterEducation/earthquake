@@ -39,6 +39,13 @@ section.indexSection{
     bottom: 26rem;
 }
 
+#character_after{
+    position: absolute; 
+    bottom:25%; 
+    left: 35%;
+    width: 30%; 
+}
+
 /* ============= Hazard Level ============= */
 .hazardLevelForm{
     margin-top: -8rem;
