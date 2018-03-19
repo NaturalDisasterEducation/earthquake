@@ -77,11 +77,6 @@
 
 
 
-#myModalFullscreen .modal-content{
-  background-color: #1F87B4;
-  color:white;
-}
-
 
 @media (min-width: 576px){
   .modal-dialog {
