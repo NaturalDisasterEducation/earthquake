@@ -4,12 +4,12 @@
   color:white;
 }
 
-.list-group{
+#Before1Modal .list-group{
     margin-top:20%;
     font-size: 1.2em;
 }
 
-.list-group-item{
+#Before1Modal .list-group-item{
     border:none;
     background-color:#1F87B4;
 }

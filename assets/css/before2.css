@@ -3,21 +3,21 @@
     background-color:#7B5D52;
     color:white;
 }
-.card1{
+#Before2Modal .card1{
     background-image:url("../images/before(list).png");
     background-size: cover;
     background-repeat: no-repeat;
     color:black;
     margin-top: -20px;
 }
-.card2{
+#Before2Modal .card2{
     background-image:url("../images/before(list).png");
     background-size: cover;
     background-repeat: no-repeat;
     color:black;
     margin-top:100px;
 }
-.card3{
+#Before2Modal .card3{
     background-image:url("../images/before(list).png");
     background-size: cover;
     background-repeat: no-repeat;
