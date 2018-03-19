@@ -58,13 +58,15 @@ section.indexSection{
 .hazardLevelForm .double-input .form-control:focus {
     border-right-width: 1px;
 }
-.hazardLevelForm .double-input .input-group-btn .btn {
+.hazardLevelForm .double-input .input-group-btn .btn,
+.hazardLevelForm .double-input.focus .input-group-btn .btn{
     background-color: #1abc9c;
     border: 2px solid #1abc9c;
     color: #ffffff;
     line-height: 18px;
     height: 42px;
 }
+
 
 /* ============= During Section ============= */
 
