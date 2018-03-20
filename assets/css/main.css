@@ -56,7 +56,7 @@ section.indexSection{
 #after_exit{
     position: absolute; 
     bottom: 25%; 
-    left:12%
+    left:14%
 }
 #after_exit .btn{
     transform: translate(-20px, -140px);
@@ -269,7 +269,7 @@ section.indexSection{
     }
 
     #after_character img{
-        width: 40%;
+        width: 3rem;
     }
  
     #after_shelf {
@@ -303,7 +303,7 @@ section.indexSection{
         left: 28%;
     }
     #after_character img{
-        width: 35%;
+        width: 2rem;
     }
 
     #after_exit .btn{
@@ -338,7 +338,7 @@ section.indexSection{
     }
 
     #after_shelf {
-        right: -6rem;
+        right: -4rem;
     }
 
     #after_exit {
