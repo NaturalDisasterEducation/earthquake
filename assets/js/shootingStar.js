@@ -24,7 +24,7 @@
       };
       this.options = {};
       id = (typeof id != "undefined") ? id : "";
-      this.capa =  "body";//($(id).lenght > 0) ? "body" : id;
+      this.capa = ($(id).lenght > 0) ? "body" : id;
       this.wW = $(this.capa).innerWidth();
       this.hW = $(this.capa).innerHeight();
     };
