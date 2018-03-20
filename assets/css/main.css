@@ -269,7 +269,7 @@ section.indexSection{
     }
 
     #after_character img{
-        width: 40%;
+        width: 3rem;
     }
  
     #after_shelf {
@@ -303,7 +303,7 @@ section.indexSection{
         left: 28%;
     }
     #after_character img{
-        width: 35%;
+        width: 2rem;
     }
 
     #after_exit .btn{
