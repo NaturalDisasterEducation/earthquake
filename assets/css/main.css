@@ -56,7 +56,7 @@ section.indexSection{
 #after_exit{
     position: absolute; 
     bottom: 25%; 
-    left:12%
+    left:14%
 }
 #after_exit .btn{
     transform: translate(-20px, -140px);
