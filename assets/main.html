@@ -21,6 +21,7 @@
 
     <!-- Custom css -->
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-modal-carousel.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -75,11 +76,17 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div id="building">
+                        <!-- <div id="building">
                             <img class="img-fluid" src="images/building.png">
-                        </div>
+                        </div> -->
                     </div>
                 </div>
+            </div>
+            <div id="character-index">
+                <img class="img-fluid" src="images/character.png">
+            </div>
+            <div id="building">
+                <img class="img-fluid" src="images/building.png">
             </div>
             <div class="scroll-icon">
                 <a href="#secondSection">Scroll down</a>
@@ -87,12 +94,34 @@
         </section>
 
         <!-- Before -->
-        <section class="section">
+        <section class="section before-section">
             <h2>Before</h2>
             <div class="col">
                 <button class="btn btn-primary" onclick="window.location.href='before1_identify_hazards.html'">+</button>
                 <button class="btn btn-primary" onclick="window.location.href='before2_plan_ahead.html'">+</button>
                 <button class="btn btn-primary" onclick="window.location.href='before3_emergency_backpack.html'">+</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Before1Modal">
+                    <span class="fui-plus-circle"></span>
+                </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Before2Modal">
+                    <span class="fui-plus-circle"></span>
+                </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Before3Modal">
+                    <span class="fui-plus-circle"></span>
+                </button>
+            </div>
+            <div class="container">
+	      <div class="row">
+		<div class="col-md-3">
+		    <img class="img-fluid character-before" src="images/character.png">
+		</div>
+		<div class="col-md-9">
+		    <img class="img-fluid elements-before" src="images/before-elements.png">
+		</div>
+	      </div>
+	    </div>
+            <div class="before-content">
+                CONTENT
             </div>
             <div class="scroll-icon">
                 <a href="#thirdSection">Scroll down</a>
@@ -101,34 +130,37 @@
 
         <!-- During -->
         <section class="section during-section">
-            <h2>During</h2>
-            <div class="row">
-                <div class="col-4 illustrations-pos">
-                    <img class="img-fluid" src="images/during-column-1-01.png">
-                </div>
-                <div class="col-4 illustrations-pos">
-                    <img class="img-fluid character" src="images/character.png">
-                </div>
-                <div class="col-4 illustrations-pos">
-                    <img class="img-fluid" src="images/during-column-2-02.png">
+            <div class="container">
+                <h2>During</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="images/during-column-1-01.png">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid character" src="images/character.png">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="images/during-column-2-02.png">
+                    </div>
                 </div>
             </div>
-            <div class="during-content row">
-                <div class="col-4">
-                    <p><strong>Don&#39;t panic.</strong> That is the number 1 cause of injuries during an earthquake. </p>
-                    <p><strong>Drop</strong> on knees and hands to avoid falling. </p>
+            <div class="container-fluid">
+                <div class="during-content row">
+                    <div class="col-md-4">
+                        <p><strong>Don&#39;t panic.</strong> That is the number 1 cause of injuries during an earthquake. </p>
+                        <p><strong>Drop</strong> on knees and hands to avoid falling. </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><strong>Cover.</strong> Find your safe spot and crawl to it. Cover your head and neck. </p>
+                        <p><strong>Hold on.</strong> </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><strong>Don&#39;t</strong> stand in a doorway, run outside, or &#34;triangle of life&#34;. These are considered dangerous and are not recommended.</p>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <p><strong>Cover.</strong> Find your safe spot and crawl to it. Cover your head and neck. </p>
-                    <p><strong>Hold on.</strong> </p>
+                <div class="scroll-icon">
+                    <a href="#fourthSection">Scroll down</a>
                 </div>
-                <div class="col-4">
-                    <p><strong>Don&#39;t</strong> stand in a doorway, run outside, or &#34;triangle of life&#34;. These are considered dangerous and are not recommended.</p>
-                </div>
-
-            </div>
-            <div class="scroll-icon">
-                <a href="#fourthSection">Scroll down</a>
             </div>
         </section>
 
@@ -140,6 +172,9 @@
                     <button class="btn btn-primary" onclick="window.location.href='after2_safe_spot.html'">+</button>
                     <button class="btn btn-primary" onclick="window.location.href='after3_assess.html'">+</button>
                 </div>
+                <div id="character_after">
+                    <img class="img-fluid character"  src="images/character.png">
+                </div>
             </div>
             <div class="text">
                 CONTENT
@@ -150,6 +185,10 @@
         </section>
     </div>
 
+    <div id="before1_modal"></div>
+    <div id="before2_modal"></div>
+    <div id="before3_modal"></div>
+
     <!-- js files -->
     <script src="../bower_components/flat-ui/dist/js/vendor/jquery.min.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -159,6 +198,13 @@
     <script src="../node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
     <script src="js/fullpage.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        $(function () {
+            $("#before1_modal").load("before1_modal.html");
+            $("#before2_modal").load("before2_modal.html");
+            $("#before3_modal").load("before3_modal.html");
+        });
+    </script>
 
 </body>
 

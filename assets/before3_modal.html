@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Identify potential hazards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Loading Bootstrap -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="../bower_components/flat-ui/dist/css/flat-ui.css" rel="stylesheet">
+    <link href="../bower_components/flat-ui/docs/assets/css/demo.css" rel="stylesheet">
+    <link rel="shortcut icon" href="">
+
+    <!-- Custom css -->
+    <link href="css/infoPage.css" rel="stylesheet">
+    <link href="css/before3.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <script src="dist/js/vendor/html5shiv.js"></script>
+    <script src="dist/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        .modal-header {
+            border-bottom: none;
+        }
+
+        .infoPage_cross.close {
+            color: white;
+            font-size: 35px;
+            opacity: 0.8;
+        }
+
+        .infoPage_cross.close:hover {
+            opacity: 1;
+        }
+
+        .infoPage_home {
+            background: transparent;
+            border: none;
+            color: white;
+            opacity: 0.8;
+        }
+
+        .infoPage_home:hover {
+            color: white;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- info page modal start -->
+    <div class="modal fade modal-fullscreen" id="Before3Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="infoPage_cross close" data-dismiss="modal" aria-hidden="true">
+                        <span class="fui-cross-circle"></span>
+                    </button>
+                    <button class="infoPage_home" onclick="window.location.href='main.html'">
+                        <img src="images/earthquake-2.svg" class="earthquake-home">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="header">
+                            <h3>Pack Your Embergency Backpack</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <table class="emergency_table">
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <a class="plus-btn">
+                                                <span class="fui-plus-circle"></span>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <a class="plus-btn">
+                                                <span class="fui-plus-circle"></span>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <a class="plus-btn">
+                                                <span class="fui-plus-circle"></span>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a class="plus-btn">
+                                                <span class="fui-plus-circle"></span>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <div class="backpackImg">
+                                                <img class="img-fluid" src="images/backpack.png">
+                                            </div>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <a class="plus-btn">
+                                                <span class="fui-plus-circle"></span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a class="plus-btn">
+                                                <span class="fui-plus-circle"></span>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <a class="plus-btn">
+                                                <span class="fui-plus-circle"></span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <a class="plus-btn">
+                                                <span class="fui-plus-circle"></span>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <a class="plus-btn">
+                                                <span class="fui-plus-circle"></span>
+                                            </a>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <a class="plus-btn">
+                                                <span class="fui-plus-circle"></span>
+                                            </a>
+
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="list">
+                                    <li>
+                                        <a href="#">Water</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Food</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">First Aid</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Batteries</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">ID Card</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Radio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Wreach</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Meds</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Flash Light</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blanket</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Mask</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Teddy Bear</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Whistle</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Emergency Map</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sturdy Shoes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">personal hygiene supplies</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- modal end -->
+</body>
+
+</html>

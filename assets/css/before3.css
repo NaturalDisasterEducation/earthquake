@@ -1,21 +1,22 @@
-body{
+#Before3Modal,
+#Before3Modal .modal-content {
     background-color: #9BD3CB;
     color:white;
 }
 
-.emergency_table{
+#Before3Modal .emergency_table{
     margin-top: 10%;
 }
 
-.list{
+#Before3Modal .list{
     font-size:1.2em;
 }
 
-.list a{
+#Before3Modal .list a{
     color:white;
 }
 
-.list li a:hover{
+#Before3Modal .list li a:hover{
     color: indianred;
 }
 

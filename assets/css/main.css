@@ -1,3 +1,4 @@
+
 /* navbar */
 .navbar.navbar-expand-lg{
     z-index: 998;
@@ -24,10 +25,27 @@ section.indexSection{
 
 #building{
     position: absolute; 
-    bottom: -18.1rem; 
-    right: -5rem;
+    bottom: 0; 
+    right: 7rem;
 }
 
+#building img{
+    height: 26rem;
+}
+
+#character-index{
+    position:  absolute;
+    max-width: 4%;
+    right: 15.5rem;
+    bottom: 26rem;
+}
+
+#character_after{
+    position: absolute; 
+    bottom:25%; 
+    left: 35%;
+    width: 30%; 
+}
 
 /* ============= Hazard Level ============= */
 .hazardLevelForm{
@@ -48,6 +66,33 @@ section.indexSection{
     line-height: 18px;
     height: 42px;
 }
+
+
+/* ============= Before Section ============= */
+.before-section{
+    background-color: #ed9673;
+}
+
+.before-section .before-content{
+    height: 25%;
+    background-color: #e35a5b;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.character-before{
+    width: 35%;
+}
+
+.container .height{
+    height: 65%;
+}
+
+.elements-before{
+    height: 60%;
+}
+
 
 /* ============= During Section ============= */
 
@@ -72,14 +117,41 @@ section.indexSection{
     text-align: left;
     font-weight: 100;
     padding: 10px;
-}
-/*
-.illustrations-pos img{
     position: absolute;
     bottom: 0px;
-
 }
-*/
+
+.container .row .elements-pos{
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.abc {
+    border: 1px solid yellow;
+}
+
+.def {
+    border: 1px solid red;
+}
+
+.ghi {
+    border: 1px solid blue;
+}
+
+.jkl {
+    border: 1px solid green;
+}
+
+.mno {
+    border: 1px solid white;
+}
+
+.pqr {
+    border: 1px solid purple;
+}
+
+
 
 
 /* ============= After Section ============= */
@@ -99,6 +171,7 @@ section.indexSection{
     top: 20%;
     left: 42%;
 }
+
 .afterSection .text{
     height: 25%;
     background-color: #c19871;
@@ -125,8 +198,6 @@ section.indexSection{
         color: white;
     }
 }
-
-
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -166,10 +237,7 @@ section.indexSection{
         margin-top: 3rem;
     }
     #building{
-        position: absolute;
-        bottom: 0;
-        width: 18rem;
-        right: 8rem;
+
     }
 } 
 
@@ -182,9 +250,6 @@ section.indexSection{
         width: fit-content;
     }
     #building{
-        position: absolute;
-        top: -13%;
-        right: 50%;
-        transform: translate(-33%, -50%);
+
     }
 } 

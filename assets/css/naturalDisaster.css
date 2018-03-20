@@ -50,13 +50,13 @@ a{
 
 /* natural disaster homepage footer */
 .indexFooter {
-    position: fixed;
+    position: relative;
     bottom:0;
     width: 100%;
     padding-top: 15px;
     padding-bottom: 5px;
     background-color: #2A3549;
-    box-shadow: 0 -2px 2px  rgba(17, 22, 31, 0.8); 
+    /* box-shadow: 0 -2px 2px  rgba(17, 22, 31, 0.8);  */
 }
 
 .indexFooter .fui-twitter{

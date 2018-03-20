@@ -1,22 +1,15 @@
-body{
-    background-color: #1F87B4;
-    color:white;
+#Before1Modal, 
+#Before1Modal .modal-content{
+  background-color: #1F87B4;
+  color:white;
 }
 
-.image{
-    width:100%;
-    text-align: center;
-}
-
-.image img{
-    width:80%;
-}
-.list-group{
+#Before1Modal .list-group{
     margin-top:20%;
     font-size: 1.2em;
 }
 
-.list-group-item{
+#Before1Modal .list-group-item{
     border:none;
     background-color:#1F87B4;
 }
