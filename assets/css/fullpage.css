@@ -108,7 +108,12 @@
 	margin: 10px;
 }
 #menu li.active{
-	border-bottom:#16a085 2px solid;
+	/* border-bottom: white 2px solid; */
+	background: #16a085;
+	transition: 0.5ms linear;
+}
+#menu li.active a{
+	color: white;
 }
 
 #menu li:hover{
