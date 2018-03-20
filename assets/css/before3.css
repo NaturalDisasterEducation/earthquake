@@ -5,12 +5,12 @@
 }
 
 #Before3Modal .emergency_table{
-
+    width:100%;
 }
 
 #Before3Modal .list{
     font-size:1.2em;
-    margin-top: 12%;
+    margin-top: 20%;
 }
 
 #Before3Modal .list a{
@@ -23,7 +23,6 @@
 
 .backpackImg{
     width:100%;
-    text-align: center;
 }
 
 .backpackImg img{
@@ -31,7 +30,6 @@
 }
 
 .littleImages{
-    text-align: center;
     width:60%;
 }
 
@@ -49,6 +47,21 @@
 
 .littleImages .blanket{
     width:70%;
+}
+
+.image
+{
+
+    display:inline-block;
+    width:100px;
+    height:100px;
+    transition:  transform 200ms cubic-bezier(0.45,-0.4, 0.41, 1.46);
+    pointer-events:none;
+}
+
+.littleImages:hover img{
+    transform: scale(1.6);
+    cursor: pointer;
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

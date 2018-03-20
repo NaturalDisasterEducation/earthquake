@@ -39,7 +39,7 @@
             transform: scale(1.2)
         }
         .trigger:click .image{
-            transform: scale(2)
+            transform: scale(2);
         }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
