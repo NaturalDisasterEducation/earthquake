@@ -8,53 +8,56 @@
     background-size: cover;
     background-repeat: no-repeat;
     color:black;
-    margin-top: -20px;
+    margin-top: -8%;
+    padding-top:10%;
+    padding-left:5%;
 }
+
+.form-check{
+    margin-left:-8%;
+}
+
 #Before2Modal .card2{
     background-image:url("../images/before(list).png");
     background-size: cover;
     background-repeat: no-repeat;
     color:black;
-    margin-top:100px;
-}
-#Before2Modal .card3{
-    background-image:url("../images/before(list).png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color:black;
-    margin-top: 50px;
+    margin-top:20%;
+    padding-top:10%;
+    padding-left:5%;
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1200px) */
 @media only screen and (min-width: 1200px) {
 
 }
+
+/* Large devices (laptops/desktops, 992px) */
 @media only screen and (min-width: 992px) {
 
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
 
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* iphone 7 plus */
+@media only screen and (max-width: 736px) {
 
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .card2 {
-        margin: 300px;
+/* iphone 7 */
+@media only screen and (max-width: 667px) {
+    #Before2Modal .row{
+        height: 100%;
     }
-    .card3 {
-        margin-top: 400px;
+    #Before2Modal .card2{
+        margin-right: 3rem;
     }
+}
+
+@media only screen and (max-width: 568px) {
+
 }
 
 
