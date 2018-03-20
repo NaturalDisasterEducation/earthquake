@@ -55,8 +55,7 @@
 
 <body>
     <!-- info page modal start -->
-    <div class="modal fade modal-fullscreen" id="Before1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
+    <div class="modal fade modal-fullscreen" id="Before1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -74,7 +73,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-5 offset-md-1">
-                                    <img class="img-fluid" src="images/wenshelf.png">
+                                <img class="img-fluid" src="images/wenshelf.png">
                             </div>
                             <div class="col-md-5">
                                 <ul class="list-group">
@@ -94,6 +93,12 @@
         <!-- /.modal-dialog -->
     </div>
     <!-- modal end -->
+
+    <script>
+        $(".infoPage_cross.close").on("click", function (e) {
+            window.location.href = 'main.html#secondSection';
+        })
+    </script>
 </body>
 
 </html>

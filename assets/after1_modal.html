@@ -28,8 +28,8 @@
         .modal-header {
             border-bottom: none;
         }
-        
-        .modal-content{
+
+        .modal-content {
             background-color: transparent;
         }
 
@@ -86,7 +86,8 @@
                                     <li class="list-group-item">Turn on your portable radio for information and safety advisories.</li>
                                     <li class="list-group-item">Phone service may be out. When possible, text or call your out-of-area contact and tell
                                         them where you are, THEN STAY OFF THE PHONE. This will allow calls to be made for
-                                        emergencies.</li>
+                                        emergencies.
+                                    </li>
                                     <li class="list-group-item">Normally, in declared disaster areas resources will be provided from federal, state,
                                         and local government agencies.
                                     </li>
@@ -104,6 +105,12 @@
         <!-- /.modal-dialog -->
     </div>
     <!-- modal end -->
+
+    <script>
+        $(".infoPage_cross.close").on("click", function (e) {
+            window.location.href = 'main.html#thirdSection';
+        })
+    </script>
 </body>
 
 </html>
