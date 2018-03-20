@@ -40,12 +40,41 @@ section.indexSection{
     bottom: 26rem;
 }
 
-#character_after{
+
+/* =========== AFTER section =========== */
+#after_character{
     position: absolute; 
     bottom:25%; 
     left: 35%;
     width: 30%; 
+    z-index: 99;
 }
+#after_character img{
+    width: 5rem;
+}
+
+#after_exit{
+    position: absolute; 
+    bottom: 25%; 
+    left:12%
+}
+#after_exit .btn{
+    transform: translate(-20px, -140px);
+}
+
+#after_battery{
+    position: absolute; 
+    bottom: 25%; 
+    top: 10%; 
+    right: 20%
+}
+
+#after_shelf{
+    position: absolute; 
+    bottom: 25%; 
+    right: 12%
+}
+
 
 /* ============= Hazard Level ============= */
 .hazardLevelForm{
@@ -159,14 +188,14 @@ section.indexSection{
 .afterSection{
     background-color: #fddc85;
 }
-.afterSection .visual{
+/* .afterSection .visual{
     height: 75%;
     background-image: url("../images/after_main.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center bottom;
     z-index: -1;
-}
+} */
 .afterSection .visual .btnList{
     position: absolute;
     top: 20%;
@@ -174,11 +203,27 @@ section.indexSection{
 }
 
 .afterSection .text{
+    position: absolute;
+    bottom:0;
+    width:100%;
     height: 25%;
     background-color: #c19871;
 }
 
 
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+/* Large devices (laptops/desktops, 992px) */
+@media only screen and (min-width: 992px) {
+
+} 
 
 @media (max-width: 992px) {
     /* fix offsreen menu toggle lag */
@@ -198,38 +243,20 @@ section.indexSection{
     .menuon #menu li.active a{
         color: white;
     }
+
+    #after_character img{
+        width: 4rem;
+    }
+
+    #after_shelf img,
+    #after_exit img, 
+    #after_battery img{
+        width: 70%;
+    }
 }
 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-} 
-
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-
-} 
-
-@media only screen and (min-width: 992px) {
-
-} 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-} 
-
-
-@media only screen and (max-width: 768px) {
+/* iphone 8 plus */
+@media only screen and (max-width: 736px) {
     .indexSection .container,
     .indexSection .container .row{
         height: 100%;
@@ -240,9 +267,62 @@ section.indexSection{
     #building{
 
     }
+
+    #after_character img{
+        width: 40%;
+    }
+ 
+    #after_shelf {
+        right: -2rem;
+    }
+
+    #after_exit {
+        left: -1rem;
+    }
+
+    #after_exit .btn{
+        transform: translate(-12px,-90px);
+    }
+
+    #after_battery {
+        right:6%;
+        top: 40%;
+    }
+    #after_shelf img,
+    #after_exit img, 
+    #after_battery img{
+        width: 50%;
+    }
+
 } 
 
-@media only screen and (max-width: 575px) {
+
+/* iphone 8 */
+@media only screen and (max-width: 667px) {
+    #after_character{
+        left: 28%;
+    }
+    #after_character img{
+        width: 35%;
+    }
+
+    #after_exit .btn{
+        transform: translate(-12px,-90px);
+    }
+
+    #after_battery {
+        right:6%;
+        top:30%;
+    }
+    #after_shelf img,
+    #after_exit img, 
+    #after_battery img{
+        width: 40%;
+    }
+} 
+
+
+@media only screen and (max-width: 568px) {
     .indexSection .container,
     .indexSection .container .row{
         height: 100%;
@@ -250,7 +330,32 @@ section.indexSection{
     .hazardLevelForm{
         width: fit-content;
     }
-    #building{
+    #after_character{
+        left: 28%;
+    }
+    #after_character img{
+        width: 30%;
+    }
 
+    #after_shelf {
+        right: -6rem;
+    }
+
+    #after_exit {
+        left: -2rem;
+    }
+
+    #after_exit .btn{
+        transform: translate(-12px,-90px);
+    }
+
+    #after_battery {
+        right:0%;
+        top:30%;
+    }
+    #after_shelf img,
+    #after_exit img, 
+    #after_battery img{
+        width: 32%;
     }
 } 

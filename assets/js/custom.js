@@ -22,6 +22,4 @@
         $('#navbarMenu').toggleClass('menuon');
     })
 
-    // $('#building').prepend("<button class='btn btn-primary' style='z-index:999; left:4rem; position: relativ" +
-    //         "e'>+</button>");
 })(jQuery);
