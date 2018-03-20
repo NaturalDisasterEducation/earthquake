@@ -111,15 +111,15 @@
                 </button>
             </div>
             <div class="container">
-	      <div class="row">
-		<div class="col-md-3">
-		    <img class="img-fluid character-before" src="images/character.png">
-		</div>
-		<div class="col-md-9">
-		    <img class="img-fluid elements-before" src="images/before-elements.png">
-		</div>
-	      </div>
-	    </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="img-fluid character-before" src="images/character.png">
+                    </div>
+                    <div class="col-md-9">
+                        <img class="img-fluid elements-before" src="images/before-elements.png">
+                    </div>
+                </div>
+            </div>
             <div class="before-content">
                 CONTENT
             </div>
@@ -132,30 +132,39 @@
         <section class="section during-section">
             <div class="container">
                 <h2>During</h2>
+                <!-- <div class="row"> -->
+                <!-- <div class="col-md-4"> -->
+                <img class="img-fluid" src="images/during-column-1-01.png">
+                <!-- </div>
+                    <div class="col-md-4"> -->
+                <div style="position: absolute; bottom:25%; left:30%;">
+                    <img class="img-fluid character" src="images/character.png">
+                </div>
+                <!-- </div> -->
+                <!-- <div class="col-md-4"> -->
+                <img class="img-fluid" src="images/during-column-2-02.png">
+            </div>
+            <!-- </div> -->
+            <!-- </div> -->
+            <div class="during-content container-fluid">
                 <div class="row">
                     <div class="col-md-4">
-                        <img class="img-fluid" src="images/during-column-1-01.png">
+                        <p>
+                            <strong>Don&#39;t panic.</strong> That is the number 1 cause of injuries during an earthquake. </p>
+                        <p>
+                            <strong>Drop</strong> on knees and hands to avoid falling. </p>
                     </div>
                     <div class="col-md-4">
-                        <img class="img-fluid character" src="images/character.png">
+                        <p>
+                            <strong>Cover.</strong> Find your safe spot and crawl to it. Cover your head and neck. </p>
+                        <p>
+                            <strong>Hold on.</strong>
+                        </p>
                     </div>
                     <div class="col-md-4">
-                        <img class="img-fluid" src="images/during-column-2-02.png">
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="during-content row">
-                    <div class="col-md-4">
-                        <p><strong>Don&#39;t panic.</strong> That is the number 1 cause of injuries during an earthquake. </p>
-                        <p><strong>Drop</strong> on knees and hands to avoid falling. </p>
-                    </div>
-                    <div class="col-md-4">
-                        <p><strong>Cover.</strong> Find your safe spot and crawl to it. Cover your head and neck. </p>
-                        <p><strong>Hold on.</strong> </p>
-                    </div>
-                    <div class="col-md-4">
-                        <p><strong>Don&#39;t</strong> stand in a doorway, run outside, or &#34;triangle of life&#34;. These are considered dangerous and are not recommended.</p>
+                        <p>
+                            <strong>Don&#39;t</strong> stand in a doorway, run outside, or &#34;triangle of life&#34;. These are
+                            considered dangerous and are not recommended.</p>
                     </div>
                 </div>
                 <div class="scroll-icon">
@@ -171,9 +180,12 @@
                     <button class="btn btn-primary" onclick="window.location.href='after1_stay_calm.html'">+</button>
                     <button class="btn btn-primary" onclick="window.location.href='after2_safe_spot.html'">+</button>
                     <button class="btn btn-primary" onclick="window.location.href='after3_assess.html'">+</button>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#After1Modal">
+                        <span class="fui-plus-circle"></span>
+                    </button>
                 </div>
                 <div id="character_after">
-                    <img class="img-fluid character"  src="images/character.png">
+                    <img class="img-fluid character" src="images/character.png">
                 </div>
             </div>
             <div class="text">
@@ -188,6 +200,7 @@
     <div id="before1_modal"></div>
     <div id="before2_modal"></div>
     <div id="before3_modal"></div>
+    <div id="after1_modal"></div>
 
     <!-- js files -->
     <script src="../bower_components/flat-ui/dist/js/vendor/jquery.min.js"></script>
@@ -203,6 +216,7 @@
             $("#before1_modal").load("before1_modal.html");
             $("#before2_modal").load("before2_modal.html");
             $("#before3_modal").load("before3_modal.html");
+            $("#after1_modal").load("after1_modal.html");
         });
     </script>
 
