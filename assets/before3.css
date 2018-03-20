@@ -1,16 +1,15 @@
 #Before3Modal,
 #Before3Modal .modal-content {
-    background-color: #9BD3CB;
+    background-color: #C1644C;
     color:white;
 }
 
 #Before3Modal .emergency_table{
-
+    margin-top: 10%;
 }
 
 #Before3Modal .list{
     font-size:1.2em;
-    margin-top: 12%;
 }
 
 #Before3Modal .list a{
@@ -21,35 +20,27 @@
     color: indianred;
 }
 
-.backpackImg{
-    width:100%;
-    text-align: center;
-}
+.trigger
+        {
+            width:100px;
+            height:100px;
+        }
 
-.backpackImg img{
-    width:80%;
-}
+.image
+        {
 
-.littleImages{
-    text-align: center;
-    width:60%;
-}
-
-.littleImages img{
-    width:50%;
-}
-
-.littleImages .water{
-    width:30%;
-}
-
-.littleImages .flashlight{
-    width:60%;
-}
-
-.littleImages .blanket{
-    width:70%;
-}
+            display:inline-block;
+            width:100px;
+            height:100px;
+            transition:  transform 200ms cubic-bezier(0.45,-0.4, 0.41, 1.46);
+            pointer-events:none;
+        }
+        .trigger:hover .image{
+            transform: scale(1.2)
+        }
+        .trigger:click .image{
+            transform: scale(2)
+        }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
