@@ -1,16 +1,16 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     border: 0;
-}
-body{
+} */
+#After1Modal, #After1Modal .modal-dialog{
 	background-color:rgb(134,191,136);
 	color: white;
 }
-#header{
+#After1Modal #header{
 	font-size: 2em;
 }
-
+/* 
 .image{
     width:100%;
     text-align: center;
@@ -21,8 +21,8 @@ body{
     width: 60%;
 	padding-left: 4em;
 
-}
-.list-group-item{
+} */
+#After1Modal .list-group-item{
 	border: none;
 	padding: 0;
 	background-color:rgb(134,191,136);
