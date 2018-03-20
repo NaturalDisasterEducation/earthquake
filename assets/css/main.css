@@ -136,6 +136,11 @@ section.indexSection{
     background-color: #263E48;
 }
 
+
+.character{
+    width: 20%;
+}
+
 .during-content{
     color: white;
     font-size: 18px;
@@ -146,27 +151,37 @@ section.indexSection{
     bottom: 0px;
 }
 
-.temp-position-1{
+.container .row .elements-pos{
     position: absolute;
-    bottom: 25%;
+    bottom: 0px;
 }
 
-.temp-position-2{
-    position: absolute;
-    bottom: 25%;
-}
-.temp-position-3{
-    position: absolute;
-    bottom: 25%;
+
+.abc {
+    border: 1px solid yellow;
 }
 
-.character{
-    width: 25%;
+.def {
+    border: 1px solid red;
 }
 
-.character-during{
-    width: 25%;
+.ghi {
+    border: 1px solid blue;
 }
+
+.jkl {
+    border: 1px solid green;
+}
+
+.mno {
+    border: 1px solid white;
+}
+
+.pqr {
+    border: 1px solid purple;
+}
+
+
 
 
 /* ============= After Section ============= */
