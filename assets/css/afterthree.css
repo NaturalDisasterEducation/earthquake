@@ -1,9 +1,11 @@
 body{
 	background-color:rgb(234,210,187);
+	color: white;
 }
-.img-fluid{
-	width: 120%;
+#header{
+	font-size: 2em;
 }
+
 .list-group-item {
 	border: none;
 	background-color:rgb(234,210,187);
@@ -14,21 +16,4 @@ body{
    }
 
 
-
-/*============ Media Quire =========*/
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : portrait) { 
-
-
-}
-
-/*.row{
-    display: block;
-}
-[class*="col-"] {
-    float: left;
-    padding: 1rem;
-}*/
 

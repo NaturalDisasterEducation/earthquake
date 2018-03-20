@@ -10,6 +10,7 @@
     font-size: 30px;
     cursor: pointer;
     z-index: 999;
+    color: white;
 }
 
 .infoPage_home{
@@ -20,6 +21,7 @@
     font-size: 25px;
     cursor: pointer;
     z-index: 999;
+    color:white;
 }
 
 /* ====== before3: emergency backpack ====== */
@@ -45,4 +47,23 @@
 
 .earthquake-home{
     width: 35px;
+}
+
+
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+.infoPage_home{
+    width: 20px;
+}
+.infoPage_cross{
+
+}
+}
+
+
+
 }

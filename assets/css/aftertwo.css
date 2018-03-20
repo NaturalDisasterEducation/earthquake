@@ -1,5 +1,9 @@
 body{
 	background-color:rgb(208,187,234);
+    color: white;
+}
+#header{
+    font-size: 2em;
 }
 #bubble1{
     height: 20em;
@@ -32,10 +36,23 @@ body{
 
 .img-fluidcccc{
 	width: 50%;
-	height: 40%;	
+	height: 80%;	
 }
 .earthquake-home{
     width: 30px;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+#header{
+    font-size: 1.3em;
+}
+.col-md-4{
+    text-align: center;
+}
+
 }
 
 
