@@ -13,7 +13,7 @@
     padding-left:5%;
 }
 
-.form-check{
+#Before2Modal .form-check{
     margin-left:-8%;
 }
 
@@ -48,12 +48,7 @@
 
 /* iphone 7 */
 @media only screen and (max-width: 667px) {
-    #Before2Modal .row{
-        height: 100%;
-    }
-    #Before2Modal .card2{
-        margin-right: 3rem;
-    }
+
 }
 
 @media only screen and (max-width: 568px) {
