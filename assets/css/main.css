@@ -136,11 +136,6 @@ section.indexSection{
     background-color: #263E48;
 }
 
-
-.character{
-    width: 20%;
-}
-
 .during-content{
     color: white;
     font-size: 18px;
@@ -151,40 +146,40 @@ section.indexSection{
     bottom: 0px;
 }
 
-.container .row .elements-pos{
+.visual-during{
     position: absolute;
-    bottom: 0px;
+    bottom: 25%;
+    display: flex;
+}
+
+.during-stove{
+    position: relative;
+    /*left: 10%;*/
+   /* float: left;
+    width: 20%;*/
+}
+
+.during-character{
+    position: relative;
+    /*left: 30%;*/
+    /*width: 20%;
+    float: left;*/
+}
+
+.during-character img{
+    width: 20%;
+    vertical-align: bottom;
+}
+
+.during-table-lamp{
+    position: relative;
+    /*right: 10%;*/
+    /*width: 20%;
+    float: left;*/
 }
 
 
-.abc {
-    border: 1px solid yellow;
-}
-
-.def {
-    border: 1px solid red;
-}
-
-.ghi {
-    border: 1px solid blue;
-}
-
-.jkl {
-    border: 1px solid green;
-}
-
-.mno {
-    border: 1px solid white;
-}
-
-.pqr {
-    border: 1px solid purple;
-}
-
-
-
-
-/* ============= After Section ============= */
+    /* ============= After Section ============= */
 .afterSection{
     background-color: #fddc85;
 }
@@ -209,8 +204,6 @@ section.indexSection{
     height: 25%;
     background-color: #c19871;
 }
-
-
 
 
 
