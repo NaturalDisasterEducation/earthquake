@@ -138,61 +138,60 @@ section.indexSection{
 
 .during-content{
     color: white;
-    font-size: 18px;
-    text-align: left;
+    font-size: 16px;
+    text-align: center;
     font-weight: 100;
-    padding: 10px;
     position: absolute;
     bottom: 0px;
 }
 
-.during-stove{
-    position: absolute;
-    bottom: 25%;
-    right: 55rem;
-
+.during-content h5{
+    font-size: 22px;
 }
 
-.during-character{
-    position: absolute;
-    bottom: 25%;
-    right: 45rem;
+.during-content-div{
+    margin: auto;
+    padding: 10px;
 }
 
-.during-table{
+.during-stove {
     position: absolute;
     bottom: 25%;
-    right: 25rem;
 }
 
-.during-lamp{
+.during-character {
+    position: absolute;
+    bottom: 25%;
+}
+
+.during-table {
+    position: absolute;
+    bottom: 25%;
+}
+
+.during-lamp {
     position: absolute;
     top: 0;
-    right: 29rem;
 }
 
-.during-captus{
+.during-captus {
     position: absolute;
     bottom: 43%;
-    right: 31rem;
 }
 
-.during-shelf-1{
+.during-shelf-1 {
     position: absolute;
     bottom: 65%;
-    right: 66rem;
 }
 
-.during-shelf-2{
+.during-shelf-2 {
     position: absolute;
     bottom: 65%;
-    right: 56rem;
 }
 
-.during-cutlery{
+.during-cutlery {
     position: absolute;
     bottom: 54.5%;
-    right: 67rem;
 }
 
 .during-stove img,
@@ -206,15 +205,290 @@ section.indexSection{
 .during-shelf-2 img,
 .during-captus img
 {
-    15%
+    width: 90%;
 }
 
 .during-character img{
     width: 5rem;
 }
 
+/*Large screens*/
+@media only screen and (min-width: 1201px) {
+    .during-stove{
+        right: 55rem;
+    }
 
-    /* ============= After Section ============= */
+    .during-character{
+        right: 45rem;
+    }
+
+    .during-table{
+        right: 25rem;
+    }
+
+    .during-lamp{
+        right: 29rem;
+    }
+
+    .during-captus{
+        right: 31rem;
+    }
+
+    .during-shelf-1{
+        right: 66rem;
+    }
+
+    .during-shelf-2{
+        right: 56rem;
+    }
+
+    .during-cutlery{
+        right: 67rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    /*medium devices*/
+    .during-stove{
+        right: 45rem;
+    }
+
+    .during-character{
+        right: 35rem;
+    }
+
+    .during-table{
+        right: 15rem;
+    }
+
+    .during-lamp{
+        right: 19rem;
+    }
+
+    .during-captus{
+        right: 21rem;
+    }
+
+    .during-shelf-1{
+        right: 57rem;
+    }
+
+    .during-shelf-2{
+        right: 47rem;
+    }
+
+    .during-cutlery{
+        right: 58rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    /*Small devices*/
+    .during-stove{
+        right: 35rem;
+    }
+
+    .during-character{
+        right: 26rem;
+    }
+
+    .during-table{
+        right: 8rem;
+    }
+
+    .during-lamp{
+        right: 12rem;
+    }
+
+    .during-captus{
+        right: 14rem;
+    }
+
+    .during-shelf-1{
+        right: 46rem;
+    }
+
+    .during-shelf-2{
+        right: 37rem;
+    }
+
+    .during-cutlery{
+        right: 47rem;
+    }
+}
+
+/* extra Small devices*/
+@media only screen and (max-width: 768px) {
+    .during-stove{
+        right: 25rem;
+
+    }
+
+    .during-character{
+        right: 19rem;
+    }
+
+    .during-table{
+        right: 3rem;
+    }
+
+    .during-lamp{
+        right: 8rem;
+    }
+
+    .during-captus{
+        right: 9rem;
+    }
+
+    .during-shelf-1{
+        right: 36rem;
+    }
+
+    .during-shelf-2{
+        right: 26rem;
+    }
+
+    .during-cutlery{
+        right: 37rem;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .during-stove{
+        right: 17rem;
+
+    }
+
+    .during-character{
+        right: 14rem;
+    }
+
+    .during-table{
+        right: 0rem;
+    }
+
+    .during-lamp{
+        position: absolute;
+        top: 35%;
+        right: 4.5rem;
+    }
+
+    .during-captus{
+        position: absolute;
+        bottom: 36%;
+        right: 6rem;
+    }
+
+    .during-shelf-1{
+        position: absolute;
+        bottom: 47%;
+        right: 18.5rem;
+    }
+
+    .during-shelf-2{
+        position: absolute;
+        bottom: 47%;
+        right: 23.5rem;
+    }
+
+    .during-cutlery{
+        position: absolute;
+        bottom: 41%;
+        right: 24.5rem;
+    }
+
+    .during-stove img,
+    .during-table img,
+    .during-lamp img
+    {
+        width: 45%;
+    }
+
+    .during-shelf-1 img,
+    .during-shelf-2 img,
+    .during-captus img,
+    .during-cutlery img
+    {
+        width: 55%;
+    }
+
+    .during-character img{
+        width: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .during-stove{
+        right: 20rem;
+
+    }
+
+    .during-character{
+        right: 21rem;
+    }
+
+    .during-table{
+        right: -2rem;
+    }
+
+    .during-lamp{
+        position: absolute;
+        top: 42%;
+        right: 6.5rem;
+    }
+
+    .during-captus{
+        position: absolute;
+        bottom: 33.5%;
+        right: 9.5rem;
+    }
+
+    .during-shelf-1{
+        position: absolute;
+        bottom: 39%;
+        right: 30.5rem;
+    }
+
+    .during-shelf-2{
+        position: absolute;
+        bottom: 39.5%;
+        right: 24rem;
+    }
+
+    .during-cutlery{
+        position: absolute;
+        bottom: 35.5%;
+        right: 32.3rem;
+    }
+
+    .during-stove img,
+    .during-table img,
+    .during-lamp img
+    {
+        width: 35%;
+    }
+
+    .during-shelf-1 img,
+    .during-shelf-2 img,
+    .during-captus img,
+    .during-cutlery img
+    {
+        width: 35%;
+    }
+
+    .during-character img{
+        width: 3.5rem;
+    }
+
+}
+
+
+
+
+
+
+/* ============= After Section ============= */
 .afterSection{
     background-color: #fddc85;
 }
