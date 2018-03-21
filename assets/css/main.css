@@ -38,6 +38,7 @@ section.indexSection{
     max-width: 4%;
     right: 15.5rem;
     bottom: 26rem;
+    z-index:9999; 
 }
 
 
@@ -206,7 +207,7 @@ section.indexSection{
 .during-shelf-2 img,
 .during-captus img
 {
-    15%
+    width: 15%
 }
 
 .during-character img{

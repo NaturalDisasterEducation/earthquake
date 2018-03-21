@@ -76,13 +76,11 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <!-- <div id="building">
-                            <img class="img-fluid" src="images/building.png">
-                        </div> -->
                     </div>
                 </div>
             </div>
-            <div id="character-index">
+            <div id="character-index"
+            data-5="bottom: 26rem" data-100="bottom:0">
                 <img class="img-fluid" src="images/character.png">
             </div>
             <div id="building">
@@ -96,7 +94,7 @@
         <!-- Before -->
         <section class="section before-section">
             <div class="col">
-                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Before1Modal">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Before1Modal">
                     <span class="fui-plus-circle"></span>
                 </button>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Before2Modal">
@@ -127,7 +125,8 @@
         <!-- During -->
         <section class="section during-section">
             <div class="visual-during">
-                <div class="during-right-column"> <!-- right column -->
+                <div class="during-right-column">
+                    <!-- right column -->
                     <div class="during-cutlery">
                         <img class="img-fluid " src="images/cutlery.png">
                     </div>
@@ -144,7 +143,8 @@
                 <div class="during-character">
                     <img class="img-fluid" src="images/character.png">
                 </div>
-                <div class="during-left-column"> <!-- left column -->
+                <div class="during-left-column">
+                    <!-- left column -->
                     <div class="during-lamp">
                         <img class="img-fluid " src="images/lamp_long.png">
                     </div>
@@ -231,6 +231,7 @@
     <script src="../bower_components/flat-ui/dist/js/flat-ui.min.js"></script>
     <script src="../bower_components/flat-ui/docs/assets/js/application.js"></script>
     <script src="../node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
     <script src="js/fullpage.js"></script>
     <script src="js/custom.js"></script>
     <script>
@@ -240,6 +241,14 @@
             $("#before3_modal").load("before3_modal.html");
             $("#after1_modal").load("after1_modal.html");
         });
+        skrollr.init({
+        forceHeight: true,
+        mobileCheck: function () {
+            if ((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+                // mobile device
+            }
+        }
+    });
     </script>
 
 </body>
