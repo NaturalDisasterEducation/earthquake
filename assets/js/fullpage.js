@@ -20,11 +20,11 @@ $('#fullpage').fullpage({
   // navigationTooltips: [   `<span// class="fui-home"></span>`, 'Before', 'During', 'After' ], 
   // showActiveTooltip:// true,
   slidesNavigation: true,
-  // scrollOverflow: true,
+  scrollOverflow: true,
   // scrollOverflowReset:true,
   // controlArrows: false,
   scrollBar: true,
-  scrollingSpeed: 800,
+  scrollingSpeed: 1000,
   // css3: false,
   anchors: [
     'firstSection', 'secondSection', 'thirdSection', 'fourthSection'

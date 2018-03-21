@@ -79,9 +79,16 @@
                     </div>
                 </div>
             </div>
-            <div id="character-index"
-            data-5="bottom: 26rem" data-100="bottom:0">
+            <div id="character-index" data-0="bottom: 26rem" data-200="bottom:0">
                 <img class="img-fluid" src="images/character.png">
+            </div>
+            <div style="position: absolute; top:45%; width: 40%; opacity: 0.6" 
+                data-0="right: 10%" data-200="right: 5%;">
+                <img class="img-fluid" src="images/cloud1.png">
+            </div>
+            <div style="position: absolute; top:20%; width: 30%; opacity: 0.6" 
+                data-0="left: 20%" data-200="left: 6%;">
+                <img class="img-fluid" src="images/cloud2.png">
             </div>
             <div id="building">
                 <img class="img-fluid" src="images/building.png">
@@ -161,7 +168,8 @@
                 <div class="row">
                     <div class="during-content-div">
                         <h5>In case of an earthquake</h5>
-                        <p> <mark>Don&#39;t panic.</mark> That is the number 1 cause of injuries during an earthquake. </p>
+                        <p>
+                            <mark>Don&#39;t panic.</mark> That is the number 1 cause of injuries during an earthquake. </p>
                         <!-- to transition with animation
                         <p> <mark>Drop</mark> on knees and hands to avoid falling. </p>
                         <p> <mark>Cover.</mark> Find your safe spot and crawl to it. Cover your head and neck. </p>
@@ -222,6 +230,7 @@
     <script src="../bower_components/flat-ui/dist/js/vendor/video.js"></script>
     <script src="../bower_components/flat-ui/dist/js/flat-ui.min.js"></script>
     <script src="../bower_components/flat-ui/docs/assets/js/application.js"></script>
+    <script src="../node_modules/fullpage.js/fullpage.js/vendors/scrolloverflow.js"></script>
     <script src="../node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
     <script src="js/fullpage.js"></script>
@@ -234,13 +243,13 @@
             $("#after1_modal").load("after1_modal.html");
         });
         skrollr.init({
-        forceHeight: true,
-        mobileCheck: function () {
-            if ((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
-                // mobile device
+            forceHeight: true,
+            mobileCheck: function () {
+                if ((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+                    // mobile device
+                }
             }
-        }
-    });
+        });
     </script>
 
 </body>

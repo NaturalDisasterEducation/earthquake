@@ -79,8 +79,10 @@ section.indexSection{
 
 /* ============= Hazard Level ============= */
 .hazardLevelForm{
-    margin-top: -8rem;
+    margin-top: -10rem;
     text-align: left;
+    position: absolute;
+    z-index: 999;
 }
 
 .hazardLevelForm .double-input .form-control {
