@@ -146,36 +146,71 @@ section.indexSection{
     bottom: 0px;
 }
 
-.visual-during{
+.during-stove{
     position: absolute;
     bottom: 25%;
-    display: flex;
-}
+    right: 55rem;
 
-.during-stove{
-    position: relative;
-    /*left: 10%;*/
-   /* float: left;
-    width: 20%;*/
 }
 
 .during-character{
-    position: relative;
-    /*left: 30%;*/
-    /*width: 20%;
-    float: left;*/
+    position: absolute;
+    bottom: 25%;
+    right: 45rem;
+}
+
+.during-table{
+    position: absolute;
+    bottom: 25%;
+    right: 25rem;
+}
+
+.during-lamp{
+    position: absolute;
+    top: 0;
+    right: 29rem;
+}
+
+.during-captus{
+    position: absolute;
+    bottom: 43%;
+    right: 31rem;
+}
+
+.during-shelf-1{
+    position: absolute;
+    bottom: 65%;
+    right: 66rem;
+}
+
+.during-shelf-2{
+    position: absolute;
+    bottom: 65%;
+    right: 56rem;
+}
+
+.during-cutlery{
+    position: absolute;
+    bottom: 54.5%;
+    right: 67rem;
+}
+
+.during-stove img,
+.during-table img,
+.during-lamp img
+{
+    width: 75%;
+}
+
+.during-shelf-1 img,
+.during-shelf-2 img,
+.during-captus img
+{
+    15%
 }
 
 .during-character img{
-    width: 20%;
-    vertical-align: bottom;
-}
-
-.during-table-lamp{
-    position: relative;
-    /*right: 10%;*/
-    /*width: 20%;
-    float: left;*/
+    width: 5rem;
 }
 
 
