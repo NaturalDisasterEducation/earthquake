@@ -21,6 +21,7 @@ $('#fullpage').fullpage({
   // showActiveTooltip:// true,
   slidesNavigation: true,
   scrollOverflow: true,
+  autoScrolling:true,
   // scrollOverflowReset:true,
   // controlArrows: false,
   scrollBar: true,
