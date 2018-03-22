@@ -8,6 +8,7 @@
 
     <!-- Loading Bootstrap -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-modal-carousel.css">
 
     <!-- Loading Flat UI -->
     <link href="../bower_components/flat-ui/dist/css/flat-ui.css" rel="stylesheet">
@@ -21,7 +22,15 @@
 
     <!-- Custom css -->
     <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap-modal-carousel.css">
+    <link href="css/infopage.css" rel="stylesheet">
+    <link href="css/before1.css" rel="stylesheet">
+    <link href="css/before2.css" rel="stylesheet">
+    <link href="css/before3.css" rel="stylesheet">
+    <link href="css/afterone.css" rel="stylesheet">
+    <link href="css/aftertwo.css" rel="stylesheet">
+    <link href="css/afterthree.css" rel="stylesheet">
+
+
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -225,6 +234,8 @@
     <div id="before2_modal"></div>
     <div id="before3_modal"></div>
     <div id="after1_modal"></div>
+    <div id="after2_modal"></div>
+    <div id="after3_modal"></div>
 
     <!-- js files -->
     <script src="../bower_components/flat-ui/dist/js/vendor/jquery.min.js"></script>
@@ -243,6 +254,8 @@
             $("#before2_modal").load("before2_modal.html");
             $("#before3_modal").load("before3_modal.html");
             $("#after1_modal").load("after1_modal.html");
+            $("#after2_modal").load("after2_modal.html");
+            $("#after3_modal").load("after3_modal.html");
         });
         skrollr.init({
             forceHeight: true,

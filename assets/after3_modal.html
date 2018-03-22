@@ -1,0 +1,73 @@
+<!-- info page modal start -->
+<div class="modal fade modal-fullscreen" id="After3Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="infoPage_cross close" data-dismiss="modal" aria-hidden="true">
+                    <span class="fui-cross-circle"></span>
+                </button>
+                <button class="infoPage_home" onclick="window.location.href='main.html'">
+                    <img src="images/earthquake-2.svg" class="earthquake-home">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="images/electricbox.png">
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <strong>Gas Leaks.</strong> Shut off the main gas valve only if you suspect a leak because of
+                                    broken pipes, the odor or sound of leaking natural gas, or you see the meter spinning
+                                    quickly.
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Damaged Electrical Wiring.</strong> Shut off power at the main breaker switch if there
+                                    is any damage to your house wiring. Leave the power off until the damage is repaired.
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Broken Lights and Appliances.</strong> Unplug these as they could start fires when electricity
+                                    is restored.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="list-group">
+
+                                <li class="list-group-item">
+                                    <strong>Downed Power Lines.</strong> Never touch downed power lines or any objects in contact
+                                    with them.</li>
+                                <li class="list-group-item">
+                                    <strong>Fallen Items.</strong> Beware of items tumbling off shelves when you open the doors of
+                                    closets and cupboards.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <strong>Spills.</strong> Use extreme caution. Clean up any spilled medicines, drugs, or other
+                                    non-toxic substances.</li>
+                                <li class="list-group-item">
+                                    <strong>Damaged Masonry.</strong> Stay away from chimneys and walls made of brick or block.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- modal end -->
+
+    <script>
+        $("#After3Modal .infoPage_cross.close").on("click", function (e) {
+            window.location.href = 'main.html#fourthSection';
+        })
+    </script>

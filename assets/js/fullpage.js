@@ -22,7 +22,7 @@ $('#fullpage').fullpage({
   slidesNavigation: true,
   scrollOverflow: true,
   autoScrolling:true,
-  // scrollOverflowReset:true,
+  scrollOverflowReset:true,
   // controlArrows: false,
   scrollBar: true,
   scrollingSpeed: 1000,

@@ -1,7 +1,9 @@
-body{
+#After3Modal, 
+#After3Modal .modal-content{
 	background-color:rgb(234,210,187);
 	color: white;
 }
+
 #header{
 	font-size: 2em;
 }

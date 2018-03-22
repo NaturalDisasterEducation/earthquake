@@ -1,4 +1,5 @@
-body{
+#After2Modal, 
+#After2Modal .modal-content{
 	background-color:rgb(208,187,234);
     color: white;
 }

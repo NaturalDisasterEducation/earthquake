@@ -1,129 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>Plan Ahead</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Loading Bootstrap -->
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Loading Flat UI -->
-    <link href="../bower_components/flat-ui/dist/css/flat-ui.css" rel="stylesheet">
-    <link href="../bower_components/flat-ui/docs/assets/css/demo.css" rel="stylesheet">
-    <link rel="shortcut icon" href="">
-
-    <!-- Custom css -->
-    <link href="css/infoPage.css" rel="stylesheet">
-    <link href="css/before2.css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-    <script src="dist/js/vendor/html5shiv.js"></script>
-    <script src="dist/js/vendor/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-    <!-- info page modal start -->
-    <div class="modal fade modal-fullscreen" id="Before2Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button class="infoPage_cross close" data-dismiss="modal" aria-hidden="true">
-                        <span class="fui-cross-circle"></span>
-                    </button>
-                    <button class="infoPage_home" onclick="window.location.href='main.html'">
-                        <img src="images/earthquake-2.svg" class="earthquake-home">
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="header">
-                            <h3>Plan ahead</h3>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-5 offset-md-1">
-                                <div class="card1">
-                                        <h5>Create disaster plan</h5>
-                                            <div class="form-check">
-                                                <label class="checkbox" for="checkbox1">
-                                                    <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox"> Create an evacuation and reunion plan
-                                                </label>
-                                            </div>
-                                            <div class="form-check">
-                                                <label class="checkbox" for="checkbox2">
-                                                    <input type="checkbox" value="" id="checkbox2" data-toggle="checkbox"> Determine emergency contact out of state
-                                                </label>
-                                            </div>
-                                            <div class="form-check">
-                                                <label class="checkbox" for="checkbox3">
-                                                    <input type="checkbox" value="" id="checkbox3" data-toggle="checkbox"> Agree on location of emergency supplies
-                                                </label>
-                                            </div>
-                                            <div class="form-check">
-                                                <label class="checkbox" for="checkbox4">
-                                                    <input type="checkbox" value="" id="checkbox4" data-toggle="checkbox"> Identify safe spots in every room (under sturdy desks and tables)
-                                                </label>
-                                            </div>
-                                            <div class="form-check">
-                                                <label class="checkbox" for="checkbox5">
-                                                    <input type="checkbox" value="" id="checkbox5" data-toggle="checkbox"> Get a fire extinguisher, and install smoke alarms (test them monthly).
-                                                </label>
-                                            </div>
-                                            <div class="form-check">
-                                                <label class="checkbox" for="checkbox6">
-                                                    <input type="checkbox" value="" id="checkbox6" data-toggle="checkbox"> Keep shoes and a working flashlight next to each bed
-                                                </label>
-                                            </div>
-                                            <div class="form-check">
-                                                <label class="checkbox" for="checkbox7">
-                                                    <input type="checkbox" value="" id="checkbox7" data-toggle="checkbox"> Have emergency whistles
-                                                </label>
-                                            </div>
-                                            <div class="form-check">
-                                                <label class="checkbox" for="checkbox8">
-                                                    <input type="checkbox" value="" id="checkbox8" data-toggle="checkbox"> Know the location of utility shutoffs (gas, water, and electricity)
-                                                </label>
-                                            </div>
+<!-- info page modal start -->
+<div class="modal fade modal-fullscreen" id="Before2Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="infoPage_cross close" data-dismiss="modal" aria-hidden="true">
+                    <span class="fui-cross-circle"></span>
+                </button>
+                <button class="infoPage_home" onclick="window.location.href='main.html'">
+                    <img src="images/earthquake-2.svg" class="earthquake-home">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="header">
+                        <h3>Plan ahead</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 offset-md-1">
+                            <div class="card1">
+                                <h5>Create disaster plan</h5>
+                                <div class="form-check">
+                                    <label class="checkbox" for="checkbox1">
+                                        <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox"> Create an evacuation and reunion plan
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="checkbox" for="checkbox2">
+                                        <input type="checkbox" value="" id="checkbox2" data-toggle="checkbox"> Determine emergency contact out of state
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="checkbox" for="checkbox3">
+                                        <input type="checkbox" value="" id="checkbox3" data-toggle="checkbox"> Agree on location of emergency supplies
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="checkbox" for="checkbox4">
+                                        <input type="checkbox" value="" id="checkbox4" data-toggle="checkbox"> Identify safe spots in every room (under sturdy desks and tables)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="checkbox" for="checkbox5">
+                                        <input type="checkbox" value="" id="checkbox5" data-toggle="checkbox"> Get a fire extinguisher, and install smoke alarms (test them monthly).
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="checkbox" for="checkbox6">
+                                        <input type="checkbox" value="" id="checkbox6" data-toggle="checkbox"> Keep shoes and a working flashlight next to each bed
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="checkbox" for="checkbox7">
+                                        <input type="checkbox" value="" id="checkbox7" data-toggle="checkbox"> Have emergency whistles
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="checkbox" for="checkbox8">
+                                        <input type="checkbox" value="" id="checkbox8" data-toggle="checkbox"> Know the location of utility shutoffs (gas, water, and electricity)
+                                    </label>
                                 </div>
                             </div>
-                            <div class="offset-md-1 col-md-4">
-                                <div class="card2">
-                                        <h5>Practice</h5>
-                                            <div class="form-check">
-                                                <label class="checkbox" for="checkbox9">
-                                                    <input type="checkbox" value="" id="checkbox9" data-toggle="checkbox"> <strong>Drop</strong> on knees and hands (to avoid falling)
-                                                </label>
-                                            </div>
-                                            <div class="form-check">
-                                                <label class="checkbox" for="checkbox10">
-                                                    <input type="checkbox" value="" id="checkbox10" data-toggle="checkbox"> <strong>Cover</strong> your head and neck.
-                                                </label>
-                                            </div>
-                                            <div class="form-check">
-                                                <label class="checkbox" for="checkbox11">
-                                                    <input type="checkbox" value="" id="checkbox11" data-toggle="checkbox"><strong> Hold on</strong>
-                                                </label>
-                                            </div>
+                        </div>
+                        <div class="offset-md-1 col-md-4">
+                            <div class="card2">
+                                <h5>Practice</h5>
+                                <div class="form-check">
+                                    <label class="checkbox" for="checkbox9">
+                                        <input type="checkbox" value="" id="checkbox9" data-toggle="checkbox">
+                                        <strong>Drop</strong> on knees and hands (to avoid falling)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="checkbox" for="checkbox10">
+                                        <input type="checkbox" value="" id="checkbox10" data-toggle="checkbox">
+                                        <strong>Cover</strong> your head and neck.
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="checkbox" for="checkbox11">
+                                        <input type="checkbox" value="" id="checkbox11" data-toggle="checkbox">
+                                        <strong> Hold on</strong>
+                                    </label>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- /.modal-content -->
         </div>
-        <!-- /.modal-dialog -->
+        <!-- /.modal-content -->
     </div>
-    <!-- modal end -->
-    <script>
-        $(".infoPage_cross.close").on("click", function(e){
-            window.location.href='main.html#secondSection';
-        })
-    </script>
-</body>
-
-</html>
+    <!-- /.modal-dialog -->
+</div>
+<!-- modal end -->
+<script>
+    $("#Before2Modal .infoPage_cross.close").on("click", function (e) {
+        window.location.href = 'main.html#secondSection';
+    })
+</script>
