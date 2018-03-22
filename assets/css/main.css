@@ -38,11 +38,17 @@ section.indexSection{
     max-width: 4%;
     right: 15.5rem;
     bottom: 26rem;
+    z-index:9999; 
 }
 
 .temblor-btn{
     font-size: 14px;
     border-radius: 2px;
+}
+
+.temblor-btn img{
+    width: 12px;
+    margin: 5px;
 }
 
 .earthquake-home-content{
@@ -85,8 +91,10 @@ section.indexSection{
 
 /* ============= Hazard Level ============= */
 .hazardLevelForm{
-    margin-top: -8rem;
+    margin-top: -10rem;
     text-align: left;
+    position: absolute;
+    z-index: 999;
 }
 
 .hazardLevelForm .double-input .form-control {

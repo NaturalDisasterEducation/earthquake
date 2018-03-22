@@ -69,7 +69,7 @@
                                 fast. There are certain actions you can take <mark>before</mark>, <mark>during</mark>, and <mark>after</mark> an earthquake.
                                 Scroll to find out more. </p>
                             <button type="button" class="btn-outline-secondary temblor-btn">
-                                <span class="glyphicon glyphicon-new-window"></span> Find hazard levels
+                                <img src="images/external-link.svg"> Find hazard levels
                             </button>
                         </div>
 
@@ -86,14 +86,19 @@
                         </div>-->
                     </div>
                     <div class="col-md-6">
-                        <!-- <div id="building">
-                            <img class="img-fluid" src="images/building.png">
-                        </div> -->
                     </div>
                 </div>
             </div>
-            <div id="character-index">
+            <div id="character-index" data-0="bottom: 26rem" data-200="bottom:0">
                 <img class="img-fluid" src="images/character.png">
+            </div>
+            <div style="position: absolute; top:45%; width: 40%; opacity: 0.6" 
+                data-0="right: 10%" data-200="right: 5%;">
+                <img class="img-fluid" src="images/cloud1.png">
+            </div>
+            <div style="position: absolute; top:20%; width: 30%; opacity: 0.6" 
+                data-0="left: 20%" data-200="left: 6%;">
+                <img class="img-fluid" src="images/cloud2.png">
             </div>
             <div id="building">
                 <img class="img-fluid" src="images/building.png">
@@ -143,7 +148,8 @@
         <!-- During -->
         <section class="section during-section">
             <div class="visual-during">
-                <div class="during-right-column"> <!-- right column -->
+                <div class="during-right-column">
+                    <!-- right column -->
                     <div class="during-cutlery">
                         <img class="img-fluid " src="images/cutlery.png">
                     </div>
@@ -160,7 +166,8 @@
                 <div class="during-character">
                     <img class="img-fluid" src="images/character.png">
                 </div>
-                <div class="during-left-column"> <!-- left column -->
+                <div class="during-left-column">
+                    <!-- left column -->
                     <div class="during-lamp">
                         <img class="img-fluid " src="images/lamp_long.png">
                     </div>
@@ -244,7 +251,9 @@
     <script src="../bower_components/flat-ui/dist/js/vendor/video.js"></script>
     <script src="../bower_components/flat-ui/dist/js/flat-ui.min.js"></script>
     <script src="../bower_components/flat-ui/docs/assets/js/application.js"></script>
+    <script src="../node_modules/fullpage.js/fullpage.js/vendors/scrolloverflow.js"></script>
     <script src="../node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
     <script src="js/fullpage.js"></script>
     <script src="js/custom.js"></script>
     <script>
@@ -253,6 +262,14 @@
             $("#before2_modal").load("before2_modal.html");
             $("#before3_modal").load("before3_modal.html");
             $("#after1_modal").load("after1_modal.html");
+        });
+        skrollr.init({
+            forceHeight: true,
+            mobileCheck: function () {
+                if ((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+                    // mobile device
+                }
+            }
         });
     </script>
 
