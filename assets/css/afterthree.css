@@ -4,16 +4,16 @@
 	color: white;
 }
 
-#header{
+#After3Modal #header{
 	font-size: 2em;
 }
 
-.list-group-item {
+#After3Modal .list-group-item {
 	border: none;
 	background-color:rgb(234,210,187);
     font-size: 1.2em;
 }
-.earthquake-home{
+#After3Modal .earthquake-home{
 	width: 35px;
    }
 

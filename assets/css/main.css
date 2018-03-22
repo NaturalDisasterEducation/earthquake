@@ -1,3 +1,11 @@
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
+
+body.modal-open #character-index{
+    z-index: -1;
+}
 
 /* navbar */
 .navbar.navbar-expand-lg{

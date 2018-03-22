@@ -1,28 +1,16 @@
-// // variables
-// var $header_top = $('.header-top');
-// var $nav = $('nav');
-
-// // toggle menu
-// $header_top
-//   .find('a')
-//   .on('click', function () {
-//     $(this)
-//       .parent()
-//       .toggleClass('open-menu');
-//   });
-
-// fullpage customization
+// // variables var $header_top = $('.header-top'); var $nav = $('nav'); //
+// toggle menu $header_top   .find('a')   .on('click', function () {     $(this)
+//       .parent()       .toggleClass('open-menu');   }); fullpage customization
 $('#fullpage').fullpage({
   // sectionsColor: [   '#ffffff', '#f1f1f1', '#ffffff', '#f1f1f1', '#ffffff' ],
-  // sectionSelector: '.vertical-scrolling', 
-  // slideSelector: '.horizontal-scrolling',
-  // navigation: true, 
-  // navigationTooltips: [   `<span// class="fui-home"></span>`, 'Before', 'During', 'After' ], 
+  // sectionSelector: '.vertical-scrolling', slideSelector:
+  // '.horizontal-scrolling', navigation: true, navigationTooltips: [   `<span//
+  // class="fui-home"></span>`, 'Before', 'During', 'After' ],
   // showActiveTooltip:// true,
   slidesNavigation: true,
   scrollOverflow: true,
-  autoScrolling:true,
-  scrollOverflowReset:true,
+  autoScrolling: true,
+  scrollOverflowReset: true,
   // controlArrows: false,
   scrollBar: true,
   scrollingSpeed: 1000,
@@ -38,15 +26,12 @@ $('#fullpage').fullpage({
   recordHistory: true,
 
   afterLoad: function (anchorLink, index) {
-    // $header_top.css('background', 'rgba(0, 47, 77, .3)');
-    // $nav.css('background', 'rgba(0, 47, 77, .25)');
-    // if (index == 1) {     $('#fp-nav').hide();   }
+    // $header_top.css('background', 'rgba(0, 47, 77, .3)'); $nav.css('background',
+    // 'rgba(0, 47, 77, .25)'); if (index == 1) {     $('#fp-nav').hide();   }
   },
 
   onLeave: function (index, nextIndex, direction) {
-    // if (index != 0) {
-    //   $('#fp-nav').show();
-    // }
+    // if (index != 0) {   $('#fp-nav').show(); }
   },
 
   afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
@@ -55,7 +40,7 @@ $('#fullpage').fullpage({
     // 'transparent');   $nav.css('background', 'transparent');
     // $(this).css('background', '#374140');   $(this).find('h2').css('color',
     // 'white');   $(this).find('h3').css('color', 'white'); $(this).find('p').css(
-    //    {       'color': '#DC3522',       'opacity': 1,    'transform':
+    //   {       'color': '#DC3522',       'opacity': 1,    'transform':
     // 'translateY(0)'     }   ); }
   },
 
