@@ -49,6 +49,18 @@ section.indexSection{
     z-index:9999; 
 }
 
+.temblor-btn{
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.temblor-btn img{
+    width: 12px;
+    margin: 5px;
+}
+
+.earthquake-home-content{
+}
 
 /* =========== AFTER section =========== */
 #after_character{
@@ -120,27 +132,82 @@ section.indexSection{
     position: absolute;
     bottom: 0px;
     width: 100%;
+    font-size: 16px;
+    text-align: center;
 }
 
-.character-before{
-    width: 35%;
+.before-character img {
+    width: 4rem;
 }
 
-.container .height{
-    height: 65%;
+.before-backpack img{
+    width: 4.5rem;
 }
 
-.elements-before{
-    height: 60%;
+.before-shelf img{
+    width: 50%;
 }
 
+.before-lamp img,
+.before-board img
+{
+    width: 70%;
+}
+
+.before-character,
+.before-shelf,
+.before-backpack,
+.before-board
+{
+    position: absolute;
+    bottom: 25%;
+}
+
+.before-lamp{
+    position: absolute;
+    top: 0px;
+    right: 43rem;
+}
+
+.before-board{
+    right: 20rem;
+    bottom: 45%;
+}
+
+.before-shelf{
+    left: 18rem;
+}
+
+.before-backpack{
+    left: 40rem;
+}
+
+.before-character{
+    left: 18rem;
+}
+
+.visual-before .btn{
+    border-radius: 100%;
+}
+
+.before-shelf .btn{
+    transform: translate(-30px,-185px);
+}
+
+.before-board .btn{
+    transform: translate(-30px,-60px);
+}
 
 /* ============= During Section ============= */
+
+.during-section .scroll-icon a{
+    color: white;
+    font-weight: 100;
+}
 
 .during-section{
     background-color: #9BD3CB;
 }
-
 
 .during-section .during-content{
     height: 25%;
@@ -156,26 +223,25 @@ section.indexSection{
     bottom: 0px;
 }
 
-.during-content h5{
+.during-content h5,
+.before-content h5,
+.afterSection .text h5
+{
     font-size: 22px;
 }
 
-.during-content-div{
+.during-content-div,
+.visual-before,
+.visual
+{
     margin: auto;
     padding: 10px;
 }
 
-.during-stove {
-    position: absolute;
-    bottom: 25%;
-}
-
-.during-character {
-    position: absolute;
-    bottom: 25%;
-}
-
-.during-table {
+.during-stove,
+.during-character,
+.during-table
+{
     position: absolute;
     bottom: 25%;
 }
@@ -497,12 +563,33 @@ section.indexSection{
 
 
 
-
-
 /* ============= After Section ============= */
 .afterSection{
     background-color: #fddc85;
 }
+
+.afterSection .text h5{
+    color: #2A3947;
+}
+
+.after-text-list-1,
+.after-text-list-2
+{
+    position: absolute;
+    width: 40%;
+    text-align: left;
+    color: #2A3947;
+
+}
+
+.after-text-list-1{
+    left: 8%;
+}
+
+.after-text-list-2{
+    right: 8%;
+}
+
 /* .afterSection .visual{
     height: 75%;
     background-image: url("../images/after_main.png");
@@ -511,11 +598,12 @@ section.indexSection{
     background-position: center bottom;
     z-index: -1;
 } */
+/*
 .afterSection .visual .btnList{
     position: absolute;
     top: 20%;
     left: 42%;
-}
+}*/
 
 .afterSection .text{
     position: absolute;
