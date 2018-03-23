@@ -63,6 +63,12 @@ section.indexSection{
 }
 
 /* =========== AFTER section =========== */
+.afterSection .btn{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    text-align: center;
+}
 #after_character{
     position: absolute; 
     bottom:25%; 
