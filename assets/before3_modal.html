@@ -174,5 +174,7 @@
 <script>
     $("#Before3Modal .infoPage_cross.close").on("click", function (e) {
         window.location.href = 'main.html#secondSection';
+        $.fn.fullpage.destroy('all');
+        fullpageAutoScroll();
     })
 </script>
