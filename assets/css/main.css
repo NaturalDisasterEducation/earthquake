@@ -96,6 +96,10 @@ section.indexSection{
     right: 12%
 }
 
+#after_shelf .btn{
+    transform: translate(80px, -80px);
+}
+
 
 /* ============= Hazard Level ============= */
 .hazardLevelForm{
