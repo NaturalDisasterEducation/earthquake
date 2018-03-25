@@ -240,9 +240,7 @@ section.indexSection{
     font-size: 22px;
 }
 
-.during-content-div,
-.visual-before,
-.visual
+.during-content-div
 {
     margin: auto;
     padding: 10px;
@@ -254,6 +252,11 @@ section.indexSection{
 {
     position: absolute;
     bottom: 25%;
+}
+
+.during-character img.protected{
+    position: absolute;
+    bottom: 0px;
 }
 
 .during-lamp {
@@ -295,12 +298,15 @@ section.indexSection{
     width: 90%;
 }
 
-.during-character img{
+.during-character {
     width: 5rem;
 }
 
-/*Large screens*/
+/*MEDIA QUERIES*/
+
+
 @media only screen and (min-width: 1201px) {
+    /*Large screens*/
     .during-stove{
         right: 55rem;
     }
@@ -308,6 +314,10 @@ section.indexSection{
     .during-character
     {
         right: 45rem;
+    }
+
+    .during-character img.protected{
+        right: -12.5rem;
     }
 
     .during-table{
@@ -345,6 +355,10 @@ section.indexSection{
         right: 35rem;
     }
 
+    .during-character img.protected{
+        right: -12.3rem;
+    }
+
     .during-table{
         right: 15rem;
     }
@@ -380,6 +394,10 @@ section.indexSection{
         right: 26rem;
     }
 
+    .during-character img.protected{
+        right: -10rem;
+    }
+
     .during-table{
         right: 8rem;
     }
@@ -405,8 +423,9 @@ section.indexSection{
     }
 }
 
-/* extra Small devices*/
+
 @media only screen and (max-width: 768px) {
+    /* extra Small devices*/
     .during-stove{
         right: 25rem;
 
@@ -414,6 +433,10 @@ section.indexSection{
 
     .during-character{
         right: 19rem;
+    }
+
+    .during-character img.protected{
+        right: -8rem;
     }
 
     .during-table{
@@ -442,6 +465,7 @@ section.indexSection{
 }
 
 @media only screen and (max-width: 568px) {
+    /*  extra extra Small devices*/
     .during-stove{
         right: 17rem;
 
@@ -449,6 +473,10 @@ section.indexSection{
 
     .during-character{
         right: 14rem;
+    }
+
+    .during-character img.protected{
+        right: -6.5rem;
     }
 
     .during-table{
@@ -506,73 +534,9 @@ section.indexSection{
 
 }
 
-@media only screen and (max-width: 400px) {
-    .during-stove{
-        right: 20rem;
-
-    }
-
-    .during-character{
-        right: 21rem;
-    }
-
-    .during-table{
-        right: -2rem;
-    }
-
-    .during-lamp{
-        position: absolute;
-        top: 42%;
-        right: 6.5rem;
-    }
-
-    .during-captus{
-        position: absolute;
-        bottom: 33.5%;
-        right: 9.5rem;
-    }
-
-    .during-shelf-1{
-        position: absolute;
-        bottom: 39%;
-        right: 30.5rem;
-    }
-
-    .during-shelf-2{
-        position: absolute;
-        bottom: 39.5%;
-        right: 24rem;
-    }
-
-    .during-cutlery{
-        position: absolute;
-        bottom: 35.5%;
-        right: 32.3rem;
-    }
-
-    .during-stove img,
-    .during-table img,
-    .during-lamp img
-    {
-        width: 35%;
-    }
-
-    .during-shelf-1 img,
-    .during-shelf-2 img,
-    .during-captus img,
-    .during-cutlery img
-    {
-        width: 35%;
-    }
-
-    .during-character img{
-        width: 3.5rem;
-    }
-
-}
-
 /*animation*/
 
+            /*ELEMENTS*/
 .during-table,
 .during-stove,
 .during-cutlery,
@@ -580,14 +544,14 @@ section.indexSection{
 .during-shelf-2,
 .during-lamp
 {
-    -webkit-animation: during-table 4s ease-in-out 5s 5 alternate; /* Safari 4.0 - 8.0 */
-    -moz-animation: during-table 4s ease-in-out 5s 5 alternate; /* firefox 4+ */
-    -o-animation: during-table 4s ease-in-out 5s 5 alternate; /* opera 10+ */
-    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax */
+    -webkit-animation: during-page 4s ease-in-out 5s 5 alternate; /* Safari 4.0 - 8.0 */
+    -moz-animation: during-page 4s ease-in-out 5s 5 alternate; /* firefox 4+ */
+    -o-animation: during-page 4s ease-in-out 5s 5 alternate; /* opera 10+ */
+    animation: during-page 4s ease-in-out 5s 5 alternate;/* Standard syntax */
 }
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes during-table{
+@-webkit-keyframes during-page{
     0%   {transform:skewX(184deg);}
     20%  {transform:skewX(177deg);}
     40%  {transform:skewX(184deg);}
@@ -597,7 +561,7 @@ section.indexSection{
 }
 
 /* firefox 4+ */
-@-moz-keyframes during-table{
+@-moz-keyframes during-page{
     0%   {transform:skewX(184deg);}
     20%  {transform:skewX(177deg);}
     40%  {transform:skewX(184deg);}
@@ -607,7 +571,7 @@ section.indexSection{
 }
 
 /* opera 10+ */
-@-o-keyframes during-table{
+@-o-keyframes during-page{
     0%   {transform:skewX(184deg);}
     20%  {transform:skewX(177deg);}
     40%  {transform:skewX(184deg);}
@@ -617,7 +581,7 @@ section.indexSection{
 }
 
 /* Standard syntax */
-@keyframes during-table{
+@keyframes during-page{
     0%   {transform:skewX(184deg);}
     20%  {transform:skewX(177deg);}
     40%  {transform:skewX(184deg);}
@@ -626,114 +590,290 @@ section.indexSection{
     100% {transform:skewX(177deg);}
 }
 
-/* in case we add differences in animation
-.during-lamp{
-    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
-}
-
-@keyframes during-lamp{
-    0%   {transform:skewX(184deg);}
-    20%  {transform:skewX(177deg);}
-    40%  {transform:skewX(184deg);}
-    60%  {transform:skewX(177deg);}
-    80% {transform:skewX(184deg);}
-    100% {transform:skewX(177deg);}
-}
-
-.during-cutlery{
-    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
-}
-
-@keyframes during-cutlery{
-    0%   {transform:skewX(184deg);}
-    20%  {transform:skewX(177deg);}
-    40%  {transform:skewX(184deg);}
-    60%  {transform:skewX(177deg);}
-    80% {transform:skewX(184deg);}
-    100% {transform:skewX(177deg);}
-}
-
-.during-stove{
-    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
-}
-
-@keyframes during-stove{
-    0%   {transform:skewX(184deg);}
-    20%  {transform:skewX(177deg);}
-    40%  {transform:skewX(184deg);}
-    60%  {transform:skewX(177deg);}
-    80% {transform:skewX(184deg);}
-    100% {transform:skewX(177deg);}
-}
-
-.during-shelf-1{
-    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
-}
-
-@keyframes during-shelf-1{
-    0%   {transform:skewX(184deg);}
-    20%  {transform:skewX(177deg);}
-    40%  {transform:skewX(184deg);}
-    60%  {transform:skewX(177deg);}
-    80% {transform:skewX(184deg);}
-    100% {transform:skewX(177deg);}
-}
-
-.during-shelf-2{
-    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
-}
-
-@keyframes during-shelf-2{
-    0%   {transform:skewX(184deg);}
-    20%  {transform:skewX(177deg);}
-    40%  {transform:skewX(184deg);}
-    60%  {transform:skewX(177deg);}
-    80% {transform:skewX(184deg);}
-    100% {transform:skewX(177deg);}
-}
-*/
-
-
-.during-character img.surprised{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
+            /*CHARACTER*/
 
 .during-character img.normal{
-    /*animation: normal 12s ease-in-out 1;*/
+    -webkit-animation: normal 6s 1 normal ease-in-out forwards;
+    -moz-animation: normal 6s 1 normal ease-in-out forwards;
+    -o-animation: normal 6s 1 normal ease-in-out forwards;
+    animation-name: normal;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
 
-/*@keyframes normal{
-    0% {
-        opacity:1;
-    }
-    45% {
-        opacity:1;
-    }
-    55% {
-        opacity:0;
-    }
-    100% {
-        opacity:0;
-    }
-}*/
+@-webkit-keyframes normal{
+    0% {opacity: 1;}
+    75% {opacity: 1;}
+    100% {opacity: 0;}
+}
 
+@-moz-keyframes normal{
+    0% {opacity: 1;}
+    75% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-o-keyframes normal{
+    0% {opacity: 1;}
+    75% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes normal{
+    0% {opacity: 1;}
+    75% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.during-character img.surprised{
+    -webkit-animation: surprised 4s 4s 1 normal ease-in-out forwards;
+    -moz-animation: surprised 4s 4s 1 normal ease-in-out forwards;
+    -o-animation: surprised 4s 4s 1 normal ease-in-out forwards;
+    animation-name: surprised;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes surprised{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}
+    75% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-moz-keyframes surprised{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}
+    75% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-o-keyframes surprised{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}
+    75% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes surprised{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}
+    75% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
 
 .during-character img.protected{
-    position: absolute;
-    bottom: -1%;
-    right: -12.5rem;
+    -webkit-animation: protected 21s 8s 1 normal ease-in-out backwards;
+    -moz-animation: protected 21s 8s 1 normal ease-in-out backwards;
+    -o-animation: protected 21s 8s 1 normal ease-in-out backwards;
+    animation-name: protected;
+    animation-duration: 21s;
+    animation-delay: 8s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
 }
 
+@-webkit-keyframes protected{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    100% {opacity: 1;}
+}
 
+@-moz-keyframes protected{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    100% {opacity: 1;}
+}
 
+@-o-keyframes protected{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    100% {opacity: 1;}
+}
 
+@keyframes protected{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    100% {opacity: 1;}
+}
 
+        /*TEXT*/
 
+.during-content .during-content-div p.step-1{
+    -webkit-animation: step-1 5s 1 normal ease-in-out forwards;
+    -moz-animation: step-1 5s 1 normal ease-in-out forwards;
+    -o-animation: step-1 5s 1 normal ease-in-out forwards;
+    animation-name: step-1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
 
+@-webkit-keyframes step-1{
+    0% {opacity: 1; transform:translateY(6px)}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(6px)}
+}
 
+@-moz-keyframes step-1{
+    0% {opacity: 1; transform:translateY(6px)}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(6px)}
+}
 
+@-o-keyframes step-1{
+    0% {opacity: 1; transform:translateY(6px)}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(6px)}
+}
+
+@keyframes step-1{
+    0% {opacity: 1; transform:translateY(6px)}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(6px)}
+}
+
+.during-content .during-content-div p.step-2{
+    -webkit-animation: step-2 5s 5.2s 1 normal ease-in-out both;
+    -moz-animation: step-2 5s 5.2s 1 normal ease-in-out both;
+    -o-animation: step-2 5s 5.2s 1 normal ease-in-out both;
+    animation-name: step-2;
+    animation-duration: 5s;
+    animation-delay: 5.2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes step-2{
+    0% {opacity: 0; transform:translateY(-38px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-38px)}
+}
+
+@-moz-keyframes step-2{
+    0% {opacity: 0; transform:translateY(-38px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-38px)}
+}
+
+@-o-keyframes step-2{
+    0% {opacity: 0; transform:translateY(-38px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-38px)}
+}
+
+@keyframes step-2{
+    0% {opacity: 0; transform:translateY(-38px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-38px)}
+}
+
+.during-content .during-content-div p.step-3{
+    -webkit-animation: step-3 5s 10.2s 1 normal ease-in-out both;
+    -moz-animation: step-3 5s 10.2s 1 normal ease-in-out both;
+    -o-animation: step-3 5s 10.2s 1 normal ease-in-out both;
+    animation-name: step-3;
+    animation-duration: 5s;
+    animation-delay: 10.2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes step-3{
+    0% {opacity: 0; transform:translateY(-83px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-83px)}
+}
+
+@-moz-keyframes step-3{
+    0% {opacity: 0; transform:translateY(-83px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-83px)}
+}
+
+@-o-keyframes step-3{
+    0% {opacity: 0; transform:translateY(-83px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-83px)}
+}
+
+@keyframes step-3{
+    0% {opacity: 0; transform:translateY(-83px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-83px)}
+}
+
+.during-content .during-content-div p.step-4{
+    -webkit-animation: step-4 5s 15.2s 1 normal ease-in-out both;
+    -moz-animation: step-4 5s 15.2s 1 normal ease-in-out both;
+    -o-animation: step-4 5s 15.2s 1 normal ease-in-out both;
+    animation-name: step-4;
+    animation-duration: 5s;
+    animation-delay: 15.2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes step-4{
+    0% {opacity: 0; transform:translateY(-125px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 1; transform:translateY(-125px)}
+}
+
+@-moz-keyframes step-4{
+    0% {opacity: 0; transform:translateY(-125px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 1; transform:translateY(-125px)}
+}
+
+@-o-keyframes step-4{
+    0% {opacity: 0; transform:translateY(-125px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 1; transform:translateY(-125px)}
+}
+
+@keyframes step-4{
+    0% {opacity: 0; transform:translateY(-125px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 1; transform:translateY(-125px)}
+}
 
 
 
