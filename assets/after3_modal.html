@@ -69,5 +69,7 @@
     <script>
         $("#After3Modal .infoPage_cross.close").on("click", function (e) {
             window.location.href = 'main.html#fourthSection';
+            $.fn.fullpage.destroy('all');
+            fullpage(true);
         })
     </script>

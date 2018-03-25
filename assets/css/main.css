@@ -63,6 +63,12 @@ section.indexSection{
 }
 
 /* =========== AFTER section =========== */
+.afterSection .btn{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    text-align: center;
+}
 #after_character{
     position: absolute; 
     bottom:25%; 
@@ -94,6 +100,10 @@ section.indexSection{
     position: absolute; 
     bottom: 25%; 
     right: 12%
+}
+
+#after_shelf .btn{
+    transform: translate(80px, -80px);
 }
 
 
@@ -295,7 +305,8 @@ section.indexSection{
         right: 55rem;
     }
 
-    .during-character{
+    .during-character
+    {
         right: 45rem;
     }
 
@@ -559,6 +570,169 @@ section.indexSection{
     }
 
 }
+
+/*animation*/
+
+.during-table,
+.during-stove,
+.during-cutlery,
+.during-shelf-1,
+.during-shelf-2,
+.during-lamp
+{
+    -webkit-animation: during-table 4s ease-in-out 5s 5 alternate; /* Safari 4.0 - 8.0 */
+    -moz-animation: during-table 4s ease-in-out 5s 5 alternate; /* firefox 4+ */
+    -o-animation: during-table 4s ease-in-out 5s 5 alternate; /* opera 10+ */
+    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax */
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes during-table{
+    0%   {transform:skewX(184deg);}
+    20%  {transform:skewX(177deg);}
+    40%  {transform:skewX(184deg);}
+    60%  {transform:skewX(177deg);}
+    80% {transform:skewX(184deg);}
+    100% {transform:skewX(177deg);}
+}
+
+/* firefox 4+ */
+@-moz-keyframes during-table{
+    0%   {transform:skewX(184deg);}
+    20%  {transform:skewX(177deg);}
+    40%  {transform:skewX(184deg);}
+    60%  {transform:skewX(177deg);}
+    80% {transform:skewX(184deg);}
+    100% {transform:skewX(177deg);}
+}
+
+/* opera 10+ */
+@-o-keyframes during-table{
+    0%   {transform:skewX(184deg);}
+    20%  {transform:skewX(177deg);}
+    40%  {transform:skewX(184deg);}
+    60%  {transform:skewX(177deg);}
+    80% {transform:skewX(184deg);}
+    100% {transform:skewX(177deg);}
+}
+
+/* Standard syntax */
+@keyframes during-table{
+    0%   {transform:skewX(184deg);}
+    20%  {transform:skewX(177deg);}
+    40%  {transform:skewX(184deg);}
+    60%  {transform:skewX(177deg);}
+    80% {transform:skewX(184deg);}
+    100% {transform:skewX(177deg);}
+}
+
+/* in case we add differences in animation
+.during-lamp{
+    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
+}
+
+@keyframes during-lamp{
+    0%   {transform:skewX(184deg);}
+    20%  {transform:skewX(177deg);}
+    40%  {transform:skewX(184deg);}
+    60%  {transform:skewX(177deg);}
+    80% {transform:skewX(184deg);}
+    100% {transform:skewX(177deg);}
+}
+
+.during-cutlery{
+    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
+}
+
+@keyframes during-cutlery{
+    0%   {transform:skewX(184deg);}
+    20%  {transform:skewX(177deg);}
+    40%  {transform:skewX(184deg);}
+    60%  {transform:skewX(177deg);}
+    80% {transform:skewX(184deg);}
+    100% {transform:skewX(177deg);}
+}
+
+.during-stove{
+    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
+}
+
+@keyframes during-stove{
+    0%   {transform:skewX(184deg);}
+    20%  {transform:skewX(177deg);}
+    40%  {transform:skewX(184deg);}
+    60%  {transform:skewX(177deg);}
+    80% {transform:skewX(184deg);}
+    100% {transform:skewX(177deg);}
+}
+
+.during-shelf-1{
+    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
+}
+
+@keyframes during-shelf-1{
+    0%   {transform:skewX(184deg);}
+    20%  {transform:skewX(177deg);}
+    40%  {transform:skewX(184deg);}
+    60%  {transform:skewX(177deg);}
+    80% {transform:skewX(184deg);}
+    100% {transform:skewX(177deg);}
+}
+
+.during-shelf-2{
+    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
+}
+
+@keyframes during-shelf-2{
+    0%   {transform:skewX(184deg);}
+    20%  {transform:skewX(177deg);}
+    40%  {transform:skewX(184deg);}
+    60%  {transform:skewX(177deg);}
+    80% {transform:skewX(184deg);}
+    100% {transform:skewX(177deg);}
+}
+*/
+
+
+.during-character img.surprised{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.during-character img.normal{
+    /*animation: normal 12s ease-in-out 1;*/
+}
+
+/*@keyframes normal{
+    0% {
+        opacity:1;
+    }
+    45% {
+        opacity:1;
+    }
+    55% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}*/
+
+
+.during-character img.protected{
+    position: absolute;
+    bottom: -1%;
+    right: -12.5rem;
+}
+
+
+
+
+
+
+
+
 
 
 

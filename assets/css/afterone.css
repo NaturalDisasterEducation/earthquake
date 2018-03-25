@@ -10,18 +10,9 @@
 #After1Modal #header{
 	font-size: 2em;
 }
-/* 
-.image{
-    width:100%;
-    text-align: center;
+#After1Modal .after_phone{
+	width: 70%;
 }
-
-.img-fluid{
-    display: inline-block;
-    width: 60%;
-	padding-left: 4em;
-
-} */
 #After1Modal .list-group-item{
 	border: none;
 	padding: 0;

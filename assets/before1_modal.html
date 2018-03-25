@@ -1,6 +1,5 @@
 <!-- info page modal start -->
-<div class="modal fade modal-fullscreen" style="overflow:auto" id="Before1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-    aria-hidden="true">
+<div class="modal fade modal-fullscreen" id="Before1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -42,5 +41,7 @@
 <script>
     $("#Before1Modal .infoPage_cross.close").on("click", function (e) {
         window.location.href = 'main.html#secondSection';
+        $.fn.fullpage.destroy('all');
+        fullpage(true);
     })
 </script>

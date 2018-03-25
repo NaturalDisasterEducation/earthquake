@@ -51,7 +51,7 @@
                     </a>
                 </li>
                 <li class="nav-item" data-menuanchor="firstSection">
-                    <a href="#firstSection">Index</a>
+                    <a href="#firstSection">Earthquake</a>
                 </li>
                 <li class="nav-item" data-menuanchor="secondSection">
                     <a href="#secondSection">Before</a>
@@ -78,7 +78,7 @@
                                 fast. There are certain actions you can take <mark>before</mark>, <mark>during</mark>, and <mark>after</mark> an earthquake.
                                 Scroll to find out more. </p>
                             <button type="button" class="btn-outline-secondary temblor-btn">
-                                <img src="images/external-link.svg"> Find hazard levels
+                                <img data-src="images/external-link.svg"> Find hazard levels
                             </button>
                         </div>
 
@@ -98,21 +98,27 @@
                     </div>
                 </div>
             </div>
-            <div id="character-index" data-0="bottom: 26rem; transform: scale(1); opacity: 1" 
-            data-180="bottom:10px;" 
-            data-200="bottom:-26px; transform: scale(0.5); opacity: 0">
-                <img class="img-fluid" src="images/character.png">
+            <div id="character-index" data-0="bottom: 26rem; transform: scale(1); opacity: 1"
+            data-10="bottom:20rem; opacity: 0"
+            data-200="bottom:0rem; transform: scale(0.5); opacity: 0">
+                <img class="img-fluid" data-src="images/character.png">
             </div>
-            <div style="position: absolute; top:35%; width: 30%;" 
+<<<<<<< HEAD
+            <div style="position: absolute; top:45%; width: 30%;" 
                 data-0="right: 10%; opacity: 0.7" data-200="right: 5%; opacity: 0.1">
                 <img class="img-fluid" src="images/cloud1.png">
+=======
+            <div style="position: absolute; top:45%; width: 40%;" 
+                data-0="right: 10%; opacity: 0.7" data-20="right: 5%; opacity: 0.1">
+                <img class="img-fluid" data-src="images/cloud1.png">
+>>>>>>> 5969ab870a6e26a40c2501cb36f4c6db013dcb48
             </div>
-            <div style="position: absolute; top:10%; width: 30%;" 
+            <div style="position: absolute; top:30%; width: 30%;" 
                 data-0="left: 20%; opacity: 0.7;" data-200="left: 6%; opacity: 0.1">
-                <img class="img-fluid" src="images/cloud2.png">
+                <img class="img-fluid" data-src="images/cloud2.png">
             </div>
             <div id="building">
-                <img class="img-fluid" src="images/building.png">
+                <img class="img-fluid" data-src="images/building.png">
             </div>
             <div class="scroll-icon">
                 <a href="#secondSection">Scroll down</a>
@@ -120,31 +126,31 @@
         </section>
 
         <!-- Before -->
-        <section class="section before-section">
+        <section class="section before-section" style="visibility: hidden">
             <div class="visual-before">
                 <div class="before-character">
-                    <img class="img-fluid character-before" src="images/character.png">
+                    <img class="img-fluid character-before" data-src="images/character.png">
                 </div>
                 <div class="before-shelf">
-                    <img class="img-fluid elements-before" src="images/wenshelf.png">
+                    <img class="img-fluid elements-before" data-src="images/wenshelf.png">
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Before1Modal">
                         <span class="fui-plus-circle"></span>
                     </button>
                 </div>
                 <div class="before-backpack">
-                    <img class="img-fluid" src="images/backpack.png">
+                    <img class="img-fluid" data-src="images/backpack.png">
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Before3Modal">
                         <span class="fui-plus-circle"></span>
                     </button>
                 </div>
                 <div class="before-board">
-                    <img class="img-fluid" src="images/board.png">
+                    <img class="img-fluid" data-src="images/board.png">
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Before2Modal">
                         <span class="fui-plus-circle"></span>
                     </button>
                 </div>
                 <div class="before-lamp">
-                    <img class="img-fluid" src="images/lamp_long.png">
+                    <img class="img-fluid" data-src="images/lamp_long.png">
                 </div>
             </div>
             <div class="before-content">
@@ -157,36 +163,35 @@
         </section>
 
         <!-- During -->
-        <section class="section during-section">
+        <section class="section during-section" style="visibility: hidden">
             <div class="visual-during">
                 <div class="during-right-column">
                     <!-- right column -->
                     <div class="during-cutlery">
-                        <img class="img-fluid " src="images/cutlery.png">
+                        <img class="img-fluid " data-src="images/cutlery.png">
                     </div>
                     <div class="during-shelf-1">
-                        <img class="img-fluid " src="images/shelf-plates-1.png">
+                        <img class="img-fluid " data-src="images/shelf-plates-1.png">
                     </div>
                     <div class="during-shelf-2">
-                        <img class="img-fluid " src="images/shelf-plates-2.png">
+                        <img class="img-fluid " data-src="images/shelf-plates-2.png">
                     </div>
                     <div class="during-stove">
-                        <img class="img-fluid" src="images/stove.png">
+                        <img class="img-fluid" data-src="images/stove.png">
                     </div>
                 </div>
                 <div class="during-character">
-                    <img class="img-fluid" src="images/character.png">
+                    <img class="img-fluid surprised" data-src="images/character-surprised-01.png">
+                    <img class="img-fluid normal" data-src="images/character.png">
+                    <img class="img-fluid protected" data-src="images/character_under_table.png">
                 </div>
                 <div class="during-left-column">
                     <!-- left column -->
                     <div class="during-lamp">
-                        <img class="img-fluid " src="images/lamp_long.png">
-                    </div>
-                    <div class="during-captus">
-                        <img class="img-fluid " src="images/captus.png">
+                        <img class="img-fluid " data-src="images/lamp_long.png">
                     </div>
                     <div class="during-table">
-                        <img class="img-fluid " src="images/table.png">
+                        <img class="img-fluid " data-src="images/captus_table.png">
                     </div>
                 </div>
 
@@ -210,28 +215,28 @@
         </section>
 
         <!-- After -->
-        <section class="section afterSection">
+        <section class="section afterSection" style="visibility: hidden">
             <div class="visual">
                 <div id="after_character">
-                    <img class="img-fluid" src="images/character.png">
+                    <img class="img-fluid" data-src="images/character.png">
                 </div>
                 <div id="after_exit">
-                    <img class="img-fluid" src="images/after_exit.png">
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#After1Modal">
-                        <span class="fui-plus-circle"></span>
-                    </button>
-                </div>
-                <div id="after_battery">
-                    <img class="img-fluid" src="images/after_battery.png">
+                    <img class="img-fluid" data-src="images/after_exit.png">
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#After2Modal">
                         <span class="fui-plus-circle"></span>
                     </button>
                 </div>
-                <div id="after_shelf">
-                    <img class="img-fluid" src="images/after_shelf.png">
+                <div id="after_battery">
+                    <img class="img-fluid" data-src="images/after_battery.png">
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#After3Modal">
                         <span class="fui-plus-circle"></span>
                     </button>
+                </div>
+                <div id="after_shelf">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#After1Modal">
+                        <span class="fui-plus-circle"></span>
+                    </button>
+                    <img class="img-fluid" data-src="images/after_shelf.png">
                 </div>
             </div>
             <div class="text">
@@ -264,8 +269,8 @@
     <script src="../bower_components/flat-ui/dist/js/vendor/video.js"></script>
     <script src="../bower_components/flat-ui/dist/js/flat-ui.min.js"></script>
     <script src="../bower_components/flat-ui/docs/assets/js/application.js"></script>
-    <script src="../node_modules/fullpage.js/fullpage.js/vendors/scrolloverflow.js"></script>
-    <script src="../node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
+    <!-- <script src="../node_modules/fullpage.js/fullpage.js/vendors/scrolloverflow.js"></script> -->
+    <script src="../node_modules/fullpage.js/dist/jquery.fullpage.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
     <script src="js/fullpage.js"></script>
     <script src="js/custom.js"></script>
@@ -278,14 +283,7 @@
             $("#after2_modal").load("after2_modal.html");
             $("#after3_modal").load("after3_modal.html");
         });
-        skrollr.init({
-            forceHeight: true,
-            mobileCheck: function () {
-                if ((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
-                    // mobile device
-                }
-            }
-        });
+
     </script>
 
 </body>
