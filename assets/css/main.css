@@ -305,7 +305,8 @@ section.indexSection{
         right: 55rem;
     }
 
-    .during-character{
+    .during-character
+    {
         right: 45rem;
     }
 
@@ -572,7 +573,13 @@ section.indexSection{
 
 /*animation*/
 
-.during-table{
+.during-table,
+.during-stove,
+.during-cutlery,
+.during-shelf-1,
+.during-shelf-2,
+.during-lamp
+{
     -webkit-animation: during-table 4s ease-in-out 5s 5 alternate; /* Safari 4.0 - 8.0 */
     -moz-animation: during-table 4s ease-in-out 5s 5 alternate; /* firefox 4+ */
     -o-animation: during-table 4s ease-in-out 5s 5 alternate; /* opera 10+ */
@@ -619,8 +626,9 @@ section.indexSection{
     100% {transform:skewX(177deg);}
 }
 
+/* in case we add differences in animation
 .during-lamp{
-    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax */
+    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
 }
 
 @keyframes during-lamp{
@@ -633,7 +641,7 @@ section.indexSection{
 }
 
 .during-cutlery{
-    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax */
+    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
 }
 
 @keyframes during-cutlery{
@@ -646,7 +654,7 @@ section.indexSection{
 }
 
 .during-stove{
-    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax */
+    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
 }
 
 @keyframes during-stove{
@@ -659,7 +667,7 @@ section.indexSection{
 }
 
 .during-shelf-1{
-    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax */
+    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
 }
 
 @keyframes during-shelf-1{
@@ -672,7 +680,7 @@ section.indexSection{
 }
 
 .during-shelf-2{
-    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax */
+    animation: during-table 4s ease-in-out 5s 5 alternate;/* Standard syntax
 }
 
 @keyframes during-shelf-2{
@@ -683,6 +691,48 @@ section.indexSection{
     80% {transform:skewX(184deg);}
     100% {transform:skewX(177deg);}
 }
+*/
+
+
+.during-character img.surprised{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.during-character img.normal{
+    /*animation: normal 12s ease-in-out 1;*/
+}
+
+/*@keyframes normal{
+    0% {
+        opacity:1;
+    }
+    45% {
+        opacity:1;
+    }
+    55% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}*/
+
+
+.during-character img.protected{
+    position: absolute;
+    bottom: -1%;
+    right: -12.5rem;
+}
+
+
+
+
+
+
+
+
 
 
 
