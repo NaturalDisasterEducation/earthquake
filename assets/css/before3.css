@@ -49,6 +49,15 @@
     width:70%;
 }
 
+@keyframes play{
+    0% {
+        top:0;
+    }
+    100% {
+        top: 50%
+    }
+}
+
 /*#Before3Modal .image*/
 /*{*/
 
