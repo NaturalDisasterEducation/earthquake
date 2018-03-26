@@ -41,6 +41,18 @@ section.indexSection{
     height: 26rem;
 }
 
+.cloud1{
+    position: absolute; 
+    top:45%; 
+    width: 40%;
+}
+
+.cloud2{
+    position: absolute; 
+    top:20%; 
+    width: 30%;
+}
+
 #character-index{
     position:  absolute;
     max-width: 4%;
@@ -57,9 +69,6 @@ section.indexSection{
 .temblor-btn img{
     width: 12px;
     margin: 5px;
-}
-
-.earthquake-home-content{
 }
 
 /* =========== AFTER section =========== */
@@ -271,17 +280,17 @@ section.indexSection{
 
 .during-shelf-1 {
     position: absolute;
-    bottom: 65%;
+    bottom: 71.5%;
 }
 
 .during-shelf-2 {
     position: absolute;
-    bottom: 65%;
+    bottom: 71.5%;
 }
 
 .during-cutlery {
     position: absolute;
-    bottom: 54.5%;
+    bottom: 58%;
 }
 
 .during-stove img,
@@ -308,12 +317,12 @@ section.indexSection{
 @media only screen and (min-width: 1201px) {
     /*Large screens*/
     .during-stove{
-        right: 55rem;
+        left: 12%;
     }
 
     .during-character
     {
-        right: 45rem;
+        right: 45%;
     }
 
     .during-character img.protected{
@@ -321,27 +330,27 @@ section.indexSection{
     }
 
     .during-table{
-        right: 25rem;
+        right: 16%;
     }
 
     .during-lamp{
-        right: 29rem;
+        right: 18%;
     }
 
     .during-captus{
-        right: 31rem;
+        right: 16%;
     }
 
     .during-shelf-1{
-        right: 66rem;
+        left: 12%;
     }
 
     .during-shelf-2{
-        right: 56rem;
+        left: 24%;
     }
 
     .during-cutlery{
-        right: 67rem;
+        left: 14%;
     }
 }
 
@@ -364,7 +373,7 @@ section.indexSection{
     }
 
     .during-lamp{
-        right: 19rem;
+        right: 16%;
     }
 
     .during-captus{
