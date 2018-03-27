@@ -579,9 +579,9 @@ section.indexSection{
     }
 }
 
-/*animation*/
+/* ANIMATIONS */
 
-            /*ELEMENTS*/
+
 .during-table,
 .during-stove,
 .during-cutlery,
@@ -589,14 +589,14 @@ section.indexSection{
 .during-shelf-2,
 .during-lamp
 {
-    -webkit-animation: during-page 4s ease-in-out 5s 5 alternate; /* Safari 4.0 - 8.0 */
-    -moz-animation: during-page 4s ease-in-out 5s 5 alternate; /* firefox 4+ */
-    -o-animation: during-page 4s ease-in-out 5s 5 alternate; /* opera 10+ */
-    animation: during-page 4s ease-in-out 5s 5 alternate;/* Standard syntax */
+    -webkit-animation: during-elements-animation 4s ease-in-out 5s 5 alternate;
+    -moz-animation: during-elements-animation 4s ease-in-out 5s 5 alternate;
+    -o-animation: during-elements-animation 4s ease-in-out 5s 5 alternate;
+    animation: during-elements-animation 4s ease-in-out 5s 5 alternate;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes during-page{
+@keyframes during-elements-animation
+{
     0%   {transform:skewX(184deg);}
     20%  {transform:skewX(177deg);}
     40%  {transform:skewX(184deg);}
@@ -605,8 +605,8 @@ section.indexSection{
     100% {transform:skewX(177deg);}
 }
 
-/* firefox 4+ */
-@-moz-keyframes during-page{
+@-webkit-keyframes during-elements-animation
+{
     0%   {transform:skewX(184deg);}
     20%  {transform:skewX(177deg);}
     40%  {transform:skewX(184deg);}
@@ -615,8 +615,8 @@ section.indexSection{
     100% {transform:skewX(177deg);}
 }
 
-/* opera 10+ */
-@-o-keyframes during-page{
+@-moz-keyframes during-elements-animation
+{
     0%   {transform:skewX(184deg);}
     20%  {transform:skewX(177deg);}
     40%  {transform:skewX(184deg);}
@@ -625,8 +625,8 @@ section.indexSection{
     100% {transform:skewX(177deg);}
 }
 
-/* Standard syntax */
-@keyframes during-page{
+@-o-keyframes during-elements-animation
+{
     0%   {transform:skewX(184deg);}
     20%  {transform:skewX(177deg);}
     40%  {transform:skewX(184deg);}
@@ -634,59 +634,46 @@ section.indexSection{
     80% {transform:skewX(184deg);}
     100% {transform:skewX(177deg);}
 }
-
-            /*CHARACTER*/
 
 .during-character img.normal{
-    -webkit-animation: normal 6s 1 normal ease-in-out forwards;
-    -moz-animation: normal 6s 1 normal ease-in-out forwards;
-    -o-animation: normal 6s 1 normal ease-in-out forwards;
-    animation-name: normal;
-    animation-duration: 6s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+    -webkit-animation: normal-character-animation 6s 1 normal ease-in-out forwards;
+    -moz-animation: normal-character-animation 6s 1 normal ease-in-out forwards;
+    -o-animation: normal-character-animation 6s 1 normal ease-in-out forwards;
+    animation: normal-character-animation 6s 1 normal ease-in-out forwards;
 }
 
-@-webkit-keyframes normal{
+@-webkit-keyframes normal-character-animation{
     0% {opacity: 1;}
     75% {opacity: 1;}
     100% {opacity: 0;}
 }
 
-@-moz-keyframes normal{
+@-moz-keyframes normal-character-animation{
     0% {opacity: 1;}
     75% {opacity: 1;}
     100% {opacity: 0;}
 }
 
-@-o-keyframes normal{
+@-o-keyframes normal-character-animation{
     0% {opacity: 1;}
     75% {opacity: 1;}
     100% {opacity: 0;}
 }
 
-@keyframes normal{
+@keyframes normal-character-animation{
     0% {opacity: 1;}
     75% {opacity: 1;}
     100% {opacity: 0;}
 }
 
 .during-character img.surprised{
-    -webkit-animation: surprised 4s 4s 1 normal ease-in-out forwards;
-    -moz-animation: surprised 4s 4s 1 normal ease-in-out forwards;
-    -o-animation: surprised 4s 4s 1 normal ease-in-out forwards;
-    animation-name: surprised;
-    animation-duration: 4s;
-    animation-delay: 4s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+    -webkit-animation: surprised-character-animation 4s 4s 1 normal ease-in-out forwards;
+    -moz-animation: surprised-character-animation 4s 4s 1 normal ease-in-out forwards;
+    -o-animation: surprised-character-animation 4s 4s 1 normal ease-in-out forwards;
+    animation: surprised-character-animation 4s 4s 1 normal ease-in-out forwards;
 }
 
-@-webkit-keyframes surprised{
+@-webkit-keyframes surprised-character-animation{
     0% {opacity: 0;}
     25% {opacity: 1;}
     50% {opacity: 1;}
@@ -695,7 +682,7 @@ section.indexSection{
     100% {opacity: 0;}
 }
 
-@-moz-keyframes surprised{
+@-moz-keyframes surprised-character-animation{
     0% {opacity: 0;}
     25% {opacity: 1;}
     50% {opacity: 1;}
@@ -704,7 +691,7 @@ section.indexSection{
     100% {opacity: 0;}
 }
 
-@-o-keyframes surprised{
+@-o-keyframes surprised-character-animation{
     0% {opacity: 0;}
     25% {opacity: 1;}
     50% {opacity: 1;}
@@ -713,7 +700,7 @@ section.indexSection{
     100% {opacity: 0;}
 }
 
-@keyframes surprised{
+@keyframes surprised-character-animation{
     0% {opacity: 0;}
     25% {opacity: 1;}
     50% {opacity: 1;}
@@ -723,156 +710,132 @@ section.indexSection{
 }
 
 .during-character img.protected{
-    -webkit-animation: protected 21s 8s 1 normal ease-in-out backwards;
-    -moz-animation: protected 21s 8s 1 normal ease-in-out backwards;
-    -o-animation: protected 21s 8s 1 normal ease-in-out backwards;
-    animation-name: protected;
-    animation-duration: 21s;
-    animation-delay: 8s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: backwards;
+    -webkit-animation: protected-character-animation 21s 8s 1 normal ease-in-out backwards;
+    -moz-animation: protected-character-animation 21s 8s 1 normal ease-in-out backwards;
+    -o-animation: protected-character-animation 21s 8s 1 normal ease-in-out backwards;
+    animation: protected-character-animation 21s 8s 1 normal ease-in-out backwards;
 }
 
-@-webkit-keyframes protected{
+@-webkit-keyframes protected-character-animation{
     0% {opacity: 0;}
     25% {opacity: 1;}
     100% {opacity: 1;}
 }
 
-@-moz-keyframes protected{
+@-moz-keyframes protected-character-animation{
     0% {opacity: 0;}
     25% {opacity: 1;}
     100% {opacity: 1;}
 }
 
-@-o-keyframes protected{
+@-o-keyframes protected-character-animation{
     0% {opacity: 0;}
     25% {opacity: 1;}
     100% {opacity: 1;}
 }
 
-@keyframes protected{
+@keyframes protected-character-animation{
     0% {opacity: 0;}
     25% {opacity: 1;}
     100% {opacity: 1;}
 }
-
-        /*TEXT*/
 
 .during-content .during-content-div p.step-1{
-    -webkit-animation: step-1 5s 1 normal ease-in-out forwards;
-    -moz-animation: step-1 5s 1 normal ease-in-out forwards;
-    -o-animation: step-1 5s 1 normal ease-in-out forwards;
-    animation-name: step-1;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+    -webkit-animation: during-content-step1 5s 1 normal ease-in-out forwards;
+    -moz-animation: during-content-step1 5s 1 normal ease-in-out forwards;
+    -o-animation: during-content-step1 5s 1 normal ease-in-out forwards;
+    animation: during-content-step1 5s 1 normal ease-in-out forwards;
 }
 
-@-webkit-keyframes step-1{
+@-webkit-keyframes during-content-step1{
     0% {opacity: 1; transform:translateY(6px)}
     95% {opacity: 1;}
     100% {opacity: 0; transform:translateY(6px)}
 }
 
-@-moz-keyframes step-1{
+@-moz-keyframes during-content-step1{
     0% {opacity: 1; transform:translateY(6px)}
     95% {opacity: 1;}
     100% {opacity: 0; transform:translateY(6px)}
 }
 
-@-o-keyframes step-1{
+@-o-keyframes during-content-step1{
     0% {opacity: 1; transform:translateY(6px)}
     95% {opacity: 1;}
     100% {opacity: 0; transform:translateY(6px)}
 }
 
-@keyframes step-1{
+@keyframes during-content-step1{
     0% {opacity: 1; transform:translateY(6px)}
     95% {opacity: 1;}
     100% {opacity: 0; transform:translateY(6px)}
 }
 
 .during-content .during-content-div p.step-2{
-    -webkit-animation: step-2 5s 5.2s 1 normal ease-in-out both;
-    -moz-animation: step-2 5s 5.2s 1 normal ease-in-out both;
-    -o-animation: step-2 5s 5.2s 1 normal ease-in-out both;
-    animation-name: step-2;
-    animation-duration: 5s;
-    animation-delay: 5.2s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: both;
+    -webkit-animation: during-content-step2 5s 5.2s 1 normal ease-in-out both;
+    -moz-animation: during-content-step2 5s 5.2s 1 normal ease-in-out both;
+    -o-animation: during-content-step2 5s 5.2s 1 normal ease-in-out both;
+    animation: during-content-step2 5s 5.2s 1 normal ease-in-out both;
 }
 
-@-webkit-keyframes step-2{
+@-webkit-keyframes during-content-step2{
     0% {opacity: 0; transform:translateY(-38px)}
     5% {opacity: 1;}
     95% {opacity: 1;}
     100% {opacity: 0; transform:translateY(-38px)}
 }
 
-@-moz-keyframes step-2{
+@-moz-keyframes during-content-step2{
     0% {opacity: 0; transform:translateY(-38px)}
     5% {opacity: 1;}
     95% {opacity: 1;}
     100% {opacity: 0; transform:translateY(-38px)}
 }
 
-@-o-keyframes step-2{
+@-o-keyframes during-content-step2{
     0% {opacity: 0; transform:translateY(-38px)}
     5% {opacity: 1;}
     95% {opacity: 1;}
     100% {opacity: 0; transform:translateY(-38px)}
 }
 
-@keyframes step-2{
+@keyframes during-content-step2{
     0% {opacity: 0; transform:translateY(-38px)}
     5% {opacity: 1;}
     95% {opacity: 1;}
     100% {opacity: 0; transform:translateY(-38px)}
 }
+
 
 .during-content .during-content-div p.step-3{
-    -webkit-animation: step-3 5s 10.2s 1 normal ease-in-out both;
-    -moz-animation: step-3 5s 10.2s 1 normal ease-in-out both;
-    -o-animation: step-3 5s 10.2s 1 normal ease-in-out both;
-    animation-name: step-3;
-    animation-duration: 5s;
-    animation-delay: 10.2s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: both;
+    -webkit-animation: during-content-step3 5s 10.2s 1 normal ease-in-out both;
+    -moz-animation: during-content-step3 5s 10.2s 1 normal ease-in-out both;
+    -o-animation: during-content-step3 5s 10.2s 1 normal ease-in-out both;
+    animation: during-content-step3 5s 10.2s 1 normal ease-in-out both;
 }
 
-@-webkit-keyframes step-3{
+@-webkit-keyframes during-content-step3{
     0% {opacity: 0; transform:translateY(-83px)}
     5% {opacity: 1;}
     95% {opacity: 1;}
     100% {opacity: 0; transform:translateY(-83px)}
 }
 
-@-moz-keyframes step-3{
+@-moz-keyframes during-content-step3{
     0% {opacity: 0; transform:translateY(-83px)}
     5% {opacity: 1;}
     95% {opacity: 1;}
     100% {opacity: 0; transform:translateY(-83px)}
 }
 
-@-o-keyframes step-3{
+@-o-keyframes during-content-step3{
     0% {opacity: 0; transform:translateY(-83px)}
     5% {opacity: 1;}
     95% {opacity: 1;}
     100% {opacity: 0; transform:translateY(-83px)}
 }
 
-@keyframes step-3{
+@keyframes during-content-step3{
     0% {opacity: 0; transform:translateY(-83px)}
     5% {opacity: 1;}
     95% {opacity: 1;}
@@ -880,45 +843,42 @@ section.indexSection{
 }
 
 .during-content .during-content-div p.step-4{
-    -webkit-animation: step-4 5s 15.2s 1 normal ease-in-out both;
-    -moz-animation: step-4 5s 15.2s 1 normal ease-in-out both;
-    -o-animation: step-4 5s 15.2s 1 normal ease-in-out both;
-    animation-name: step-4;
-    animation-duration: 5s;
-    animation-delay: 15.2s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: both;
+    -webkit-animation: during-content-step4 5s 15.2s 1 normal ease-in-out both;
+    -moz-animation: during-content-step4 5s 15.2s 1 normal ease-in-out both;
+    -o-animation: during-content-step4 5s 15.2s 1 normal ease-in-out both;
+    animation: during-content-step4 5s 15.2s 1 normal ease-in-out both;
 }
 
-@-webkit-keyframes step-4{
+@-webkit-keyframes during-content-step4{
     0% {opacity: 0; transform:translateY(-125px)}
     5% {opacity: 1;}
     95% {opacity: 1;}
     100% {opacity: 1; transform:translateY(-125px)}
 }
 
-@-moz-keyframes step-4{
+@-moz-keyframes during-content-step4{
     0% {opacity: 0; transform:translateY(-125px)}
     5% {opacity: 1;}
     95% {opacity: 1;}
     100% {opacity: 1; transform:translateY(-125px)}
 }
 
-@-o-keyframes step-4{
+@-o-keyframes during-content-step4{
     0% {opacity: 0; transform:translateY(-125px)}
     5% {opacity: 1;}
     95% {opacity: 1;}
     100% {opacity: 1; transform:translateY(-125px)}
 }
 
-@keyframes step-4{
+@keyframes during-content-step4{
     0% {opacity: 0; transform:translateY(-125px)}
     5% {opacity: 1;}
     95% {opacity: 1;}
     100% {opacity: 1; transform:translateY(-125px)}
 }
+
+
+/* ============= After Section ============= */
 
 
 /* Extra large devices (large laptops and desktops, 1200px) */
