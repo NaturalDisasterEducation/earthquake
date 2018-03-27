@@ -29,22 +29,19 @@
 #after_battery{
     position: absolute; 
     bottom: 25%; 
-    top: 10%; 
-    right: 20%
+    top: 4rem; 
+    right: 20%;
 }
 
 #after_shelf{
     position: absolute; 
-    bottom: 25%; 
+    bottom: 24.5%; 
     right: 12%;
     background-image: url("../images/after_phone_sprite.png");
-    width: 222px;
+    background-size: cover;
+    width: 220px;
     height: 246px;
     animation: after_phone_sprite steps(2) 1s infinite;
-}
-
-#after_shelf .btn{
-    transform: translate(-60px, 10px);
 }
 
 @keyframes after_phone_sprite{
@@ -52,8 +49,12 @@
         background-position-x: 0;
     }
     100%{
-        background-position-x: -462px;
+        background-position-x: -461px;
     }
+}
+
+#after_shelf .btn{
+    transform: translate(-60px, 10px);
 }
 
 .afterSection{
@@ -93,9 +94,7 @@
 
 /* Extra large devices (large laptops and desktops, 1200px) */
 @media only screen and (min-width: 1200px) {
-
 }
-
 
 /* Large devices (laptops/desktops, 992px) */
 @media only screen and (min-width: 992px) {
@@ -107,10 +106,30 @@
         width: 4rem;
     }
 
-    #after_shelf img,
     #after_exit img, 
     #after_battery img{
         width: 70%;
+    }
+
+    #after_shelf{
+        width: 153px;
+        height: 172.2px;
+    }
+    @keyframes after_phone_sprite{
+        0%{
+            background-position-x: 0;
+        }
+        100%{
+            background-position-x: -322px;
+        }
+    }
+
+    #after_shelf .btn{
+        transform: translate(-40px, 0px);
+    }
+
+    #after_battery {
+        top: 8rem; 
     }
 }
 
@@ -120,10 +139,6 @@
         width: 3rem;
     }
  
-    #after_shelf {
-        right: -2rem;
-    }
-
     #after_exit {
         left: -1rem;
     }
@@ -133,15 +148,32 @@
     }
 
     #after_battery {
-        right:6%;
-        top: 40%;
+        right: 12%;
+        top: 12rem; 
     }
-    #after_shelf img,
+
     #after_exit img, 
     #after_battery img{
         width: 50%;
     }
 
+    #after_shelf {
+        right: 4rem;
+        width: 153px;
+        height: 172.2px;
+    }
+    @keyframes after_phone_sprite{
+        0%{
+            background-position-x: 0;
+        }
+        100%{
+            background-position-x: -322px;
+        }
+    }
+
+    #after_shelf .btn{
+        transform: translate(-40px, 0px);
+    }
 } 
 
 
@@ -159,14 +191,25 @@
     }
 
     #after_battery {
-        right:6%;
-        top:30%;
+        right: 22%;
+        top: 16rem;
     }
-    #after_shelf img,
+
     #after_exit img, 
     #after_battery img{
         width: 40%;
     }
+
+    #after_shelf{
+        width: 104px;
+        height: 116px;
+        animation: none;
+    }
+
+    #after_shelf .btn{
+        transform: translate(-40px, 0px);
+    }
+
 } 
 
 
@@ -179,7 +222,7 @@
     }
 
     #after_shelf {
-        right: -4rem;
+        right: 1rem;
     }
 
     #after_exit {
@@ -192,7 +235,7 @@
 
     #after_battery {
         right:0%;
-        top:30%;
+        top: 35%;
     }
     #after_shelf img,
     #after_exit img, 
