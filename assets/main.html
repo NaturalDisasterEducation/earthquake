@@ -30,6 +30,12 @@
     <link href="css/aftertwo.css" rel="stylesheet">
     <link href="css/afterthree.css" rel="stylesheet">
 
+    <!-- section lazy load hack -->
+    <style>
+        .section{
+            visibility: hidden;
+        }
+    </style>
 
 
     <!--[if lt IE 9]>
@@ -120,7 +126,7 @@
         </section>
 
         <!-- Before -->
-        <section class="section before-section" style="visibility: hidden">
+        <section class="section before-section">
             <div class="visual-before">
                 <div class="before-character">
                     <img class="img-fluid character-before" data-src="images/character.png">
@@ -157,7 +163,7 @@
         </section>
 
         <!-- During -->
-        <section class="section during-section" style="visibility: hidden">
+        <section class="section during-section">
             <div class="visual-during">
                 <div class="during-right-column">
                     <!-- right column -->
@@ -209,7 +215,7 @@
         </section>
 
         <!-- After -->
-        <section class="section afterSection" style="visibility: hidden">
+        <section class="section afterSection">
             <div class="visual">
                 <div id="after_character">
                     <img class="img-fluid" data-src="images/character.png">
