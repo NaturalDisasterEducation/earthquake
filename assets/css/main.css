@@ -98,6 +98,36 @@ section.indexSection{
     height: 42px;
 }
 
+.btn{
+    color:white;
+    animation: pulse 2s linear infinite alternate;
+}
+
+@keyframes pulse {
+    from {
+        background-color: rgba(26,188,156, 0.9)
+    }
+    to {
+        background-color: rgba(26,188,156, 0)
+    }
+}
+    /*from {*/
+        /*background: linear-gradient(*/
+                /*to right,*/
+                /*rgba(145, 149, 149, 0.6) 77%,*/
+                /*rgba(145, 149, 149, 0.9) 100%*/
+        /*);*/
+    /*}*/
+    /*to {*/
+        /*background: linear-gradient(*/
+                /*to right,*/
+                /*rgba(219, 221, 221, 0.6) 77%,*/
+                /*rgba(219, 221, 221, 0.9) 100%*/
+        /*);*/
+    /*}*/
+/*}*/
+
+
 
 /* ============= Before Section ============= */
 .before-section{
