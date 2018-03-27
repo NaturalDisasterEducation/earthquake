@@ -203,7 +203,21 @@ section.indexSection{
 
 .before-character{
     left: 18rem;
+    animation: before-character 3s infinite cubic-bezier(0.5,0,0.5,1);
 }
+
+
+@keyframes before-character {
+  0%, 5% {
+    transform: translate(0em);
+  }
+  95%, 100% {
+    transform: translate(60em);
+  }
+}
+}
+
+
 
 .visual-before .btn{
     border-radius: 100%;
