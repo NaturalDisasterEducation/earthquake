@@ -98,6 +98,7 @@ section.indexSection{
     height: 42px;
 }
 
+/*animation for buttons in before and after*/
 .btn{
     color:white;
     animation: pulse 2s linear infinite alternate;
@@ -911,6 +912,10 @@ section.indexSection{
 } 
 
 @media (max-width: 992px) {
+    .earthquake-home-content {
+        padding: 0 35px;
+        margin-bottom: 50px;
+    }
     /* fix offsreen menu toggle lag */
     #menu{
         display: none;
@@ -932,6 +937,10 @@ section.indexSection{
 
 /* iphone 8 plus */
 @media only screen and (max-width: 736px) {
+    .earthquake-home-content {
+        padding: 0 35px;
+        margin-bottom: 50px;
+    }
     .indexSection .container,
     .indexSection .container .row{
         height: 100%;
@@ -951,6 +960,10 @@ section.indexSection{
 
 
 @media only screen and (max-width: 568px) {
+    .earthquake-home-content {
+        padding: 0 35px;
+        margin-bottom: 50px;
+    }
     .indexSection .container,
     .indexSection .container .row{
         height: 100%;
