@@ -41,6 +41,9 @@
     background-size: cover;
     width: 220px;
     height: 246px;
+}
+
+.after_phone_sprite{
     animation: after_phone_sprite steps(2) 1s infinite;
 }
 
