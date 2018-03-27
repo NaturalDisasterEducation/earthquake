@@ -36,13 +36,16 @@ function fullpage(autoScroll){
     },
   
     afterLoad: function (anchorLink, index) {
+
     },
   
     onLeave: function (index, nextIndex, direction) {
-      // if (index != 0) {   $('#fp-nav').show(); }
+
     },
   
-    afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {},
+    afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
+
+    },
   
     onSlideLeave: function (anchorLink, index, slideIndex, direction) {}
   });

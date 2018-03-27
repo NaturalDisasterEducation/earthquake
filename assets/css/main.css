@@ -1,3 +1,5 @@
+@import "afterSection.css";
+
 body.modal-open {
     overflow: hidden;
     position: fixed;
@@ -71,49 +73,6 @@ section.indexSection{
     margin: 5px;
 }
 
-/* =========== AFTER section =========== */
-.afterSection .btn{
-    width: 3em;
-    height: 3em;
-    border-radius: 50%;
-    text-align: center;
-}
-#after_character{
-    position: absolute; 
-    bottom:25%; 
-    left: 35%;
-    width: 30%; 
-    z-index: 99;
-}
-#after_character img{
-    width: 5rem;
-}
-
-#after_exit{
-    position: absolute; 
-    bottom: 25%; 
-    left:14%
-}
-#after_exit .btn{
-    transform: translate(-20px, -140px);
-}
-
-#after_battery{
-    position: absolute; 
-    bottom: 25%; 
-    top: 10%; 
-    right: 20%
-}
-
-#after_shelf{
-    position: absolute; 
-    bottom: 25%; 
-    right: 12%
-}
-
-#after_shelf .btn{
-    transform: translate(80px, -80px);
-}
 
 
 /* ============= Hazard Level ============= */
@@ -477,72 +436,7 @@ section.indexSection{
 }
 
 @media only screen and (max-width: 568px) {
-    /*  extra extra Small devices*/
-    .during-stove{
-        left: 0%;
 
-    }
-
-    .during-character{
-        right: 12%;
-    }
-
-    .during-character img.protected{
-        right: 6rem;
-    }
-
-    .during-table{
-        right: 18%;
-    }
-
-    .during-lamp{
-        position: absolute;
-        right: 29%;
-    }
-
-    .during-shelf-1{
-        position: absolute;
-        top: 41.5%;
-        left: 10%;
-    }
-
-    .during-shelf-2{
-        position: absolute;
-        top: 40%;
-        left: 25%;
-    }
-
-    .during-cutlery{
-        position: absolute;
-        top: 47%;
-        left: 13.5%;
-    }
-
-    .during-stove img,
-    .during-lamp img
-    {
-        width: 45%;
-    }
-
-    .during-table img{
-        width: 48%;
-    }
-
-    .during-shelf-1 img,
-    .during-shelf-2 img,
-    .during-cutlery img
-    {
-        width: 55%;
-    }
-
-    .during-character img,
-    .during-character img.protected{
-        width: 3.2rem;
-    }
-}
-
-@media only screen and (max-width: 568px) {
-    /*  extra extra Small devices*/
     .during-stove{
         left: -3rem;
 
@@ -1013,59 +907,6 @@ section.indexSection{
 }
 
 
-
-/* ============= After Section ============= */
-.afterSection{
-    background-color: #fddc85;
-}
-
-.afterSection .text h5{
-    color: #2A3947;
-}
-
-.after-text-list-1,
-.after-text-list-2
-{
-    position: absolute;
-    width: 40%;
-    text-align: left;
-    color: #2A3947;
-
-}
-
-.after-text-list-1{
-    left: 8%;
-}
-
-.after-text-list-2{
-    right: 8%;
-}
-
-/* .afterSection .visual{
-    height: 75%;
-    background-image: url("../images/after_main.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    z-index: -1;
-} */
-/*
-.afterSection .visual .btnList{
-    position: absolute;
-    top: 20%;
-    left: 42%;
-}*/
-
-.afterSection .text{
-    position: absolute;
-    bottom:0;
-    width:100%;
-    height: 25%;
-    background-color: #c19871;
-}
-
-
-
 /* Extra large devices (large laptops and desktops, 1200px) */
 @media only screen and (min-width: 1200px) {
 
@@ -1095,16 +936,6 @@ section.indexSection{
     .menuon #menu li.active a{
         color: white;
     }
-
-    #after_character img{
-        width: 4rem;
-    }
-
-    #after_shelf img,
-    #after_exit img, 
-    #after_battery img{
-        width: 70%;
-    }
 }
 
 /* iphone 8 plus */
@@ -1119,58 +950,11 @@ section.indexSection{
     #building{
 
     }
-
-    #after_character img{
-        width: 3rem;
-    }
- 
-    #after_shelf {
-        right: -2rem;
-    }
-
-    #after_exit {
-        left: -1rem;
-    }
-
-    #after_exit .btn{
-        transform: translate(-12px,-90px);
-    }
-
-    #after_battery {
-        right:6%;
-        top: 40%;
-    }
-    #after_shelf img,
-    #after_exit img, 
-    #after_battery img{
-        width: 50%;
-    }
-
 } 
 
 
 /* iphone 8 */
 @media only screen and (max-width: 667px) {
-    #after_character{
-        left: 28%;
-    }
-    #after_character img{
-        width: 2rem;
-    }
-
-    #after_exit .btn{
-        transform: translate(-12px,-90px);
-    }
-
-    #after_battery {
-        right:6%;
-        top:30%;
-    }
-    #after_shelf img,
-    #after_exit img, 
-    #after_battery img{
-        width: 40%;
-    }
 } 
 
 
@@ -1181,33 +965,5 @@ section.indexSection{
     }
     .hazardLevelForm{
         width: fit-content;
-    }
-    #after_character{
-        left: 28%;
-    }
-    #after_character img{
-        width: 30%;
-    }
-
-    #after_shelf {
-        right: -4rem;
-    }
-
-    #after_exit {
-        left: -2rem;
-    }
-
-    #after_exit .btn{
-        transform: translate(-12px,-90px);
-    }
-
-    #after_battery {
-        right:0%;
-        top:30%;
-    }
-    #after_shelf img,
-    #after_exit img, 
-    #after_battery img{
-        width: 32%;
     }
 } 
