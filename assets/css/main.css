@@ -1,3 +1,5 @@
+@import "afterSection.css";
+
 body.modal-open {
     overflow: hidden;
     position: fixed;
@@ -71,49 +73,6 @@ section.indexSection{
     margin: 5px;
 }
 
-/* =========== AFTER section =========== */
-.afterSection .btn{
-    width: 3em;
-    height: 3em;
-    border-radius: 50%;
-    text-align: center;
-}
-#after_character{
-    position: absolute; 
-    bottom:25%; 
-    left: 35%;
-    width: 30%; 
-    z-index: 99;
-}
-#after_character img{
-    width: 5rem;
-}
-
-#after_exit{
-    position: absolute; 
-    bottom: 25%; 
-    left:14%
-}
-#after_exit .btn{
-    transform: translate(-20px, -140px);
-}
-
-#after_battery{
-    position: absolute; 
-    bottom: 25%; 
-    top: 10%; 
-    right: 20%
-}
-
-#after_shelf{
-    position: absolute; 
-    bottom: 25%; 
-    right: 12%
-}
-
-#after_shelf .btn{
-    transform: translate(80px, -80px);
-}
 
 
 /* ============= Hazard Level ============= */
@@ -287,24 +246,21 @@ section.indexSection{
     top: 0;
 }
 
-.during-captus {
+.during-shelf-1
+{
     position: absolute;
-    bottom: 43%;
+    top: 22%;
 }
 
-.during-shelf-1 {
+.during-shelf-2
+{
     position: absolute;
-    bottom: 71.5%;
-}
-
-.during-shelf-2 {
-    position: absolute;
-    bottom: 71.5%;
+    top: 19%;
 }
 
 .during-cutlery {
     position: absolute;
-    bottom: 58%;
+    top: 30%;
 }
 
 .during-stove img,
@@ -315,8 +271,7 @@ section.indexSection{
 }
 
 .during-shelf-1 img,
-.during-shelf-2 img,
-.during-captus img
+.during-shelf-2 img
 {
     width: 90%;
 }
@@ -328,7 +283,7 @@ section.indexSection{
 /*MEDIA QUERIES*/
 
 
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1200px) {
     /*Large screens*/
     .during-stove{
         left: 12%;
@@ -336,23 +291,19 @@ section.indexSection{
 
     .during-character
     {
-        right: 45%;
+        right: 20%;
     }
 
     .during-character img.protected{
-        right: -12.5rem;
+        right: 15rem;
     }
 
     .during-table{
-        right: 16%;
+        right: 35%;
     }
 
     .during-lamp{
-        right: 18%;
-    }
-
-    .during-captus{
-        right: 16%;
+        right: 40%;
     }
 
     .during-shelf-1{
@@ -371,78 +322,70 @@ section.indexSection{
 @media only screen and (max-width: 1200px) {
     /*medium devices*/
     .during-stove{
-        right: 45rem;
+        left: 15%;
     }
 
     .during-character{
-        right: 35rem;
+        right: 18%;
     }
 
     .during-character img.protected{
-        right: -12.3rem;
+        right: 11rem;
     }
 
     .during-table{
-        right: 15rem;
+        right: 30%;
     }
 
     .during-lamp{
-        right: 16%;
-    }
-
-    .during-captus{
-        right: 21rem;
+        right: 35%;
     }
 
     .during-shelf-1{
-        right: 57rem;
+        left: 18%;
     }
 
     .during-shelf-2{
-        right: 47rem;
+        left: 30%;
     }
 
     .during-cutlery{
-        right: 58rem;
+        left: 20%;
     }
 }
 
 @media only screen and (max-width: 992px) {
     /*Small devices*/
     .during-stove{
-        right: 35rem;
+        left: 10%;
     }
 
     .during-character{
-        right: 26rem;
+        right: 13%;
     }
 
     .during-character img.protected{
-        right: -10rem;
+        right: 10rem;
     }
 
     .during-table{
-        right: 8rem;
+        right: 25%;
     }
 
     .during-lamp{
-        right: 12rem;
-    }
-
-    .during-captus{
-        right: 14rem;
+        right: 32%;
     }
 
     .during-shelf-1{
-        right: 46rem;
+        left: 14%;
     }
 
     .during-shelf-2{
-        right: 37rem;
+        left: 28%;
     }
 
     .during-cutlery{
-        right: 47rem;
+        left: 16%;
     }
 }
 
@@ -450,111 +393,190 @@ section.indexSection{
 @media only screen and (max-width: 768px) {
     /* extra Small devices*/
     .during-stove{
-        right: 25rem;
-
+        left: 8.5%;
     }
 
     .during-character{
-        right: 19rem;
+        right: 18%;
     }
 
     .during-character img.protected{
-        right: -8rem;
+        right: 5.5rem;
     }
 
     .during-table{
-        right: 3rem;
+        right: 22%;
     }
 
     .during-lamp{
-        right: 8rem;
-    }
-
-    .during-captus{
-        right: 9rem;
+        right: 32%;
     }
 
     .during-shelf-1{
-        right: 36rem;
+        left: 15%;
+        top: 36.5%;
     }
 
     .during-shelf-2{
-        right: 26rem;
-    }
-
-    .during-cutlery{
-        right: 37rem;
-    }
-}
-
-@media only screen and (max-width: 568px) {
-    /*  extra extra Small devices*/
-    .during-stove{
-        right: 17rem;
-
-    }
-
-    .during-character{
-        right: 14rem;
-    }
-
-    .during-character img.protected{
-        right: -6.5rem;
-    }
-
-    .during-table{
-        right: 0rem;
-    }
-
-    .during-lamp{
-        position: absolute;
+        left: 28%;
         top: 35%;
-        right: 4.5rem;
-    }
-
-    .during-captus{
-        position: absolute;
-        bottom: 36%;
-        right: 6rem;
-    }
-
-    .during-shelf-1{
-        position: absolute;
-        bottom: 47%;
-        right: 18.5rem;
-    }
-
-    .during-shelf-2{
-        position: absolute;
-        bottom: 47%;
-        right: 23.5rem;
     }
 
     .during-cutlery{
-        position: absolute;
-        bottom: 41%;
-        right: 24.5rem;
+        left: 17.5%;
+        top: 43%;
     }
 
-    .during-stove img,
-    .during-table img,
-    .during-lamp img
-    {
-        width: 45%;
+    .during-stove img{
+        width: 58%;
     }
+
 
     .during-shelf-1 img,
     .during-shelf-2 img,
-    .during-captus img,
-    .during-cutlery img
+    .during-cutlery img,
+    .during-table img,
+    .during-lamp img,
+    .during-stove img
     {
         width: 55%;
     }
 
-    .during-character img{
-        width: 3rem;
+    .during-character,
+    .during-character img.protected
+    {
+        width: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+
+    .during-stove{
+        left: -3rem;
+
     }
 
+    .during-character{
+        right: 12%;
+    }
+
+    .during-character img.protected{
+        right: 6rem;
+    }
+
+    .during-table{
+        right: 18%;
+    }
+
+    .during-lamp{
+        position: absolute;
+        right: 25%;
+    }
+
+    .during-shelf-1{
+        position: absolute;
+        top: 51.5%;
+        left: 8%;
+    }
+
+    .during-shelf-2{
+        position: absolute;
+        top: 51%;
+        left: 18%;
+    }
+
+    .during-cutlery{
+        position: absolute;
+        top: 56%;
+        left: 11%;
+    }
+
+    .during-stove img,
+    .during-lamp img
+    {
+        width: 30%;
+    }
+
+    .during-table img{
+        width: 33%;
+    }
+
+    .during-shelf-1 img,
+    .during-shelf-2 img,
+    .during-cutlery img
+    {
+        width: 35%;
+    }
+
+    .during-character img{
+        width: 2.5rem;
+    }
+
+    .during-character img.protected{
+        width: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    /*  extra extra Small devices*/
+    .during-stove{
+        left: -8rem;
+    }
+
+    .during-character{
+        right: 12%;
+    }
+
+    .during-character img.protected{
+        right: 6rem;
+    }
+
+    .during-table{
+        right: 0;
+    }
+
+    .during-lamp{
+        position: absolute;
+        right: 20%;
+    }
+
+    .during-shelf-1{
+        position: absolute;
+        top: 51.5%;
+        left: 8%;
+    }
+
+    .during-shelf-2{
+        position: absolute;
+        top: 51%;
+        left: 18%;
+    }
+
+    .during-cutlery{
+        position: absolute;
+        top: 56%;
+        left: 13%;
+    }
+
+    .during-stove img,
+    .during-lamp img,
+    .during-table img
+    {
+        width: 22%;
+    }
+
+    .during-shelf-1 img,
+    .during-shelf-2 img,
+    .during-cutlery img
+    {
+        width: 25%;
+    }
+
+    .during-character img,
+    .during-character img.protected
+    {
+        width: 2.5rem;
+    }
 }
 
 /*animation*/
@@ -899,59 +921,6 @@ section.indexSection{
 }
 
 
-
-/* ============= After Section ============= */
-.afterSection{
-    background-color: #fddc85;
-}
-
-.afterSection .text h5{
-    color: #2A3947;
-}
-
-.after-text-list-1,
-.after-text-list-2
-{
-    position: absolute;
-    width: 40%;
-    text-align: left;
-    color: #2A3947;
-
-}
-
-.after-text-list-1{
-    left: 8%;
-}
-
-.after-text-list-2{
-    right: 8%;
-}
-
-/* .afterSection .visual{
-    height: 75%;
-    background-image: url("../images/after_main.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    z-index: -1;
-} */
-/*
-.afterSection .visual .btnList{
-    position: absolute;
-    top: 20%;
-    left: 42%;
-}*/
-
-.afterSection .text{
-    position: absolute;
-    bottom:0;
-    width:100%;
-    height: 25%;
-    background-color: #c19871;
-}
-
-
-
 /* Extra large devices (large laptops and desktops, 1200px) */
 @media only screen and (min-width: 1200px) {
 
@@ -981,16 +950,6 @@ section.indexSection{
     .menuon #menu li.active a{
         color: white;
     }
-
-    #after_character img{
-        width: 4rem;
-    }
-
-    #after_shelf img,
-    #after_exit img, 
-    #after_battery img{
-        width: 70%;
-    }
 }
 
 /* iphone 8 plus */
@@ -1005,58 +964,11 @@ section.indexSection{
     #building{
 
     }
-
-    #after_character img{
-        width: 3rem;
-    }
- 
-    #after_shelf {
-        right: -2rem;
-    }
-
-    #after_exit {
-        left: -1rem;
-    }
-
-    #after_exit .btn{
-        transform: translate(-12px,-90px);
-    }
-
-    #after_battery {
-        right:6%;
-        top: 40%;
-    }
-    #after_shelf img,
-    #after_exit img, 
-    #after_battery img{
-        width: 50%;
-    }
-
 } 
 
 
 /* iphone 8 */
 @media only screen and (max-width: 667px) {
-    #after_character{
-        left: 28%;
-    }
-    #after_character img{
-        width: 2rem;
-    }
-
-    #after_exit .btn{
-        transform: translate(-12px,-90px);
-    }
-
-    #after_battery {
-        right:6%;
-        top:30%;
-    }
-    #after_shelf img,
-    #after_exit img, 
-    #after_battery img{
-        width: 40%;
-    }
 } 
 
 
@@ -1067,33 +979,5 @@ section.indexSection{
     }
     .hazardLevelForm{
         width: fit-content;
-    }
-    #after_character{
-        left: 28%;
-    }
-    #after_character img{
-        width: 30%;
-    }
-
-    #after_shelf {
-        right: -4rem;
-    }
-
-    #after_exit {
-        left: -2rem;
-    }
-
-    #after_exit .btn{
-        transform: translate(-12px,-90px);
-    }
-
-    #after_battery {
-        right:0%;
-        top:30%;
-    }
-    #after_shelf img,
-    #after_exit img, 
-    #after_battery img{
-        width: 32%;
     }
 } 

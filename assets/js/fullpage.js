@@ -36,13 +36,19 @@ function fullpage(autoScroll){
     },
   
     afterLoad: function (anchorLink, index) {
+      if(index == 4){
+        $("#after_shelf").addClass("after_phone_sprite");
+      }else{
+        $("#after_shelf").removeClass("after_phone_sprite");
+      }
     },
   
     onLeave: function (index, nextIndex, direction) {
-      // if (index != 0) {   $('#fp-nav').show(); }
+
     },
   
-    afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {},
+    afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
+    },
   
     onSlideLeave: function (anchorLink, index, slideIndex, direction) {}
   });
