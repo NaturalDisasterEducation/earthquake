@@ -42,6 +42,29 @@ function fullpage(autoScroll){
         $("#after_shelf").removeClass("after_phone_sprite");
       }
     },
+
+    duringLoad: function (anchorLink, index) {
+        if(index == 3){
+            $(".during-table .during-lamp .during-stove .during-shelf-1 .during-shelf-2 .during-cutlery").addClass("during-elements-animation");
+            $("img.normal").addClass("normal-character-animation");
+            $("img.surprised").addClass("surprised-character-animation");
+            $("img.protected").addClass("protected-character-animation");
+            $("p.step-1").addClass("during-content-step1");
+            $("p.step-2").addClass("during-content-step2");
+            $("p.step-3").addClass("during-content-step3");
+            $("p.step-4").addClass("during-content-step4");
+
+        }else{
+            $(".during-table .during-lamp .during-stove .during-shelf-1 .during-shelf-2 .during-cutlery").removeClass("during-elements-animation");
+            $("img.normal").removeClass("normal-character-animation");
+            $("img.surprised").removeClass("surprised-character-animation");
+            $("img.protected").removeClass("protected-character-animation");
+            $("p.step-1").removeClass("during-content-step1");
+            $("p.step-2").removeClass("during-content-step2");
+            $("p.step-3").removeClass("during-content-step3");
+            $("p.step-4").removeClass("during-content-step4");
+        }
+    },
   
     onLeave: function (index, nextIndex, direction) {
 
