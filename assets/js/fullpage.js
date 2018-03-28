@@ -41,9 +41,6 @@ function fullpage(autoScroll){
       }else{
         $("#after_shelf").removeClass("after_phone_sprite");
       }
-    },
-
-    duringLoad: function (anchorLink, index) {
         if(index == 3){
             $(".during-table .during-lamp .during-stove .during-shelf-1 .during-shelf-2 .during-cutlery").addClass("during-elements-animation");
             $("img.normal").addClass("normal-character-animation");

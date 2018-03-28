@@ -150,17 +150,17 @@ section.indexSection{
 }
 
 .before-backpack img{
-    width: 4.5rem;
+    width: 7%;
 }
 
 .before-shelf img{
-    width: 50%;
+    width: 45%;
 }
 
 .before-lamp img,
 .before-board img
 {
-    width: 70%;
+    width: 65%;
 }
 
 .before-character,
@@ -175,25 +175,120 @@ section.indexSection{
 .before-lamp{
     position: absolute;
     top: 0px;
-    right: 43rem;
+    right: 45%;
 }
 
 .before-board{
-    right: 20rem;
     bottom: 45%;
+    right: 14%;
 }
 
 .before-shelf{
-    left: 18rem;
+    left: 10%;
 }
 
 .before-backpack{
-    left: 40rem;
+    left: 0;
 }
+
+.before-character{
+    position: absolute;
+    right: 10%;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 1200px) {
+    /*Large devices*/
+
+}
+
+@media only screen and (max-width: 1200px) {
+    /*Medium devices*/
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    /*Small devices*/
+    .before-backpack{
+        left: 5%;
+    }
+
+    .before-shelf{
+        left: 2%;
+    }
+
+    .before-board{
+        right: 5%;
+    }
+
+    .before-character img {
+        width: 3rem;
+    }
+
+    .before-shelf img{
+        width: 35%;
+    }
+
+    .before-lamp img,
+    .before-board img
+    {
+        width: 55%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    /*extra small devices*/
+    .before-character img {
+        width: 2.5rem;
+    }
+
+    .before-shelf img{
+        width: 25%;
+    }
+
+    .before-lamp img,
+    .before-board img
+    {
+        width: 40%;
+    }
+
+    .before-backpack img{
+        width: 2.5rem;
+    }
+
+    .before-shelf{
+        left: -5rem;
+    }
+
+    .before-board{
+        top: 50% ;
+        right: 0;
+    }
+
+    .before-backpack{
+        left: 40%;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    /*small mobile devices*/
+}
+
+@media only screen and (max-width: 320px) {
+    /*extra small mobile devices*/
+}
+
+
+
+/*ANIMATION before character
+
 .before-character{
    animation: before-character 3s infinite cubic-bezier(0.5,0,0.5,1);
 }
-
 
 @keyframes before-character {
   0%, 5% {
@@ -203,8 +298,9 @@ section.indexSection{
   95%, 100% {
     transform: translate(20rem);
   }
-}
+}*/
 
+/*BTNS*/
 
 .visual-before .btn{
     border-radius: 100%;
