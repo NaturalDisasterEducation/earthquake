@@ -50,14 +50,6 @@
     opacity: 1;
 }
 
-.fui-arrow-right{
-    transform:rotate(20deg);
-}
-
-.fui-arrow-right:hover{
-    font-size:50px;
-    cursor: pointer;
-}
 /* ====== before3: emergency backpack ====== */
 .emergency_table{
     text-align: center;
