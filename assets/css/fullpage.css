@@ -82,15 +82,22 @@
 
 .scroll-icon{
 	position: absolute;
-	bottom: .8rem;
+	bottom: 2.5rem;
 	width: 100%;
+	transform:rotate(90deg);
 }
 
 .scroll-icon a{
+	position: absolute;
 	color: rgb(52, 73, 94);
+	cursor: pointer;
+	font-size:30px;
+	z-index: 999;
 }
 
-
+.scroll-icon:hover{
+    font-size:35px;
+}
 
 
 /* Custom by Denise
