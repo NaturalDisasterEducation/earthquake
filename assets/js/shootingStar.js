@@ -96,8 +96,8 @@
       this.m = 0;
       var i = 0,
         l = this.options.beamSize,
-        x = this.getRandom(this.wW - this.options.beamSize - 100, 100),
-        y = this.getRandom(this.hW - this.options.beamSize - 100, 100),
+        x = this.getRandom(this.wW - this.options.beamSize - 200, 100),
+        y = this.getRandom(this.hW - this.options.beamSize - 200, 100),
         self = this;
       for (; i < l; i++) {
         setTimeout(function() {
