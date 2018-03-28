@@ -76,10 +76,10 @@ function fullpage(autoScroll){
 
 $('document').ready(function () {
   fullpage(true);
-  skrollrInit()
+  skrollrInit();
 
   $(window).on('resize', function () {
-    if ($(window).width() <= 736) {
+    if ($(window).width() < 736) {
       skrollr.init().destroy(); // skrollr.init() returns the singleton created above
     }else{
       skrollrInit();
@@ -90,7 +90,7 @@ $('document').ready(function () {
 function skrollrInit(){
   skrollr.init({
     smoothScrolling: true,
-    forceHeight: false,
+    forceHeight: true,
     mobileCheck: function () {
       if ((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
         // mobile device
