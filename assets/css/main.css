@@ -98,6 +98,7 @@ section.indexSection{
     height: 42px;
 }
 
+/*animation for buttons in before and after*/
 .btn{
     color:white;
     animation: pulse 2s linear infinite alternate;
@@ -190,10 +191,19 @@ section.indexSection{
     left: 40rem;
 }
 .before-character{
-    left: 18rem;
+   animation: before-character 3s infinite cubic-bezier(0.5,0,0.5,1);
 }
 
 
+@keyframes before-character {
+  0%, 5% {
+    transform: translate(10rem);
+  }
+  
+  95%, 100% {
+    transform: translate(20rem);
+  }
+}
 
 
 .visual-before .btn{
@@ -335,6 +345,8 @@ section.indexSection{
     .during-cutlery{
         left: 14%;
     }
+    
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -370,6 +382,7 @@ section.indexSection{
     .during-cutlery{
         left: 20%;
     }
+    
 }
 
 @media only screen and (max-width: 992px) {
@@ -405,6 +418,7 @@ section.indexSection{
     .during-cutlery{
         left: 16%;
     }
+    
 }
 
 
@@ -465,6 +479,7 @@ section.indexSection{
     {
         width: 3.5rem;
     }
+    
 }
 
 @media only screen and (max-width: 568px) {
@@ -533,6 +548,7 @@ section.indexSection{
     .during-character img.protected{
         width: 2.2rem;
     }
+    
 }
 
 @media only screen and (max-width: 320px) {
@@ -595,6 +611,7 @@ section.indexSection{
     {
         width: 2.5rem;
     }
+    
 }
 
 /* ANIMATIONS */
@@ -911,6 +928,10 @@ section.indexSection{
 } 
 
 @media (max-width: 992px) {
+    .earthquake-home-content {
+        padding: 0 35px;
+        margin-bottom: 50px;
+    }
     /* fix offsreen menu toggle lag */
     #menu{
         display: none;
@@ -932,6 +953,10 @@ section.indexSection{
 
 /* iphone 8 plus */
 @media only screen and (max-width: 736px) {
+    .earthquake-home-content {
+        padding: 0 35px;
+        margin-bottom: 50px;
+    }
     .indexSection .container,
     .indexSection .container .row{
         height: 100%;
@@ -944,13 +969,16 @@ section.indexSection{
     }
 } 
 
-
 /* iphone 8 */
 @media only screen and (max-width: 667px) {
 } 
 
 
 @media only screen and (max-width: 568px) {
+    .earthquake-home-content {
+        padding: 0 35px;
+        margin-bottom: 50px;
+    }
     .indexSection .container,
     .indexSection .container .row{
         height: 100%;

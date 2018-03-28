@@ -44,12 +44,14 @@ a{
 }
 
 .rssSection{
+    color: white;
     height: 50%;
     padding: 0.5em 1.5em;
-    background: #f1f1f1;
+    background: #2A3549;
     margin-top: 20px;
+    margin-bottom:100px; 
     /* max-height: 60%; */
-    overflow: auto;
+    /*overflow: auto;*/
     border-radius: 4px;
 }
 
