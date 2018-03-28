@@ -189,4 +189,12 @@ section.indexSection{
     .hazardLevelForm{
         width: fit-content;
     }
-} 
+}
+
+.afterSection img[alt],
+img[alt]{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
