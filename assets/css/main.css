@@ -1,6 +1,6 @@
 @import "afterSection.css";
 ::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
+    width: 0;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
 }
 
@@ -49,13 +49,13 @@ section.indexSection{
 
 .cloud1{
     position: absolute; 
-    top:45%; 
+    top:28%;
     width: 40%;
 }
 
 .cloud2{
     position: absolute; 
-    top:20%; 
+    top:15%;
     width: 30%;
 }
 
@@ -224,7 +224,6 @@ img[alt]{
     font-weight: 200;
 }
 
-} 
 
 @media only screen and (max-width: 375px) {
     .earthquake-home-content {
