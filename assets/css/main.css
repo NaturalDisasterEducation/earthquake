@@ -66,7 +66,7 @@ section.indexSection{
 
 
 /* ============= Hazard Level ============= */
-.hazardLevelForm{
+/* .hazardLevelForm{
     margin-top: -10rem;
     text-align: left;
     position: absolute;
@@ -86,6 +86,12 @@ section.indexSection{
     color: #ffffff;
     line-height: 18px;
     height: 42px;
+} */
+
+.earthquake-home-content{
+    position: absolute;
+    z-index: 99999;
+    top: -8rem;
 }
 
 /*animation for buttons in before and after*/
@@ -157,18 +163,22 @@ section.indexSection{
 /* iphone 8 plus */
 @media only screen and (max-width: 736px) {
     .earthquake-home-content {
-        padding: 0 35px;
+        padding: 0 -35px;
         margin-bottom: 50px;
+        top: -15rem;
     }
-    .indexSection .container,
-    .indexSection .container .row{
-        height: 100%;
-    }
-    .hazardLevelForm{
-        margin-top: 3rem;
+    .cloud1 {
+        right: 5%;
     }
     #building{
-
+        right: 18rem;
+    }
+    #building img{
+        height: 10rem;
+    }
+    #character-index{
+        bottom: 10rem;
+        right: 21rem;
     }
 } 
 
@@ -176,17 +186,55 @@ section.indexSection{
 @media only screen and (max-width: 667px) {
 } 
 
-
-@media only screen and (max-width: 568px) {
+@media only screen and (max-width: 575px) {
     .earthquake-home-content {
-        padding: 0 35px;
-        margin-bottom: 50px;
+        width: 42%;
+        top: -15rem;
+        padding:0;
     }
-    .indexSection .container,
-    .indexSection .container .row{
-        height: 100%;
+    #building{
+        right: 14rem;
     }
-    .hazardLevelForm{
-        width: fit-content;
+    #character-index{
+        right: 17rem;
+    }
+} 
+
+@media only screen and (max-width: 414px) {
+    .earthquake-home-content {
+        width: 40%;
+        padding:0;
+    }
+    #building{
+        right: 8.5rem;
+    }
+    #character-index{
+        right: 12rem;
+    }
+} 
+
+@media only screen and (max-width: 375px) {
+    .earthquake-home-content {
+        width: 32%;
+        top: -28rem;
+    }
+    #building{
+        right: 18rem;
+    }
+    #character-index{
+        right: 21rem;
+    }
+} 
+
+@media only screen and (max-width: 320px) {
+    .earthquake-home-content {
+        width: 30%;
+        top: -34rem;
+    }
+    #building{
+        right: 15rem;
+    }
+    #character-index{
+        right: 18rem;
     }
 } 

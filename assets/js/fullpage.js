@@ -19,7 +19,7 @@ function fullpage(autoScroll){
     autoScrolling: autoScroll,
     scrollBar: true,
     fitToSectionDelay: 0,
-    scrollOverflowReset: true,
+    // scrollOverflowReset: true,
     // scrollingSpeed: 1000, 
     anchors: [
       'firstSection', 'secondSection', 'thirdSection', 'fourthSection'
@@ -76,13 +76,25 @@ function fullpage(autoScroll){
 
 $('document').ready(function () {
   fullpage(true);
+  skrollrInit()
+
+  $(window).on('resize', function () {
+    if ($(window).width() <= 736) {
+      skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+    }else{
+      skrollrInit();
+    }
+  });
+});
+
+function skrollrInit(){
   skrollr.init({
     smoothScrolling: true,
-    forceHeight: true,
+    forceHeight: false,
     mobileCheck: function () {
       if ((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
         // mobile device
       }
     }
   });
-});
+}
