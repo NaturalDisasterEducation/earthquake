@@ -1,0 +1,696 @@
+
+/* ============= During Section ============= */
+
+.during-section .scroll-icon a{
+    color: white;
+    font-weight: 100;
+}
+
+.during-section{
+    background-color: #9BD3CB;
+}
+
+.during-section .during-content{
+    height: 25%;
+    background-color: #263E48;
+}
+
+.during-content{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 100;
+    position: absolute;
+    bottom: 0px;
+}
+
+.during-content h5,
+.before-content h5,
+.afterSection .text h5
+{
+    font-size: 22px;
+}
+
+.during-content-div
+{
+    margin: auto;
+    padding: 10px;
+}
+
+.during-stove,
+.during-character,
+.during-table
+{
+    position: absolute;
+    bottom: 25%;
+}
+
+.during-character img.protected{
+    position: absolute;
+    bottom: 0px;
+}
+
+.during-lamp {
+    position: absolute;
+    top: 0;
+}
+
+.during-shelf-1
+{
+    position: absolute;
+    top: 22%;
+}
+
+.during-shelf-2
+{
+    position: absolute;
+    top: 19%;
+}
+
+.during-cutlery {
+    position: absolute;
+    top: 30%;
+}
+
+.during-stove img,
+.during-table img,
+.during-lamp img
+{
+    width: 75%;
+}
+
+.during-shelf-1 img,
+.during-shelf-2 img
+{
+    width: 90%;
+}
+
+.during-character {
+    width: 5rem;
+}
+
+/*MEDIA QUERIES*/
+
+
+@media only screen and (min-width: 1200px) {
+    /*Large screens*/
+    .during-stove{
+        left: 12%;
+    }
+
+    .during-character
+    {
+        right: 20%;
+    }
+
+    .during-character img.protected{
+        right: 15rem;
+    }
+
+    .during-table{
+        right: 35%;
+    }
+
+    .during-lamp{
+        right: 40%;
+    }
+
+    .during-shelf-1{
+        left: 12%;
+    }
+
+    .during-shelf-2{
+        left: 24%;
+    }
+
+    .during-cutlery{
+        left: 14%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+    /*medium devices*/
+    .during-stove{
+        left: 15%;
+    }
+
+    .during-character{
+        right: 18%;
+    }
+
+    .during-character img.protected{
+        right: 11rem;
+    }
+
+    .during-table{
+        right: 30%;
+    }
+
+    .during-lamp{
+        right: 35%;
+    }
+
+    .during-shelf-1{
+        left: 18%;
+    }
+
+    .during-shelf-2{
+        left: 30%;
+    }
+
+    .during-cutlery{
+        left: 20%;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    /*Small devices*/
+    .during-stove{
+        left: 10%;
+    }
+
+    .during-character{
+        right: 10%;
+    }
+
+    .during-character img.protected{
+        right: 8rem;
+    }
+
+    .during-table{
+        right: 21%;
+    }
+
+    .during-lamp{
+        right: 32%;
+    }
+
+    .during-shelf-1{
+        left: 14%;
+    }
+
+    .during-shelf-2{
+        left: 28%;
+    }
+
+    .during-cutlery{
+        left: 16%;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* extra Small devices*/
+    .during-stove{
+        left: 1%;
+    }
+
+    .during-character{
+        right: 16%;
+    }
+
+    .during-character img.protected{
+        right: 5rem;
+    }
+
+    .during-table{
+        right: 20%;
+    }
+
+    .during-lamp{
+        right: 30%;
+    }
+
+    .during-shelf-1{
+        left: 13%;
+        top: 36.5%;
+    }
+
+    .during-shelf-2{
+        left: 26%;
+        top: 35%;
+    }
+
+    .during-cutlery{
+        left: 17.5%;
+        top: 43%;
+    }
+
+    .during-stove img{
+        width: 58%;
+    }
+
+
+    .during-shelf-1 img,
+    .during-shelf-2 img,
+    .during-cutlery img,
+    .during-table img,
+    .during-lamp img,
+    .during-stove img
+    {
+        width: 55%;
+    }
+
+    .during-character,
+    .during-character img.protected
+    {
+        width: 3.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 568px) {
+
+    .during-stove{
+        left: -5rem;
+
+    }
+
+    .during-character{
+        right: 10%;
+    }
+
+    .during-character img.protected{
+        right: 3rem;
+    }
+
+    .during-table{
+        right: 4%;
+    }
+
+    .during-lamp{
+        position: absolute;
+        right: 25%;
+    }
+
+    .during-shelf-1{
+        position: absolute;
+        top: 55%;
+        left: 2%;
+    }
+
+    .during-shelf-2{
+        position: absolute;
+        top: 54.5%;
+        left: 16%;
+    }
+
+    .during-cutlery{
+        position: absolute;
+        top: 58%;
+        left: 7%;
+    }
+
+    .during-stove img,
+    .during-lamp img
+    {
+        width: 28%;
+    }
+
+    .during-table img{
+        width: 30%;
+    }
+
+    .during-shelf-1 img,
+    .during-shelf-2 img,
+    .during-cutlery img
+    {
+        width: 30%;
+    }
+
+    .during-character img.normal,
+    .during-character img.surprised
+    {
+        width: 2.2rem;
+    }
+
+    .during-character img.protected{
+        width: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 401px) {
+    /*  extra extra Small devices*/
+    .during-stove{
+        left: -8rem;
+    }
+
+    .during-character{
+        right: 12%;
+    }
+
+    .during-character img.protected{
+        right: 6rem;
+    }
+
+    .during-table{
+        right: 0;
+    }
+
+    .during-lamp{
+        position: absolute;
+        right: 20%;
+    }
+
+    .during-shelf-1{
+        position: absolute;
+        top: 51.5%;
+        left: 8%;
+    }
+
+    .during-shelf-2{
+        position: absolute;
+        top: 51%;
+        left: 18%;
+    }
+
+    .during-cutlery{
+        position: absolute;
+        top: 56%;
+        left: 13%;
+    }
+
+    .during-stove img,
+    .during-lamp img,
+    .during-table img
+    {
+        width: 22%;
+    }
+
+    .during-shelf-1 img,
+    .during-shelf-2 img,
+    .during-cutlery img
+    {
+        width: 25%;
+    }
+
+    .during-character img,
+    .during-character img.protected
+    {
+        width: 2.5rem;
+    }
+
+}
+
+/* ANIMATIONS */
+
+
+.during-table,
+.during-stove,
+.during-cutlery,
+.during-shelf-1,
+.during-shelf-2,
+.during-lamp
+{
+    -webkit-animation: during-elements-animation 4s ease-in-out 5s 5 alternate;
+    -moz-animation: during-elements-animation 4s ease-in-out 5s 5 alternate;
+    -o-animation: during-elements-animation 4s ease-in-out 5s 5 alternate;
+    animation: during-elements-animation 4s ease-in-out 5s 5 alternate;
+}
+
+@keyframes during-elements-animation
+{
+    0%   {transform:skewX(184deg);}
+    20%  {transform:skewX(177deg);}
+    40%  {transform:skewX(184deg);}
+    60%  {transform:skewX(177deg);}
+    80% {transform:skewX(184deg);}
+    100% {transform:skewX(177deg);}
+}
+
+@-webkit-keyframes during-elements-animation
+{
+    0%   {transform:skewX(184deg);}
+    20%  {transform:skewX(177deg);}
+    40%  {transform:skewX(184deg);}
+    60%  {transform:skewX(177deg);}
+    80% {transform:skewX(184deg);}
+    100% {transform:skewX(177deg);}
+}
+
+@-moz-keyframes during-elements-animation
+{
+    0%   {transform:skewX(184deg);}
+    20%  {transform:skewX(177deg);}
+    40%  {transform:skewX(184deg);}
+    60%  {transform:skewX(177deg);}
+    80% {transform:skewX(184deg);}
+    100% {transform:skewX(177deg);}
+}
+
+@-o-keyframes during-elements-animation
+{
+    0%   {transform:skewX(184deg);}
+    20%  {transform:skewX(177deg);}
+    40%  {transform:skewX(184deg);}
+    60%  {transform:skewX(177deg);}
+    80% {transform:skewX(184deg);}
+    100% {transform:skewX(177deg);}
+}
+
+.during-character img.normal{
+    -webkit-animation: normal-character-animation 6s 1 normal ease-in-out forwards;
+    -moz-animation: normal-character-animation 6s 1 normal ease-in-out forwards;
+    -o-animation: normal-character-animation 6s 1 normal ease-in-out forwards;
+    animation: normal-character-animation 6s 1 normal ease-in-out forwards;
+}
+
+@-webkit-keyframes normal-character-animation{
+    0% {opacity: 1;}
+    75% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-moz-keyframes normal-character-animation{
+    0% {opacity: 1;}
+    75% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-o-keyframes normal-character-animation{
+    0% {opacity: 1;}
+    75% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes normal-character-animation{
+    0% {opacity: 1;}
+    75% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.during-character img.surprised{
+    -webkit-animation: surprised-character-animation 4s 4s 1 normal ease-in-out forwards;
+    -moz-animation: surprised-character-animation 4s 4s 1 normal ease-in-out forwards;
+    -o-animation: surprised-character-animation 4s 4s 1 normal ease-in-out forwards;
+    animation: surprised-character-animation 4s 4s 1 normal ease-in-out forwards;
+}
+
+@-webkit-keyframes surprised-character-animation{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}
+    75% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-moz-keyframes surprised-character-animation{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}
+    75% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@-o-keyframes surprised-character-animation{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}
+    75% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes surprised-character-animation{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}
+    75% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.during-character img.protected{
+    -webkit-animation: protected-character-animation 21s 8s 1 normal ease-in-out backwards;
+    -moz-animation: protected-character-animation 21s 8s 1 normal ease-in-out backwards;
+    -o-animation: protected-character-animation 21s 8s 1 normal ease-in-out backwards;
+    animation: protected-character-animation 21s 8s 1 normal ease-in-out backwards;
+}
+
+@-webkit-keyframes protected-character-animation{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+@-moz-keyframes protected-character-animation{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+@-o-keyframes protected-character-animation{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+@keyframes protected-character-animation{
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+.during-content .during-content-div p.step-1{
+    -webkit-animation: during-content-step1 5s 1 normal ease-in-out forwards;
+    -moz-animation: during-content-step1 5s 1 normal ease-in-out forwards;
+    -o-animation: during-content-step1 5s 1 normal ease-in-out forwards;
+    animation: during-content-step1 5s 1 normal ease-in-out forwards;
+}
+
+@-webkit-keyframes during-content-step1{
+    0% {opacity: 1; transform:translateY(6px)}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(6px)}
+}
+
+@-moz-keyframes during-content-step1{
+    0% {opacity: 1; transform:translateY(6px)}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(6px)}
+}
+
+@-o-keyframes during-content-step1{
+    0% {opacity: 1; transform:translateY(6px)}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(6px)}
+}
+
+@keyframes during-content-step1{
+    0% {opacity: 1; transform:translateY(6px)}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(6px)}
+}
+
+.during-content .during-content-div p.step-2{
+    -webkit-animation: during-content-step2 5s 5.2s 1 normal ease-in-out both;
+    -moz-animation: during-content-step2 5s 5.2s 1 normal ease-in-out both;
+    -o-animation: during-content-step2 5s 5.2s 1 normal ease-in-out both;
+    animation: during-content-step2 5s 5.2s 1 normal ease-in-out both;
+}
+
+@-webkit-keyframes during-content-step2{
+    0% {opacity: 0; transform:translateY(-38px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-38px)}
+}
+
+@-moz-keyframes during-content-step2{
+    0% {opacity: 0; transform:translateY(-38px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-38px)}
+}
+
+@-o-keyframes during-content-step2{
+    0% {opacity: 0; transform:translateY(-38px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-38px)}
+}
+
+@keyframes during-content-step2{
+    0% {opacity: 0; transform:translateY(-38px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-38px)}
+}
+
+
+.during-content .during-content-div p.step-3{
+    -webkit-animation: during-content-step3 5s 10.2s 1 normal ease-in-out both;
+    -moz-animation: during-content-step3 5s 10.2s 1 normal ease-in-out both;
+    -o-animation: during-content-step3 5s 10.2s 1 normal ease-in-out both;
+    animation: during-content-step3 5s 10.2s 1 normal ease-in-out both;
+}
+
+@-webkit-keyframes during-content-step3{
+    0% {opacity: 0; transform:translateY(-83px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-83px)}
+}
+
+@-moz-keyframes during-content-step3{
+    0% {opacity: 0; transform:translateY(-83px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-83px)}
+}
+
+@-o-keyframes during-content-step3{
+    0% {opacity: 0; transform:translateY(-83px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-83px)}
+}
+
+@keyframes during-content-step3{
+    0% {opacity: 0; transform:translateY(-83px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform:translateY(-83px)}
+}
+
+.during-content .during-content-div p.step-4{
+    -webkit-animation: during-content-step4 5s 15.2s 1 normal ease-in-out both;
+    -moz-animation: during-content-step4 5s 15.2s 1 normal ease-in-out both;
+    -o-animation: during-content-step4 5s 15.2s 1 normal ease-in-out both;
+    animation: during-content-step4 5s 15.2s 1 normal ease-in-out both;
+}
+
+@-webkit-keyframes during-content-step4{
+    0% {opacity: 0; transform:translateY(-125px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 1; transform:translateY(-125px)}
+}
+
+@-moz-keyframes during-content-step4{
+    0% {opacity: 0; transform:translateY(-125px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 1; transform:translateY(-125px)}
+}
+
+@-o-keyframes during-content-step4{
+    0% {opacity: 0; transform:translateY(-125px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 1; transform:translateY(-125px)}
+}
+
+@keyframes during-content-step4{
+    0% {opacity: 0; transform:translateY(-125px)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 1; transform:translateY(-125px)}
+}

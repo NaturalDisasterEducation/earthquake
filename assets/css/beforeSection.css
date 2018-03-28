@@ -1,0 +1,291 @@
+
+
+/* ============= Before Section ============= */
+.before-section{
+    background-color: #ed9673;
+}
+
+.before-section .before-content{
+    height: 25%;
+    background-color: #e35a5b;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.before-character img {
+    width: 4rem;
+}
+
+.before-backpack img{
+    width: 7%;
+}
+
+.before-shelf img{
+    width: 45%;
+}
+
+.before-lamp img,
+.before-board img
+{
+    width: 65%;
+}
+
+.before-character,
+.before-shelf,
+.before-backpack,
+.before-board
+{
+    position: absolute;
+    bottom: 25%;
+}
+
+.before-lamp{
+    position: absolute;
+    top: 0px;
+    right: 45%;
+}
+
+.before-board{
+    bottom: 45%;
+    right: 14%;
+}
+
+.before-shelf{
+    left: 10%;
+}
+
+.before-backpack{
+    left: 0;
+}
+
+.before-character{
+    position: absolute;
+    right: 10%;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 1200px) {
+    /*Large devices*/
+
+}
+
+@media only screen and (max-width: 1200px) {
+    /*Medium devices*/
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    /*Small devices*/
+    .before-backpack{
+        left: 5%;
+    }
+
+    .before-shelf{
+        left: 2%;
+    }
+
+    .before-board{
+        right: 5%;
+    }
+
+    .before-character img {
+        width: 3rem;
+    }
+
+    .before-shelf img{
+        width: 35%;
+    }
+
+    .before-lamp img,
+    .before-board img
+    {
+        width: 55%;
+    }
+
+    .before-shelf button.btn{
+        transform: translate(-30px,-135px);
+    }
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    /*extra small devices*/
+    .before-character img {
+        width: 2.5rem;
+    }
+
+    .before-shelf img{
+        width: 25%;
+    }
+
+    .before-lamp img,
+    .before-board img
+    {
+        width: 40%;
+    }
+
+    .before-backpack img{
+        width: 2.5rem;
+    }
+
+    .before-shelf{
+        left: -5rem;
+    }
+
+    .before-board{
+        top: 50% ;
+        right: 0;
+    }
+
+    .before-backpack{
+        left: 40%;
+    }
+
+    .before-backpack .btn{
+        transform: translate(-20px,-45px);
+    }
+
+    .before-shelf button.btn{
+        transform: translate(-30px,-100px);
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .before-character img {
+        width: 2.2rem;
+    }
+
+    .before-shelf img{
+        width: 18%;
+    }
+
+    .before-lamp img,
+    .before-board img
+    {
+        width: 33%;
+    }
+
+    .before-backpack img{
+        width: 2.8rem;
+    }
+
+    .before-shelf{
+        left: -8rem;
+    }
+
+    .before-backpack{
+        left: 45%;
+    }
+
+    .before-board{
+        right: -4.5rem;
+    }
+
+    .before-character{
+        right: 8%;
+    }
+
+    .before-backpack .btn{
+        transform: translate(-20px,-45px);
+    }
+
+    .before-shelf button.btn{
+        transform: translate(-30px,-80px);
+    }
+
+    .before-board button.btn{
+        transform: translate(-30px,-40px);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /*extra small mobile devices*/
+    .before-character img {
+        width: 2.2rem;
+    }
+
+    .before-shelf img{
+        width: 16%;
+    }
+
+    .before-lamp img,
+    .before-board img
+    {
+        width: 30%;
+    }
+
+    .before-backpack img{
+        width: 2.9rem;
+    }
+
+    .before-shelf{
+        left: -20rem;
+    }
+
+    .before-backpack{
+        left: 45%;
+        bottom: 24%;
+    }
+
+    .before-board{
+        right: -15rem;
+        top: 55%
+    }
+
+    .before-character{
+        right: 8%;
+    }
+
+    .before-backpack .btn{
+        transform: translate(-15px,-35px);
+    }
+
+    .before-shelf button.btn{
+        transform: translate(-30px,-60px);
+    }
+
+    .before-board button.btn{
+        transform: translate(-30px,-30px);
+    }
+
+}
+
+
+/*ANIMATION before character
+
+.before-character{
+   animation: before-character 3s infinite cubic-bezier(0.5,0,0.5,1);
+}
+
+@keyframes before-character {
+  0%, 5% {
+    transform: translate(10rem);
+  }
+
+  95%, 100% {
+    transform: translate(20rem);
+  }
+}*/
+
+/*BTNS*/
+
+.visual-before .btn{
+    border-radius: 100%;
+}
+
+.before-shelf .btn{
+    transform: translate(-30px,-185px);
+}
+
+.before-board .btn{
+    transform: translate(-30px,-60px);
+}
+
