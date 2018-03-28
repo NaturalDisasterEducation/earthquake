@@ -1,180 +1,197 @@
-<!-- info page modal start -->
-<div class="modal fade modal-fullscreen" id="Before3Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button class="infoPage_cross close" data-dismiss="modal" aria-hidden="true">
-                    <span class="fui-cross-circle"></span>
-                </button>
-                <button class="infoPage_home" onclick="window.location.href='main.html'">
-                    <img src="images/earthquake-2.svg" class="earthquake-home" alt="link to main earthquake page">
-                </button>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pack Your Emergency Backpack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Loading Bootstrap -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="../bower_components/flat-ui/dist/css/flat-ui.css" rel="stylesheet">
+    <link href="../bower_components/flat-ui/docs/assets/css/demo.css" rel="stylesheet">
+    <link rel="shortcut icon" href="">
+
+    <!-- Custom css -->
+    <link href="css/infoPage.css" rel="stylesheet">
+    <link href="css/before3.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+    <script src="dist/js/vendor/html5shiv.js"></script>
+    <script src="dist/js/vendor/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        body {
+            background-color: #9BD3CB;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>
+    <!--adds jquery-->
+    <script src="js/backpack.js" defer></script>
+    <!--adds backpack 'game'-->
+
+    
+    <a class="infoPage_cross" onclick="window.location.href='main.html#secondSection'">
+        <span class="fui-cross-circle"></span>
+    </a>
+    <a class="infoPage_home" onclick="window.location.href='main.html'">
+        <img src="images/earthquake-2.svg" class="earthquake-home">
+    </a>
+    <div class="container">
+        <div class="header">
+            <h3>Pack Your Emergency Backpack</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <table class="emergency_table">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td class="trigger">
+                            <div class="medicine">
+                                <img src ="images/bagcontents/72ppi/medicine.png" width="70%">
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="trigger">
+                            <div class="blanket">
+                                <img src ="images/blanket.png" width="90%">
+                            </div>
+                        </td>
+                        <td></td>
+                        <td class="trigger">
+                            <div class="shoes">
+                                <img src ="images/bagcontents/72ppi/shoes.png" width="70%">
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="trigger">
+                                <div class="firstaid">
+                                    <img src ="images/bagcontents/72ppi/firstAid.png" width="60%">
+                                </div>
+                        </td>
+                        <td></td>
+                        <td>
+                            <div class="backpackImg">
+                                <img class="img-fluid" src="images/backpack.png">
+                            </div>
+                        </td>
+                        <td></td>
+                        <td class="trigger">
+                           <div class="toy">
+                                <img src ="images/bagcontents/72ppi/toy.png" width="50%" >
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="trigger">
+                            <div class="food">
+                                <img src ="images/bagcontents/72ppi/food.png" width="70%" >
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="trigger">
+                           <div class="water">
+                                <img src ="images/bagcontents/72ppi/water.png" width="50%" >
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="trigger">
+                            <div class="mask">
+                                <img src ="images/bagcontents/72ppi/mask.png" width="60%" ">
+                            </div>
+                        </td>
+                        <td></td>
+                        <td class="trigger">
+                           <div class="id">
+                                <img src ="images/bagcontents/72ppi/id.png" width="50%">
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td class="trigger">
+                            <div class="map">
+                                <img src ="images/bagcontents/72ppi/map.png" width="70%">
+                            </div>
+
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
             </div>
-            <div class="modal-body">
-                <div class="container-fluid">
-                    <div class="header">
-                        <h3>Pack Your Embergency Backpack</h3>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-9">
-                            <table class="emergency_table">
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td>
-                                        <div class="littleImages">
-                                            <img class="flashlight" src="images/flashlight.png" alt="Flashlight. Include one in your emergency bag">
-                                        </div>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td>
-                                        <div class="littleImages">
-                                            <img class="flashlight" src="images/map.png" alt="Map. Include one in your emergency bag">
-                                        </div>
-                                    </td>
-                                    <td></td>
-                                    <td>
-                                        <div class="littleImages">
-                                            <img class="water" src="images/water.png" alt="Water supply. Include it in your emergency bag">
-                                        </div>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="littleImages">
-                                            <img class="img-fluid" src="images/medicine.png" alt="Medicine. Include necessary medicines in your emergency bag">
-                                        </div>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td>
-                                        <div class="littleImages">
-                                            <img class="blanket" src="images/blanket.png" alt="Blanket. Include one in your emergency bag.">
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="littleImages">
-                                            <img class="img-fluid" src="images/shoes.png" alt="Shoes. Include a pair in your emergency bag">
-                                        </div>
-                                    </td>
-                                    <td></td>
-                                    <td>
-                                        <div class="backpackImg">
-                                            <img class="img-fluid" src="images/backpack.png" alt="">
-                                        </div>
-                                    </td>
-                                    <td></td>
-                                    <td>
-                                        <div class="littleImages">
-                                            <img class="img-fluid" src="images/firstAid.png" alt="Firs aid kit. Include one in your emergency bag">
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="littleImages">
-                                            <img class="img-fluid" src="images/toy.png" alt="Toy. If you have kids, include a toy in your emergency bag to keep them distracted">
-                                        </div>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td>
-                                        <div class="littleImages">
-                                            <img class="img-fluid" src="images/food.png" alt="Food image. Include a nonperishable food supply in your emergency bag">
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td>
-                                        <div class="littleImages">
-                                            <img class="img-fluid" src="images/id.png" alt="Id. Include a copy of important documents in your emergency bag">
-                                        </div>
-                                    </td>
-                                    <td></td>
-                                    <td>
-                                        <div class="littleImages">
-                                            <img class="img-fluid" src="images/whistle.png" alt="Whistle. You should have one in your emergency bag to use it in case you are trapped">
-                                        </div>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td>
-                                        <div class="littleImages">
-                                            <img class="img-fluid" src="images/mask.png" alt="Mask. Include one in your emergency bag">
-                                        </div>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="col-md-3">
-                            <ul class="list">
-                                <li>
-                                    <a href="#">Water</a>
-                                </li>
-                                <li>
-                                    <a href="#">Food</a>
-                                </li>
-                                <li>
-                                    <a href="#">First Aid</a>
-                                </li>
-                                <li>
-                                    <a href="#">ID Card</a>
-                                </li>
-                                <li>
-                                    <a href="#">Flash Light</a>
-                                </li>
-                                <li>
-                                    <a href="#">Blanket</a>
-                                </li>
-                                <li>
-                                    <a href="#">Mask</a>
-                                </li>
-                                <li>
-                                    <a href="#">Teddy Bear</a>
-                                </li>
-                                <li>
-                                    <a href="#">Whistle</a>
-                                </li>
-                                <li>
-                                    <a href="#">Emergency Map</a>
-                                </li>
-                                <li>
-                                    <a href="#">Sturdy Shoes</a>
-                                </li>
-                                <li>
-                                    <a href="#">personal hygiene supplies</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-3">
+                <div class="listcontainer">
+                <ul class="list">
+                    <li class="waterref">
+                        <p>Water</p>
+                    </li>
+                    <li class="foodref">
+                        <p>Food</>
+                    </li>
+                    <li class="firstaidref">
+                        <p>First Aid</p>
+                    </li>
+                    
+                    <li class="idref">
+                        <p>Important Personal Information</p>
+                    </li>
+                   
+                    <li class="medicineref">
+                        <p>Medicine</a>
+                    </li>
+                   
+                    <li class="blanketref">
+                        <p>Blanket<p>
+                    </li>
+                    <li class="maskref">
+                        <p>Dust Mask</p>
+                    </li>
+                    <li class="toyref">
+                        <p>Toy</p>
+                    </li>
+                    <li class="mapref">
+                        <p>Emergency Map</p>
+                    </li>
+                    <li class="shoesref">
+                        <p>Sturdy Shoes</p>
+                    </li>
+                </ul>
+            </div>
             </div>
         </div>
-        <!-- /.modal-content -->
     </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- modal end -->
 
-<script>
-    $("#Before3Modal .infoPage_cross.close").on("click", function (e) {
-        window.location.href = 'main.html#secondSection';
-        $.fn.fullpage.destroy('all');
-        fullpage(true);
-    })
-</script>
+    <script src="../bower_components/flat-ui/dist/js/vendor/jquery.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bower_components/flat-ui/dist/js/vendor/video.js"></script>
+    <script src="../bower_components/flat-ui/dist/js/flat-ui.min.js"></script>
+    <script src="../bower_components/flat-ui/docs/assets/js/application.js"></script>
+
+    <script>
+        videojs.options.flash.swf = "../bower_components/flat-ui/dist/js/vendors/video-js.swf"
+    </script>
+</body>
+
+</html>
