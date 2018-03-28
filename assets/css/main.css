@@ -1,4 +1,8 @@
 @import "afterSection.css";
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
 
 body.modal-open {
     overflow: hidden;
@@ -90,7 +94,7 @@ section.indexSection{
 
 .earthquake-home-content{
     position: absolute;
-    z-index: 99999;
+    z-index: 999;
     top: -8rem;
 }
 
