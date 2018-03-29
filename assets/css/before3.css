@@ -30,7 +30,7 @@
 .backpackImg.fill{
     z-index: 999;
     animation-name: filler;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
     animation-timing-function: ease-in-out;
     animation-delay:0.5s;
     animation-iteration-count: 2;
@@ -142,12 +142,12 @@
 
 }
 .trigger:hover .medicine{
-            transform: scale(1.2)
+            transform: scale(1.2);
         }
 
 @keyframes medicine{
   from{
-    transform: translate(0px),
+    transform: translate(0px);
   }
   to{
     transform: translate(0px, 200px);
@@ -195,12 +195,12 @@
 
 }
 .trigger:hover .shoes{
-            transform: scale(1.2)
+            transform: scale(1.2);
         }
 
 @keyframes shoes{
   from{
-    transform: translate(0px),
+    transform: translate(0px);
   }
   to{
     transform: translate(-150px, 160px);
@@ -254,7 +254,7 @@
 
 @keyframes toy{
   from{
-    transform: translate(0px),
+    transform: translate(0px);
   }
   to{
     transform: translate(-250px, 0px);
@@ -308,7 +308,7 @@
 
 @keyframes water{
   from{
-    transform: translate(0px),
+    transform: translate(0px);
   }
   to{
     transform: translate(-250px, -100px);
@@ -361,7 +361,7 @@
 
 @keyframes id{
   from{
-    transform: translate(0px),
+    transform: translate(0px);
   }
   to{
     transform: translate(-160px, -180px);
@@ -410,12 +410,12 @@
 
 }
 .trigger:hover .map{
-            transform: scale(1.2)
+            transform: scale(1.2);
         }
 
 @keyframes map{
   from{
-    transform: translate(0px),
+    transform: translate(0px);
   }
   to{
     transform: translate(0px, -270px);
@@ -465,12 +465,12 @@
 
 }
 .trigger:hover .mask{
-            transform: scale(1.2)
+            transform: scale(1.2);
         }
 
 @keyframes mask{
   from{
-    transform: translate(0px),
+    transform: translate(0px);
   }
   to{
     transform: translate(180px, -220px);
@@ -520,12 +520,12 @@
 
 }
 .trigger:hover .food{
-            transform: scale(1.2)
+            transform: scale(1.2);
         }
 
 @keyframes food{
   from{
-    transform: translate(0px),
+    transform: translate(0px);
   }
   to{
     transform: translate(270px, -120px);
@@ -576,12 +576,12 @@
 }
 
 .trigger:hover .firstaid{
-            transform: scale(1.2)
+            transform: scale(1.2);
         }
 
 @keyframes firstaid{
   from{
-    transform: translate(0px),
+    transform: translate(0px);
   }
   to{
     transform: translate(270px, -0px);
