@@ -1,197 +1,173 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>Pack Your Emergency Backpack</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Loading Bootstrap -->
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Loading Flat UI -->
-    <link href="../bower_components/flat-ui/dist/css/flat-ui.css" rel="stylesheet">
-    <link href="../bower_components/flat-ui/docs/assets/css/demo.css" rel="stylesheet">
-    <link rel="shortcut icon" href="">
-
-    <!-- Custom css -->
-    <link href="css/infoPage.css" rel="stylesheet">
-    <link href="css/before3.css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-    <script src="dist/js/vendor/html5shiv.js"></script>
-    <script src="dist/js/vendor/respond.min.js"></script>
-    <![endif]-->
-    <style>
-        body {
-            background-color: #9BD3CB;
-            color: white;
-        }
-    </style>
-</head>
-
-<body>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>
-    <!--adds jquery-->
-    <script src="js/backpack.js" defer></script>
-    <!--adds backpack 'game'-->
-
-    
-    <a class="infoPage_cross" onclick="window.location.href='main.html#secondSection'">
-        <span class="fui-cross-circle"></span>
-    </a>
-    <a class="infoPage_home" onclick="window.location.href='main.html'">
-        <img src="images/earthquake-2.svg" class="earthquake-home">
-    </a>
-    <div class="container">
-        <div class="header">
-            <h3>Pack Your Emergency Backpack</h3>
-        </div>
-        <div class="row">
-            <div class="col-md-9">
-                <table class="emergency_table">
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td class="trigger">
-                            <div class="medicine">
-                                <img src ="images/medicine.png" width="70%">
-                            </div>
-                        </td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td class="trigger">
-                            <div class="blanket">
-                                <img src ="images/blanket.png" width="90%">
-                            </div>
-                        </td>
-                        <td></td>
-                        <td class="trigger">
-                            <div class="shoes">
-                                <img src ="images/shoes.png" width="70%">
-                            </div>
-                        </td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="trigger">
-                                <div class="firstaid">
-                                    <img src ="images/firstAid.png" width="60%">
-                                </div>
-                        </td>
-                        <td></td>
-                        <td>
-                            <div class="backpackImg">
-                                <img class="img-fluid" src="images/backpack.png">
-                            </div>
-                        </td>
-                        <td></td>
-                        <td class="trigger">
-                           <div class="toy">
-                                <img src ="images/toy.png" width="50%" >
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="trigger">
-                            <div class="food">
-                                <img src ="images/food.png" width="70%" >
-                            </div>
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td class="trigger">
-                           <div class="water">
-                                <img src ="images/water.png" width="50%" >
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td class="trigger">
-                            <div class="mask">
-                                <img src ="images/mask.png" width="60%" ">
-                            </div>
-                        </td>
-                        <td></td>
-                        <td class="trigger">
-                           <div class="id">
-                                <img src ="images/id.png" width="50%">
-                            </div>
-                        </td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td class="trigger">
-                            <div class="map">
-                                <img src ="images/map.png" width="70%">
-                            </div>
-
-                        </td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
+<script src="js/backpack.js" defer></script>
+<style>
+    #Before3Modal, 
+    #Before3Modal .modal-content{
+        background-color: #9BD3CB;
+        color: white;
+    }
+</style>
+<!-- info page modal start -->
+<div class="modal fade modal-fullscreen" id="Before3Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="infoPage_cross close" data-dismiss="modal" aria-hidden="true">
+                    <span class="fui-cross-circle"></span>
+                </button>
+                <button class="infoPage_home" onclick="window.location.href='main.html'">
+                    <img src="images/earthquake-2.svg" class="earthquake-home" alt="link to main earthquake page">
+                </button>
             </div>
-            <div class="col-md-3">
-                <div class="listcontainer">
-                <ul class="list">
-                    <li class="waterref">
-                        <p>Water</p>
-                    </li>
-                    <li class="foodref">
-                        <p>Food</>
-                    </li>
-                    <li class="firstaidref">
-                        <p>First Aid</p>
-                    </li>
-                    
-                    <li class="idref">
-                        <p>Important Personal Information</p>
-                    </li>
-                   
-                    <li class="medicineref">
-                        <p>Medicine</a>
-                    </li>
-                   
-                    <li class="blanketref">
-                        <p>Blanket<p>
-                    </li>
-                    <li class="maskref">
-                        <p>Dust Mask</p>
-                    </li>
-                    <li class="toyref">
-                        <p>Toy</p>
-                    </li>
-                    <li class="mapref">
-                        <p>Emergency Map</p>
-                    </li>
-                    <li class="shoesref">
-                        <p>Sturdy Shoes</p>
-                    </li>
-                </ul>
-            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="header">
+                        <h3>Pack Your Emergency Backpack</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <table class="emergency_table">
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="trigger">
+                                        <div class="medicine">
+                                            <img src="images/medicine.png" width="70%">
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td class="trigger">
+                                        <div class="blanket">
+                                            <img src="images/blanket.png" width="90%">
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                    <td class="trigger">
+                                        <div class="shoes">
+                                            <img src="images/shoes.png" width="70%">
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="trigger">
+                                        <div class="firstaid">
+                                            <img src="images/firstAid.png" width="60%">
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <div class="backpackImg">
+                                            <img class="img-fluid" src="images/backpack.png">
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                    <td class="trigger">
+                                        <div class="toy">
+                                            <img src="images/toy.png" width="50%">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="trigger">
+                                        <div class="food">
+                                            <img src="images/food.png" width="70%">
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="trigger">
+                                        <div class="water">
+                                            <img src="images/water.png" width="50%">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td class="trigger">
+                                        <div class="mask">
+                                            <img src="images/mask.png" width="60%">
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                    <td class="trigger">
+                                        <div class="id">
+                                            <img src="images/id.png" width="50%">
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="trigger">
+                                        <div class="map">
+                                            <img src="images/map.png" width="70%">
+                                        </div>
+
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="listcontainer">
+                                <ul class="list">
+                                    <li class="waterref">
+                                        <p>Water</p>
+                                    </li>
+                                    <li class="foodref">
+                                        <p>Food</p>
+                                    </li>
+                                    <li class="firstaidref">
+                                        <p>First Aid</p>
+                                    </li>
+
+                                    <li class="idref">
+                                        <p>Important Personal Information</p>
+                                    </li>
+
+                                    <li class="medicineref">
+                                        <p>Medicine</a>
+                                    </li>
+
+                                    <li class="blanketref">
+                                        <p>Blanket
+                                            <p>
+                                    </li>
+                                    <li class="maskref">
+                                        <p>Dust Mask</p>
+                                    </li>
+                                    <li class="toyref">
+                                        <p>Toy</p>
+                                    </li>
+                                    <li class="mapref">
+                                        <p>Emergency Map</p>
+                                    </li>
+                                    <li class="shoesref">
+                                        <p>Sturdy Shoes</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- /.modal-content -->
     </div>
-
-    <script src="../bower_components/flat-ui/dist/js/vendor/jquery.min.js"></script>
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../bower_components/flat-ui/dist/js/vendor/video.js"></script>
-    <script src="../bower_components/flat-ui/dist/js/flat-ui.min.js"></script>
-    <script src="../bower_components/flat-ui/docs/assets/js/application.js"></script>
-
-    <script>
-        videojs.options.flash.swf = "../bower_components/flat-ui/dist/js/vendors/video-js.swf"
-    </script>
-</body>
-
-</html>
+    <!-- /.modal-dialog -->
+</div>
+<!-- modal end -->
+<script>
+    $("#Before3Modal .infoPage_cross.close").on("click", function (e) {
+        window.location.href = 'main.html#secondSection';
+        $.fn.fullpage.destroy('all');
+        fullpage(true);
+    })
+</script>
