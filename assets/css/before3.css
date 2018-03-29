@@ -22,9 +22,30 @@
 
 .backpackImg
             {
+                display: inline-block;
                 position: relative;
                 z-index: 999;
             }
+
+.backpackImg.fill{
+    z-index: 999;
+    animation-name: filler;
+    animation-duration: 0.4s
+    animation-timing-function: ease-in-out;
+    animation-delay:0.5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+     animation-fill-mode: forwards;
+    animation-play-state: running; 
+}
+
+@keyframes filler{
+    from{
+        transform: scale(1);
+    }to{
+        transform: scale(1.5);
+    }
+}
 
 
 
