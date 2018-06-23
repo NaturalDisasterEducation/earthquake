@@ -1,0 +1,12 @@
+{
+    "earthquakeButton": "Earthquake",
+    "title": "In case of Emergency",
+    "content": "Know how to react in case of a natural disaster. Keep calm and get ready before hand with this educational website.",
+    "latestEarthquake": "Latest earthquakes",
+    "emailPlaceholder": "Email",
+    "emailSubscribe": "Subscribe",
+    "language": {
+        "English": "English",
+        "Persian": "Persian"
+    }
+}

@@ -22,6 +22,10 @@ a{
     color: white;
 }
 
+#selectLanguage{
+    text-align: left;
+}
+
 /* Earth + button*/
 #earth-button-group{
     position: relative;

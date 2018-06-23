@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Natural Disaster Education</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
   <!-- Loading Bootstrap -->
   <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -25,37 +25,29 @@
 </head>
 
 <body id="NaturalDisasterHomepage">
-  <!-- <div class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="navbar-header"> -->
-      <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-      </button> -->
-      <!-- <a class="navbar-brand" href="#">In case of Emergency</a>
-    </div>
-  </div> -->
   <div class="container-fluid content stars">
     <div class="row">
       <div class="col-md-7" id="earth-button-group">
         <img class="img-fluid" id="earth" src="images/all-home.png" alt="Earth image with city hit by earthquake.">
         <div class="earthquake-button">
-          <a href="main.html" class="btn btn-hg btn-primary">Earthquake</a>
+          <a href="main.html" class="btn btn-hg btn-primary" data-i18n="earthquakeButton"></a>
         </div>
 
       </div>
       <div class="col-md-5">
         <div class="introSection">
-          <h3>In case of Emergency</h3>
-          Know how to react in case of a natural disaster.
-          <strong>Keep calm</strong> and get ready before hand with this educational website.
+          <h3 data-i18n="title"></h3>
+          <span data-i18n="[html]content"></span>
         </div>
-       <div class="rssSection">
-          <h6>Latest earthquakes</h6>
-          
-          <a class="twitter-timeline" data-width="350" data-height="300" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/IncaseQuake?ref_src=twsrc%5Etfw">Tweets by IncaseQuake</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div class="rssSection">
+          <h6 data-i18n="latestEarthquake"></h6>
+
+          <a class="twitter-timeline" data-width="350" data-height="300" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/IncaseQuake?ref_src=twsrc%5Etfw">Tweets by IncaseQuake</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       </div>
     </div>
-    
+
   </div>
 
   <footer class="indexFooter">
@@ -63,18 +55,19 @@
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Email" name="email">
+            <input type="text" class="form-control" name="email" 
+            data-i18n="[placeholder]emailPlaceholder"/>
             <div class="input-group-btn">
-              <button class="btn btn-primary" type="submit">Subscribe</button>
+              <button class="btn btn-primary" type="submit" data-i18n="emailSubscribe"></button>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
-          <select data-toggle="select" class="form-control select select-primary select-block mbl" style="text-align:left">
-            <option value="English">English</option>
-            <option value="Persian">Persian</option>
+          <select data-toggle="select" id="selectLanguage" class="form-control select select-primary select-block mbl">
+            <option value="English" data-i18n="language.English"></option>
+            <option value="Persian" data-i18n="language.Persian"></option>
           </select>
-       </div>
+        </div>
       </div>
     </div>
   </footer>
@@ -85,13 +78,15 @@
   <script src="../bower_components/flat-ui/dist/js/vendor/video.js"></script>
   <script src="../bower_components/flat-ui/dist/js/flat-ui.min.js"></script>
   <script src="../bower_components/flat-ui/docs/assets/js/application.js"></script>
-	<script src="js/bootstrap-modal-carousel.min.js"></script>
   <script src="js/custom.js"></script>
   <script src="js/shootingStar.js"></script>
-  
-  <script>
-    videojs.options.flash.swf = "../bower_components/flat-ui/dist/js/vendors/video-js.swf"
-  </script>
+
+  <script src="../bower_components/i18next/i18next.min.js"></script>
+  <script src="../bower_components/i18next-localstorage-cache/i18nextLocalStorageCache.min.js"></script>
+  <script src="../bower_components/i18next-xhr-backend/i18nextXHRBackend.min.js"></script>
+  <script src="../bower_components/jquery-i18next/jquery-i18next.min.js"></script>
+  <script src="js/languages/lang_homepage.js"></script>
+
 </body>
 
 </html>

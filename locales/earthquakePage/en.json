@@ -1,0 +1,116 @@
+{
+    "menu": [
+        "Earthquake",
+        "Before",
+        "During",
+        "After"
+    ],
+    "earthquakeSection": {
+        "title": "Get ready before an earthquake",
+        "content": "Knowing how to react before the next earthquake strikes might help you survive and recover fast. There are certain actions you can take before, during, and after an earthquake. Scroll to find out more."
+    },
+    "beforeSection": {
+        "title": "Before the next earthquake",
+        "content": "Be ready and plan ahead of time, find the potential hazards in your home, and pack an emergency bag.",
+        "steps": [
+            {
+                "step": "Identify potential hazards in your home",
+                "contentList": [
+                    "Move or reorganize furniture such as bookshelves or cupboards whose contents could create a hazard in regularly frequented resting areas (bed, sofas, desk, etc)",
+                    "Move heavy objects to lower shelves",
+                    "Move heavy or unstable objects away from doors and escape routes so they do not cause injury or prevent evacuation."
+                ]
+            },
+            {
+                "step": "Pack Your Emergency Backpack",
+                "itemList": [
+                    "Water",
+                    "Food",
+                    "First Aid",
+                    "Important Personal Information",
+                    "Medicine",
+                    "Blanket",
+                    "Dust Mask",
+                    "Toy",
+                    "Emergency Map",
+                    "Sturdy Shoes"
+                ]
+            },
+            {
+                "step": "Plan ahead",
+                "planList": [
+                    {
+                        "plan": "Create a disaster plan",
+                        "checkList": [
+                            "Create an evacuation and reunion plan",
+                            "Determine who is emergency contact",
+                            "Agree on a location to store emergency supplies",
+                            "Identify safe spots in every room (under sturdy desks and tables)",
+                            "make sure to own a fire extinguisher, and install smoke alarms (test them monthly)",
+                            "Keep a pair of shoes and a working flashlight next to each bed",
+                            "Have emergency whistles",
+                            "Know the location of utility shutoffs (gas, water, and electricity)"
+                        ]
+                    },
+                    {
+                        "plan": "Practice",
+                        "checkList": [
+                            "Drop on knees and hands (to avoid falling)",
+                            "Cover your head and neck.",
+                            "Hold on"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "duringSection": {
+        "title": "During an earthquake",
+        "content": "Hold on."
+    },
+    "afterSection": {
+        "title": "After an earthquake",
+        "content": [
+            "Stay calm",
+            "Expect aftershocks hours, days, or even weeks later",
+            "In damaged buildings check for gas leaks",
+            "Those in coastal areas should check if their area is now prone to tsunamis"
+        ],
+        "steps": [
+            {
+                "step": "Proceed to safe spot",
+                "contentList": [
+                    "If the building is undamaged, it can be safe to remain, even if the power is out, but you will want to find an alternative location if power is not restored within a few days.",
+                    "If your building is damaged or unsafe, you need to evacuate. Remember to bring emergency bag that you already packed.",
+                    "If you are trapped by falling items or a collapse, protect your mouth, nose, and eyes from dust.",
+                    [
+                        "If you are bleeding, put pressure on the wound and elevate the injured part.",
+                        "Signal for help with your emergency whistle, three times every few minutes."
+                    ]
+                ]
+            },
+            {
+                "step": "",
+                "contentList": [
+                    "<strong>Gas Leaks.</strong> Shut off the main gas valve if you suspect a leak because of broken pipes, the odor or sound of leaking natural gas, or you see the meter spinning quickly.",
+                    "<strong>Damaged Electrical Wiring.</strong> Shut off power at the main breaker switch if there is any damage to your houses wiring. Leave the power off until the damage is repaired.",
+                    "<strong>Broken Lights and Appliances.</strong> Unplug these as they could start fires when electricity is restored.",
+                    "<strong>Downed Power Lines.</strong> Never touch downed power lines or any objects in contact with them.",
+                    "<strong>Fallen Items.</strong> Beware of items tumbling off shelves when you open the doors of closets and cupboards.",
+                    "<strong>Spills.</strong> Use extreme caution. Clean up any spilled medicines, drugs, or other non-toxic substances.",
+                    "<strong>Damaged Masonry.</strong> Stay away from chimneys and walls made of brick or block."
+                ]
+            },
+            {
+                "step": " Stay calm and update",
+                "contentList": [
+                    "Turn on your portable radio for information and safety advisories.",
+                    "Phone service may be out. When possible, text or call your out-of-area contact and tell them where you are, THEN STAY OFF THE PHONE. This will allow calls to be made for emergencies.",
+                    "Normally, in declared disaster areas resources will be provided from federal, state, and local government agencies.",
+                    "Talk with your family about how they are feeling.",
+                    "Reach out to neighborhood or community organizations and get involved. Your voice is important in deciding how your community will rebuild in the years to come."
+                ]
+            }
+        ]
+    }
+}

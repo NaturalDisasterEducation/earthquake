@@ -50,4 +50,4 @@ see: https://github.com/NaturalDisasterEducation/earthquake/wiki/Practice-git-us
 1. To install live-server, run: 
     - npm install live-server -g
 2. To run the webpage, run:
-    - live-server --open=assets --entry-file=assets/main.html
+    - live-server --open= --entry-file=assets/main.html
